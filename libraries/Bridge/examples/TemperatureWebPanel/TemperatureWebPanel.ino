@@ -8,6 +8,8 @@
  * TMP36 temperature sensor on analog pin A1
  * SD card attached to SD card slot of the Arduino Yún
 
+ This sketch must be uploaded via wifi. REST API must be set to "open".
+
  Prepare your SD card with an empty folder in the SD root
  named "arduino" and a subfolder of that named "www".
  This will ensure that the Yún will create a link
@@ -29,7 +31,7 @@
 
  This example code is in the public domain.
 
- http://arduino.cc/en/Tutorial/TemperatureWebPanel
+ http://www.arduino.cc/en/Tutorial/TemperatureWebPanel
 
  */
 
@@ -37,7 +39,7 @@
 #include <YunServer.h>
 #include <YunClient.h>
 
-// Listen on default port 5555, the webserver on the Yun
+// Listen on default port 5555, the webserver on the Yún
 // will forward there all the HTTP requests for us.
 YunServer server;
 String startString;
@@ -96,15 +98,15 @@ void loop() {
       Serial.println(timeString);
       int sensorValue = analogRead(A1);
       // convert the reading to millivolts:
-      float voltage = sensorValue *  (5000 / 1024);
+      float voltage = sensorValue * (5000.0f / 1024.0f);
       // convert the millivolts to temperature celsius:
-      float temperature = (voltage - 500) / 10;
+      float temperature = (voltage - 500.0f) / 10.0f;
       // print the temperature:
-      client.print("Current time on the Yún: ");
+      client.print("Current time on the Y&uacute;n: ");
       client.println(timeString);
       client.print("<br>Current temperature: ");
       client.print(temperature);
-      client.print(" degrees C");
+      client.print(" &deg;C");
       client.print("<br>This sketch has been running since ");
       client.print(startString);
       client.print("<br>Hits so far: ");

@@ -17,7 +17,7 @@
 
  This example code is in the public domain.
 
- http://arduino.cc/en/Tutorial/ConsoleRead
+ http://www.arduino.cc/en/Tutorial/ConsoleRead
 
  */
 
@@ -53,6 +53,8 @@ void loop() {
     else {  	 // if the buffer is empty Cosole.read() returns -1
       name += c; // append the read char from Console to the name string
     }
+  } else {
+    delay(100);
   }
 }
 

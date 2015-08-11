@@ -1,7 +1,7 @@
 /*
-  Arduino Yun Bridge example
+  Arduino Yún Bridge example
 
- This example for the Arduino Yun shows how to use the
+ This example for the Arduino Yún shows how to use the
  Bridge library to access the digital and analog pins
  on the board through REST calls. It demonstrates how
  you can create your own API when using REST style
@@ -18,7 +18,7 @@
 
  This example code is part of the public domain
 
- http://arduino.cc/en/Tutorial/Bridge
+ http://www.arduino.cc/en/Tutorial/Bridge
 
  */
 
@@ -26,8 +26,8 @@
 #include <YunServer.h>
 #include <YunClient.h>
 
-// Listen on default port 5555, the webserver on the Yun
-// will forward there all the HTTP requests for us.
+// Listen to the default port 5555, the Yún webserver
+// will forward there all the HTTP requests you send
 YunServer server;
 
 void setup() {

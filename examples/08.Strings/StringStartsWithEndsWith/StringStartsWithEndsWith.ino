@@ -7,7 +7,7 @@
  modified 2 Apr 2012
  by Tom Igoe
 
- http://arduino.cc/en/Tutorial/StringStartsWithEndsWith
+ http://www.arduino.cc/en/Tutorial/StringStartsWithEndsWith
 
  This example code is in the public domain.
  */
@@ -47,7 +47,6 @@ void loop() {
   }
   else {
     Serial.println(". This reading is not divisible by ten");
-
   }
 
   // do nothing while true:

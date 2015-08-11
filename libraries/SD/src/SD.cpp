@@ -450,7 +450,7 @@ File SDClass::open(const char *filepath, uint8_t mode) {
 
   // there is a special case for the Root directory since its a static dir
   if (parentdir.isRoot()) {
-    if ( ! file.open(SD.root, filepath, mode)) {
+    if ( ! file.open(root, filepath, mode)) {
       // failed to open the file :(
       return File();
     }
@@ -550,9 +550,9 @@ boolean SDClass::mkdir(char *filepath) {
 boolean SDClass::rmdir(char *filepath) {
   /*
   
-    Makes a single directory or a heirarchy of directories.
+    Remove a single directory or a heirarchy of directories.
 
-    A rough equivalent to `mkdir -p`.
+    A rough equivalent to `rm -rf`.
   
    */
   return walkPath(filepath, root, callback_rmdir);

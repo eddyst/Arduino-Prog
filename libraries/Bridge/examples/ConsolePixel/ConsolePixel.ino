@@ -2,7 +2,7 @@
   Console Pixel
 
  An example of using the Arduino board to receive data from the
- Console on the Arduino Yun.  In this case, the Arduino boards turns on an LED when
+ Console on the Arduino Yún.  In this case, the Arduino boards turns on an LED when
  it receives the character 'H', and turns off the LED when it
  receives the character 'L'.
 
@@ -23,7 +23,7 @@
 
  This example code is in the public domain.
 
- http://arduino.cc/en/Tutorial/ConsolePixel
+ http://www.arduino.cc/en/Tutorial/ConsolePixel
 
  */
 

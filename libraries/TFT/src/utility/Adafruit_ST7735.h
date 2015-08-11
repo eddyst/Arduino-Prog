@@ -26,6 +26,7 @@
  #include "WProgram.h"
 #endif
 #include "Adafruit_GFX.h"
+#include <SPI.h>
 #include <avr/pgmspace.h>
 
 // some flags for initR() :(
@@ -130,12 +131,15 @@ class Adafruit_ST7735 : public Adafruit_GFX {
   void     spiwrite(uint8_t),
            writecommand(uint8_t c),
            writedata(uint8_t d),
-           commandList(uint8_t *addr),
-           commonInit(uint8_t *cmdList);
+           commandList(const uint8_t *addr),
+           commonInit(const uint8_t *cmdList);
 //uint8_t  spiread(void);
 
   boolean  hwSPI;
- #if defined(ARDUINO_ARCH_SAM)
+#ifdef SPI_HAS_TRANSACTION
+  SPISettings spisettings;
+#endif
+#if defined(ARDUINO_ARCH_SAM)
   volatile uint32_t *dataport, *clkport, *csport, *rsport;
   uint32_t  _cs, _rs, _rst, _sid, _sclk,
            datapinmask, clkpinmask, cspinmask, rspinmask,
