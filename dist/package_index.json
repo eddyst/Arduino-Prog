@@ -284,6 +284,53 @@
           ]
         },
         {
+          "name": "Arduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.6.8",
+          "category": "Arduino",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "http://downloads.arduino.cc/cores/avr-1.6.8.tar.bz2",
+          "archiveFileName": "avr-1.6.8.tar.bz2",
+          "checksum": "SHA-256:0e0775347baf0d93ef344bcd851e7d8d0af2bda7916c119fa3a4ff9b984c575b",
+          "size": "4885536",
+          "boards": [
+            {"name": "Arduino Yún"},
+            {"name": "Arduino/Genuino Uno"},
+            {"name": "Arduino Diecimila"},
+            {"name": "Arduino Nano"},
+            {"name": "Arduino/Genuino Mega"},
+            {"name": "Arduino MegaADK"},
+            {"name": "Arduino Leonardo"},
+            {"name": "Arduino/Genuino Micro"},
+            {"name": "Arduino Esplora"},
+            {"name": "Arduino Mini"},
+            {"name": "Arduino Ethernet"},
+            {"name": "Arduino Fio"},
+            {"name": "Arduino BT"},
+            {"name": "Arduino LilyPadUSB"},
+            {"name": "Arduino Lilypad"},
+            {"name": "Arduino Pro"},
+            {"name": "Arduino ATMegaNG"},
+            {"name": "Arduino Robot Control"},
+            {"name": "Arduino Robot Motor"},
+            {"name": "Arduino Gemma"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
           "name": "Arduino SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
           "version": "1.6.2",
@@ -382,6 +429,43 @@
               "packager": "arduino",
               "name": "bossac",
               "version": "1.5-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
+          "architecture": "samd",
+          "version": "1.6.1",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/samd-1.6.1.tar.bz2",
+          "archiveFileName": "samd-1.6.1.tar.bz2",
+          "checksum": "SHA-256:dddd0f906a7c470a1dc7ef5b024e34c24b915020fabb5903b7313246955514a2",
+          "size": "178354",
+          "boards": [
+            {
+              "name": "Arduino Zero"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6-arduino"
             },
             {
               "packager": "arduino",
@@ -704,6 +788,40 @@
           ]
         },
         {
+          "name": "bossac",
+          "version": "1.6-arduino",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.6-arduino-mingw32.tar.gz",
+              "archiveFileName": "bossac-1.6-arduino-mingw32.tar.gz",
+              "checksum": "SHA-256:b59d64d3f7a43c894d0fba2dd1241bbaeefedf8c902130a24d8ec63b08f9ff6a",
+              "size": "222517"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.6-arduino-i386-apple-darwin14.4.0.tar.gz",
+              "archiveFileName": "bossac-1.6-arduino-i386-apple-darwin14.4.0.tar.gz",
+              "checksum": "SHA-256:6b3b686a782b6587c64c85db80085c9089c5ea1b051e49e5af17b3c6109c8efa",
+              "size": "64538"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.6-arduino-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.6-arduino-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:2ce7a54d609b4ce3b678147202b2556dd1ce5b318de48a018c676521b994c7a7",
+              "size": "30649"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.6-arduino-i486-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.6-arduino-i486-linux-gnu.tar.gz",
+              "checksum": "SHA-256:5c320bf5cfdbf03e3f648642e6de325e459a061fcf96b2215cb955263f7467b2",
+              "size": "30072"
+            }
+          ]
+        },
+        {
           "name": "openocd",
           "version": "0.9.0-arduino",
           "systems": [
@@ -776,7 +894,7 @@
     {
       "email": "support@intel.com",
       "maintainer": "Intel",
-      "websiteURL": "http://www.intel.com/",
+      "websiteURL": "http://maker.intel.com/",
       "name": "Intel",
       "platforms": [
         {
@@ -937,6 +1055,54 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "AMEL",
+      "maintainer": "AMEL Technology",
+      "websiteURL": "http://www.amel-tech.com",
+      "email": "dev@amel-tech.com",
+      "help": {
+        "online": "http://www.amel-tech.com"
+      },
+      "platforms": [
+        {
+          "name": "AMEL-Tech Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Partner",
+          "url": "http://downloads.arduino.cc/cores/AMEL-samd-1.0.0.tar.bz2",
+          "archiveFileName": "AMEL-samd-1.0.0.tar.bz2",
+          "checksum": "SHA-256:5399602a89cba1e5371d3c4b2ae17648b6c9f691454a46a58bc0e68b30ab60da",
+          "size": "59673",
+          "boards": [
+            {"name": "SmartEverything Fox"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.5-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools": [
       ]
     }
   ]

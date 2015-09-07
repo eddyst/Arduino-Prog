@@ -33,22 +33,19 @@ void setup() {
   }
 
   String fv = WiFi.firmwareVersion();
-  if ( fv != "1.1.0" )
+  if (fv != "1.1.0") {
     Serial.println("Please upgrade the firmware");
+  }
 
   // Print WiFi MAC address:
   printMacAddress();
-
-  // scan for existing networks:
-  Serial.println("Scanning available networks...");
-  listNetworks();
 }
 
 void loop() {
-  delay(10000);
   // scan for existing networks:
   Serial.println("Scanning available networks...");
   listNetworks();
+  delay(10000);
 }
 
 void printMacAddress() {
@@ -75,8 +72,7 @@ void listNetworks() {
   // scan for nearby networks:
   Serial.println("** Scan Networks **");
   int numSsid = WiFi.scanNetworks();
-  if (numSsid == -1)
-  {
+  if (numSsid == -1) {
     Serial.println("Couldn't get a wifi connection");
     while (true);
   }
