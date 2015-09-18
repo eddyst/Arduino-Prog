@@ -1820,6 +1820,26 @@
       "checksum": "SHA-256:aea57ba6378a7b9b59df9c16313055f6a7020d485afac485576cd66bfd132654"
     },
     {
+      "name": "Temboo",
+      "version": "1.1.3",
+      "author": "Temboo",
+      "maintainer": "Temboo \u003csupport@temboo.com\u003e",
+      "sentence": "This library enables calls to Temboo, a platform that connects Arduino boards to 100+ APIs, databases, code utilities and more.",
+      "paragraph": "Use this library to connect your Arduino board to Temboo, making it simple to interact with a vast array of web-based resources and services.",
+      "website": "http://www.temboo.com/arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/temboo/Temboo/archive/1.1.3.zip",
+      "archiveFileName": "Temboo-1.1.3-github.zip",
+      "size": 113741,
+      "checksum": "SHA-256:7e5dcdf2f250bf12cbfe9bbc3283868ff5a1529f931cf5bbea812ae038e520cb"
+    },
+    {
       "name": "Adafruit ADS1X15",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -2638,6 +2658,26 @@
       "archiveFileName": "Adafruit_LED_Backpack_Library-1.0.0-github.zip",
       "size": 65659,
       "checksum": "SHA-256:e05263302f3735aaa411cd0fa7edf42897fe654361792a15eded1cce4a74bc45"
+    },
+    {
+      "name": "Adafruit LED Backpack Library",
+      "version": "1.1.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit LED Backpack Library for our 8x8 matrix and 7-segment LED backpacks",
+      "paragraph": "Adafruit LED Backpack Library for our 8x8 matrix and 7-segment LED backpacks",
+      "website": "https://github.com/adafruit/Adafruit-LED-Backpack-Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit-LED-Backpack-Library/archive/1.1.0.zip",
+      "archiveFileName": "Adafruit_LED_Backpack_Library-1.1.0-github.zip",
+      "size": 70952,
+      "checksum": "SHA-256:9e4c51d987586e4de58bdae85a9261d55c9130a8b4ebcdc9e08ee08ee8669c8d"
     },
     {
       "name": "Adafruit LSM303DLHC",
@@ -4180,6 +4220,26 @@
       "checksum": "SHA-256:ee2b6bdf9bcdb5876f6916c9b4a7858fc2889c6df740cb602f0ea18d93996a53"
     },
     {
+      "name": "DHT sensor library",
+      "version": "1.2.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for DHT11, DHT22, etc Temp \u0026 Humidity Sensors",
+      "paragraph": "Arduino library for DHT11, DHT22, etc Temp \u0026 Humidity Sensors",
+      "website": "https://github.com/adafruit/DHT-sensor-library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/DHT-sensor-library/archive/1.2.0.zip",
+      "archiveFileName": "DHT_sensor_library-1.2.0-github.zip",
+      "size": 6862,
+      "checksum": "SHA-256:ab54f12598b3c4bf0e85eb868ca0d5c8279b6258c0af41003230ab7904e7203a"
+    },
+    {
       "name": "FifteenStep",
       "version": "1.0.1",
       "author": "Todd Treece \u003ctodd@uniontownlabs.org\u003e",
@@ -4801,6 +4861,46 @@
     },
     {
       "name": "Adafruit MQTT Library",
+      "version": "0.11.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "MQTT library that supports the CC3000, FONA, ESP8266, Yun, and generic Arduino Client hardware.",
+      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
+      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_MQTT_Library/archive/0.11.0.zip",
+      "archiveFileName": "Adafruit_MQTT_Library-0.11.0-github.zip",
+      "size": 30982,
+      "checksum": "SHA-256:d61168fabc0a08ecd1d2f4ac76d0f2f2c3917962e2e363e8a65962ecc0d4e056"
+    },
+    {
+      "name": "Adafruit MQTT Library",
+      "version": "0.11.1",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "MQTT library that supports the CC3000, FONA, ESP8266, Yun, and generic Arduino Client hardware.",
+      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
+      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_MQTT_Library/archive/0.11.1.zip",
+      "archiveFileName": "Adafruit_MQTT_Library-0.11.1-github.zip",
+      "size": 31182,
+      "checksum": "SHA-256:56434228f2156b2dbaa423e7e4506db07b0da3f85c5027386aace8a66b60b362"
+    },
+    {
+      "name": "Adafruit MQTT Library",
       "version": "0.9.0",
       "author": "Adafruit",
       "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
@@ -4858,26 +4958,6 @@
       "archiveFileName": "Adafruit_MQTT_Library-0.9.2-github.zip",
       "size": 26374,
       "checksum": "SHA-256:756d4d6347b2c2d923dae713bed73b358797142cec084aea6cad88906cf8c5c4"
-    },
-    {
-      "name": "Adafruit MQTT Library",
-      "version": "0.11.0",
-      "author": "Adafruit",
-      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
-      "sentence": "MQTT library that supports the CC3000, FONA, ESP8266, Yun, and generic Arduino Client hardware.",
-      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
-      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Recommended"
-      ],
-      "url": "https://github.com/adafruit/Adafruit_MQTT_Library/archive/0.11.0.zip",
-      "archiveFileName": "Adafruit_MQTT_Library-0.11.0-github.zip",
-      "size": 30982,
-      "checksum": "SHA-256:d61168fabc0a08ecd1d2f4ac76d0f2f2c3917962e2e363e8a65962ecc0d4e056"
     },
     {
       "name": "Adafruit SleepyDog Library",
@@ -5178,6 +5258,25 @@
       "archiveFileName": "SmartEverything_LPS25H-1.0.0-github.zip",
       "size": 7268,
       "checksum": "SHA-256:1fc809603579e13267172ca5c84a0153bfc8f19ece36ab58236a8577a76269ca"
+    },
+    {
+      "name": "Parse Arduino SDK",
+      "version": "1.0.2",
+      "author": "Parse, LLC.",
+      "maintainer": "Parse, LLC.",
+      "sentence": "A library that provides access to Parse",
+      "paragraph": "Provides convenience methods to access the REST API on Parse.com from Arduino",
+      "website": "https://github.com/ParsePlatform/Parse-SDK-Arduino",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/ParsePlatform/Parse-SDK-Arduino/archive/1.0.2.zip",
+      "archiveFileName": "Parse_Arduino_SDK-1.0.2-github.zip",
+      "size": 42640,
+      "checksum": "SHA-256:eb39a3fb9b2ea2cc0c141154cddea08ba0970b444a5196e665755439db2a3137"
     },
     {
       "name": "AltSoftSerial",
@@ -6598,6 +6697,45 @@
       "checksum": "SHA-256:ad3b17b0612149d2391e514a8fbc9d38493dbcf1169e32d7dc6f476da0e90f9d"
     },
     {
+      "name": "MQTT",
+      "version": "1.7.0",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "paragraph": "This library bundles the Embedded MQTT C/C++ Client library of the Eclipse Paho project and adds a thin wrapper to get an Arduino like API. Additionally there is an drop-in alternative for the Arduino Yùn that uses a python based client on the linux processor and a binary interface to lower program space usage on the Arduino side.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/256dpi/arduino-mqtt/archive/v1.7.0.zip",
+      "archiveFileName": "MQTT-1.7.0-github.zip",
+      "size": 60702,
+      "checksum": "SHA-256:b8199a9fcdb6d1796db28fd52c10367aa81ef54b3fb774c8b3af0a31c9f75ce5"
+    },
+    {
+      "name": "ModbusMaster",
+      "version": "0.10.2",
+      "author": "Doc Walker \u003c4-20ma@wvfans.net\u003e",
+      "maintainer": "Doc Walker \u003c4-20ma@wvfans.net\u003e",
+      "sentence": "ModbusMaster",
+      "paragraph": "Enables communication with Modbus slaves over RS232/485 (via RTU protocol).",
+      "website": "https://github.com/4-20ma/ModbusMaster",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/4-20ma/ModbusMaster/archive/v0.10.2.zip",
+      "archiveFileName": "ModbusMaster-0.10.2-github.zip",
+      "size": 876234,
+      "checksum": "SHA-256:3a4b8bb422115dac6703ae1d0566a54a83ba699b6311a530bce2829840969554"
+    },
+    {
       "name": "ModbusMaster",
       "version": "0.10.3",
       "author": "Doc Walker",
@@ -6637,26 +6775,6 @@
       "archiveFileName": "ModbusMaster-0.11.0-github.zip",
       "size": 1237365,
       "checksum": "SHA-256:e055aa55339c36ea8f06331abb05fd4a954e3d443cbcc551fa0599dbf767990e"
-    },
-    {
-      "name": "ModbusMaster",
-      "version": "0.10.2",
-      "author": "Doc Walker \u003c4-20ma@wvfans.net\u003e",
-      "maintainer": "Doc Walker \u003c4-20ma@wvfans.net\u003e",
-      "sentence": "ModbusMaster",
-      "paragraph": "Enables communication with Modbus slaves over RS232/485 (via RTU protocol).",
-      "website": "https://github.com/4-20ma/ModbusMaster",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/4-20ma/ModbusMaster/archive/v0.10.2.zip",
-      "archiveFileName": "ModbusMaster-0.10.2-github.zip",
-      "size": 876234,
-      "checksum": "SHA-256:3a4b8bb422115dac6703ae1d0566a54a83ba699b6311a530bce2829840969554"
     },
     {
       "name": "Akafugu Four Letter Word Library",
@@ -6819,6 +6937,102 @@
       "checksum": "SHA-256:f3bfbda68a448c73e7baf7d8edbc06fdded46f580e503eff8a2b139b401a0369"
     },
     {
+      "name": "Awesome",
+      "version": "0.1.0",
+      "author": "Chris Palmer \u003cchris@awesomeshield.com\u003e",
+      "maintainer": "Chris Palmer \u003cchris@awesomeshield.com\u003e",
+      "sentence": "The library that supports the Awesome Shield PCB.",
+      "paragraph": "An integral part of the Awesome Shield learning ecosystem. Learn more at AwesomeShield dot com.",
+      "website": "https://github.com/awesomeshield/Awesome-Shield-Library",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/awesomeshield/Awesome-Shield-Library/archive/v0.1.0.zip",
+      "archiveFileName": "Awesome-0.1.0-github.zip",
+      "size": 12349,
+      "checksum": "SHA-256:6b8322030f574d5cf7caaba7eda6eb741f0fa4d3b2f9be7e86e1a4c09f70df91"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "4.0.0",
+      "author": "Benoit Blanchon \u003chttp://blog.benoitblanchon.fr/\u003e",
+      "maintainer": "Benoit Blanchon \u003chttp://blog.benoitblanchon.fr/\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino",
+      "paragraph": "Supports JSON parsing and formatting. Uses fixed memory allocation.",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v4.0.zip",
+      "archiveFileName": "ArduinoJson-4.0.0-github.zip",
+      "size": 1286167,
+      "checksum": "SHA-256:14afaa44b8bd1fa821c18d88d5b83b4a764b67748f3b7dc0409eec826998b979"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "5.0.0",
+      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino.",
+      "paragraph": "Like this project? Please star it on GitHub!",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0-beta-1.zip",
+      "archiveFileName": "ArduinoJson-5.0.0-github.zip",
+      "size": 1296491,
+      "checksum": "SHA-256:0e4a83f4b23275a8a2fac65ce7908da6717e003ae582e133cee5c41d786e85f8"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "5.0.1",
+      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino.",
+      "paragraph": "Like this project? Please star it on GitHub!",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.1.zip",
+      "archiveFileName": "ArduinoJson-5.0.1-github.zip",
+      "size": 1302865,
+      "checksum": "SHA-256:0072d9585ccfd388bd431c1f3de945d8f23d4462337d685ffc0f951ac044a046"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "5.0.2",
+      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino.",
+      "paragraph": "Like this project? Please star it on GitHub!",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.2.zip",
+      "archiveFileName": "ArduinoJson-5.0.2-github.zip",
+      "size": 1303791,
+      "checksum": "SHA-256:ec0998775082eb8828e4e4b2602ef73cb992a574941856f19817743d418a6597"
+    },
+    {
       "name": "ALA",
       "version": "2.0.0",
       "author": "bportaluri",
@@ -6979,6 +7193,126 @@
       "checksum": "SHA-256:3985bf2f598a65619f00a996211c9390d240c47bb60dbb521e3dbdf9490d2468"
     },
     {
+      "name": "PrintEx",
+      "version": "1.1.0",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.0.zip",
+      "archiveFileName": "PrintEx-1.1.0-github.zip",
+      "size": 22221,
+      "checksum": "SHA-256:b14e76ba2ddf1b81c32b56b30732daa9e2f91ca851b66b84866e42f8ee1633ee"
+    },
+    {
+      "name": "PrintEx",
+      "version": "1.1.1",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.1.zip",
+      "archiveFileName": "PrintEx-1.1.1-github.zip",
+      "size": 25175,
+      "checksum": "SHA-256:59140bf4f988b6f4569253a46f7c6bde67a516b00abaeeeae7f7b972b3d30920"
+    },
+    {
+      "name": "PrintEx",
+      "version": "1.1.3",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.3.zip",
+      "archiveFileName": "PrintEx-1.1.3-github.zip",
+      "size": 27882,
+      "checksum": "SHA-256:7a542400da0fdf91eb19debdb111be9f914e844658d9db38236deb64020b5f7b"
+    },
+    {
+      "name": "PrintEx",
+      "version": "1.1.4",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes streaming (in/out), printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.4.zip",
+      "archiveFileName": "PrintEx-1.1.4-github.zip",
+      "size": 29767,
+      "checksum": "SHA-256:bcdd4450279151dee9bb93494e8af89c49d2769cd6967803153604f66473c1b5"
+    },
+    {
+      "name": "PrintEx",
+      "version": "1.1.5",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes streaming (in/out), printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.5.zip",
+      "archiveFileName": "PrintEx-1.1.5-github.zip",
+      "size": 30402,
+      "checksum": "SHA-256:31e9726647bb9c3aa09f7cf2208387d8dedc530cb71f3ea56487875c3a48227b"
+    },
+    {
+      "name": "PrintEx",
+      "version": "1.1.6",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes streaming (in/out), printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.6.zip",
+      "archiveFileName": "PrintEx-1.1.6-github.zip",
+      "size": 30531,
+      "checksum": "SHA-256:cc515c1ebbd6fd28c29abdfc22113a8bf58db9d6529f559e5e969ede7aad716a"
+    },
+    {
       "name": "SmallSetup",
       "version": "1.0.0",
       "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
@@ -6997,6 +7331,26 @@
       "archiveFileName": "SmallSetup-1.0.0-github.zip",
       "size": 6659,
       "checksum": "SHA-256:7596114fbf8d690d1c6bc227b16dcca3d8bdf0e5581bf126203b7c40ca6eac32"
+    },
+    {
+      "name": "MP3Player",
+      "version": "1.0.0",
+      "author": "Cytron Technologies Sdn Bhd \u003csupport@cytron.com.my\u003e",
+      "maintainer": "Cytron Technologies Sdn Bhd \u003cwww.cytron.com.my\u003e",
+      "sentence": "Library for playing MP3 files",
+      "paragraph": "This library works with Cytron Tech MP3 shield",
+      "website": "https://github.com/CytronTechnologies/Cytron_MP3Shield",
+      "category": "Audio",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/CytronTechnologies/Cytron_MP3Shield/archive/v1.0.0.zip",
+      "archiveFileName": "MP3Player-1.0.0-github.zip",
+      "size": 232708,
+      "checksum": "SHA-256:a08247303e8c4dff9b5d41c6052662c7cd7456172a7c618fcf8ae9df701c978f"
     },
     {
       "name": "StereoSID",
@@ -7018,24 +7372,105 @@
       "checksum": "SHA-256:00f46948e0b70f90eaf26b24bdb870879de7842c448f18fcc83367d734f6ee5c"
     },
     {
-      "name": "Pin",
+      "name": "Cardinal",
       "version": "1.0.0",
-      "author": "Alec Fenichel \u003cfenichelar@gatech.edu\u003e",
-      "maintainer": "Alec Fenichel \u003cfenichelar@gatech.edu\u003e",
-      "sentence": "An easy to use Arduino library for fast digital I/O using port manipulation.",
-      "paragraph": "Supports Arduino Mega, Arduino Uno, and Arduino Leonardo.",
-      "website": "https://github.com/fenichelar/Pin",
-      "category": "Signal Input/Output",
+      "author": "DaAwesomeP",
+      "maintainer": "DaAwesomeP",
+      "license": "Apache-2.0",
+      "sentence": "An Arduino library that takes input in degrees and output a string or integer for the 4, 8, 16, or 32 compass headings (like North, South, East, and West).",
+      "paragraph": "Cardinal is an Arduino library that takes input in degrees and output a string or integer for the 4, 8, 16, or 32 compass headings (like North, South, East, and West). It also makes available environment variables for the minimum, maximum, and middle azimuth of all of the 32 directions. It works fantastically when paired with a magnetometer.",
+      "website": "https://github.com/DaAwesomeP/arduino-cardinal",
+      "category": "Data Processing",
       "architectures": [
-        "avr"
+        "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/fenichelar/Pin/archive/v1.0.0.zip",
-      "archiveFileName": "Pin-1.0.0-github.zip",
-      "size": 43669,
-      "checksum": "SHA-256:1f8ad91e464dbeef4aad028b1a9ed45d1e77c3a6542f7688657c613bb7a90b65"
+      "url": "https://github.com/DaAwesomeP/arduino-cardinal/archive/1.0.0.zip",
+      "archiveFileName": "Cardinal-1.0.0-github.zip",
+      "size": 12827,
+      "checksum": "SHA-256:0ebd0e5ebdaa51028b3f55cf32bb3d1761c28c552fb8e4f60a46f23a9f140814"
+    },
+    {
+      "name": "Exosite",
+      "version": "2.3.3",
+      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "sentence": "Easily interface with Exosite's simple data APIs.",
+      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
+      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.4.zip",
+      "archiveFileName": "Exosite-2.3.3-github.zip",
+      "size": 263698,
+      "checksum": "SHA-256:eff1a072c1565526a881b56ef36c82c308197b2dfd043e35e38698e6a525f87b"
+    },
+    {
+      "name": "Exosite",
+      "version": "2.3.5",
+      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "sentence": "Easily interface with Exosite's simple data APIs.",
+      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
+      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.5.zip",
+      "archiveFileName": "Exosite-2.3.5-github.zip",
+      "size": 407114,
+      "checksum": "SHA-256:129d6293ea4f2928c2df82de6ef1e775d9bc44bf2abb35161a4576b1fa6230f9"
+    },
+    {
+      "name": "Exosite",
+      "version": "2.3.6",
+      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "sentence": "Easily interface with Exosite's simple data APIs.",
+      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
+      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.6.zip",
+      "archiveFileName": "Exosite-2.3.6-github.zip",
+      "size": 407302,
+      "checksum": "SHA-256:ea3aa0b261b32b618c96a75583114e077a17deab735e1776b6356048e9b316e6"
+    },
+    {
+      "name": "Exosite",
+      "version": "2.3.7",
+      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "sentence": "Easily interface with Exosite's simple data APIs.",
+      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
+      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.7.zip",
+      "archiveFileName": "Exosite-2.3.7-github.zip",
+      "size": 408311,
+      "checksum": "SHA-256:d821befe404fd03dfa76245ec77e7c6a80b920d7777762d71e3b17cd235c87ba"
     },
     {
       "name": "Pin",
@@ -7156,6 +7591,26 @@
       "archiveFileName": "Pin-2.2.3-github.zip",
       "size": 46482,
       "checksum": "SHA-256:77715dde64b372215f1c9c30cbe3326d8d8b75befd55c98b074c13d2510b267c"
+    },
+    {
+      "name": "Pin",
+      "version": "1.0.0",
+      "author": "Alec Fenichel \u003cfenichelar@gatech.edu\u003e",
+      "maintainer": "Alec Fenichel \u003cfenichelar@gatech.edu\u003e",
+      "sentence": "An easy to use Arduino library for fast digital I/O using port manipulation.",
+      "paragraph": "Supports Arduino Mega, Arduino Uno, and Arduino Leonardo.",
+      "website": "https://github.com/fenichelar/Pin",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/fenichelar/Pin/archive/v1.0.0.zip",
+      "archiveFileName": "Pin-1.0.0-github.zip",
+      "size": 43669,
+      "checksum": "SHA-256:1f8ad91e464dbeef4aad028b1a9ed45d1e77c3a6542f7688657c613bb7a90b65"
     },
     {
       "name": "USB Host Shield Library 2.0",
@@ -7323,6 +7778,28 @@
       "checksum": "SHA-256:abd0357025cb63446a0b5482e66e1ef3e9963bfef76f45789f15c270eb99b631"
     },
     {
+      "name": "DMD2",
+      "version": "0.0.3",
+      "author": "Freetronics",
+      "maintainer": "Angus Gratton \u003cangus@freetronics.com\u003e",
+      "sentence": "Updated (beta) library for Freetronics DMD dot matrix displays.",
+      "paragraph": "Supports graphics operations (test, images, etc.) Still experimental, the stable library is called called \"DMD\"",
+      "website": "https://github.com/freetronics/DMD2/",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "sam",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/freetronics/DMD2/archive/v0.0.3.zip",
+      "archiveFileName": "DMD2-0.0.3-github.zip",
+      "size": 52870,
+      "checksum": "SHA-256:8e03577591133f897aa6ec3976b590cadad1b93ca27e225041246de3202089b5"
+    },
+    {
       "name": "BaroLibrary",
       "version": "1.0.0",
       "author": "Angus Gratton \u003cangus@freetronics.com\u003e",
@@ -7341,6 +7818,26 @@
       "archiveFileName": "BaroLibrary-1.0.0-github.zip",
       "size": 19772,
       "checksum": "SHA-256:ecfc1049a8db5f89efd1ff67c0395500b342ebee8b24cf46eece301e5b44d0dc"
+    },
+    {
+      "name": "UTFT_SdRaw",
+      "version": "1.2.0",
+      "author": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
+      "maintainer": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
+      "sentence": "A library that adds high speed image drawing functions from SD to UTFT.",
+      "paragraph": "Supports PAN/SCALE/CPLD Page from SD also basic drawing from Serial source.",
+      "website": "https://github.com/ghlawrence2000/UTFT_SdRaw",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/ghlawrence2000/UTFT_SdRaw/archive/v1.2.0.zip",
+      "archiveFileName": "UTFT_SdRaw-1.2.0-github.zip",
+      "size": 3629095,
+      "checksum": "SHA-256:3d19c90a2b99bd68150a5a56bc3eef36e1270f60617e4e28eae4af99b44d94fe"
     },
     {
       "name": "EnableInterrupt",
@@ -7702,6 +8199,66 @@
       "checksum": "SHA-256:3d6eff3e9c7e618998f8bf84f4f2cd183c1fad4c96727cbec0675e16a0a0ece1"
     },
     {
+      "name": "arduino-menusystem",
+      "version": "2.0.0",
+      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "sentence": "A library for implementing a menu system",
+      "paragraph": "Supports nesting and tracks the current selected item.",
+      "website": "https://github.com/jonblack/arduino-menusystem",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/jonblack/arduino-menusystem/archive/2.0.0.zip",
+      "archiveFileName": "arduino_menusystem-2.0.0-github.zip",
+      "size": 14747,
+      "checksum": "SHA-256:2125214696922570ba96636115b8b15aa277036b211831f3b3bcdcd26dbb940e"
+    },
+    {
+      "name": "arduino-menusystem",
+      "version": "2.0.1",
+      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "sentence": "A library for implementing a menu system",
+      "paragraph": "Supports nesting and tracks the current selected item.",
+      "website": "https://github.com/jonblack/arduino-menusystem",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/jonblack/arduino-menusystem/archive/2.0.1.zip",
+      "archiveFileName": "arduino_menusystem-2.0.1-github.zip",
+      "size": 18363,
+      "checksum": "SHA-256:0362c5a695d46341e89ceb3f3078c2c86805150a9c8b99433c1b858f65cf534d"
+    },
+    {
+      "name": "arduino-fsm",
+      "version": "2.0.0",
+      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "sentence": "A library for implementing a finite state machine",
+      "paragraph": "Supports events for exiting and entering states.",
+      "website": "https://github.com/jonblack/arduino-fsm",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/jonblack/arduino-fsm/archive/2.0.0.zip",
+      "archiveFileName": "arduino_fsm-2.0.0-github.zip",
+      "size": 5082,
+      "checksum": "SHA-256:bb035adcdfc6ab74a954145ab06cc4bc20f515c482f99d074faeb73b2a0d3fea"
+    },
+    {
       "name": "aREST",
       "version": "1.9.9",
       "author": "Marco Schwartz",
@@ -7740,6 +8297,46 @@
       "archiveFileName": "aREST-1.9.7-github.zip",
       "size": 22903,
       "checksum": "SHA-256:93f77f5f77a217e8e8d4b7b3991dfc237b4393a00342538250529a0de8a7039e"
+    },
+    {
+      "name": "aREST UI",
+      "version": "1.0.1",
+      "author": "Marco Schwartz",
+      "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
+      "sentence": "A graphical user interface for Arduino based on the aREST API.",
+      "paragraph": "A graphical user interface for Arduino based on the aREST API. It is designed to be universal and currently supports REST calls via HTTP, Serial \u0026 BLE.  See more at: http://arest.io/",
+      "website": "https://github.com/marcoschwartz/aREST_UI",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/marcoschwartz/aREST_UI/archive/1.0.1.zip",
+      "archiveFileName": "aREST_UI-1.0.1-github.zip",
+      "size": 9472,
+      "checksum": "SHA-256:636561a8df0db43205cc170e3c872109aaeb6a8f5f2e976e7092f2be26097328"
+    },
+    {
+      "name": "LiquidCrystal_I2C",
+      "version": "1.1.0",
+      "author": "Marco Schwartz",
+      "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
+      "sentence": "A library for DFRobot I2C LCD displays.",
+      "paragraph": "A library for DFRobot I2C LCD displays. It allows to control DFRobot I2C displays with commands similar to the Arduino LiquidCrystal library.",
+      "website": "https://github.com/marcoschwartz/LiquidCrystal_I2C",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/marcoschwartz/LiquidCrystal_I2C/archive/1.1.0.zip",
+      "archiveFileName": "LiquidCrystal_I2C-1.1.0-github.zip",
+      "size": 20483,
+      "checksum": "SHA-256:d04db3302e1b42ddf3e498f2e9d6834b97a65ead60874aa0f2fece64329003de"
     },
     {
       "name": "SPIFlash",
@@ -7962,6 +8559,86 @@
       "checksum": "SHA-256:89ae5ab8769f8bee372149eb9d9f72ef29d4fcf65b7c527790891be1d13b1a15"
     },
     {
+      "name": "ThingSpeak",
+      "version": "1.0.1",
+      "author": "MathWorks \u003cthingspeak@mathworks.com\u003e",
+      "maintainer": "MathWorks \u003cthingspeak@mathworks.com\u003e",
+      "sentence": "ThingSpeak Communication Library for Arduino",
+      "paragraph": "ThingSpeak ( https://www.thingspeak.com ) is a free IoT service for building systems that collect, analyze, and react to their environments.",
+      "website": "https://www.thingspeak.com/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mathworks/thingspeak-arduino/archive/1.0.1.zip",
+      "archiveFileName": "ThingSpeak-1.0.1-github.zip",
+      "size": 148903,
+      "checksum": "SHA-256:58c05a372e5a95d357ff9c569d229cc3f0724bebaf7f973904892cb4f930fdb6"
+    },
+    {
+      "name": "ThingSpeak",
+      "version": "1.0.0",
+      "author": "MathWorks \u003cthingspeak@mathworks.com\u003e",
+      "maintainer": "MathWorks \u003cthingspeak@mathworks.com\u003e",
+      "sentence": "ThingSpeak Communication Library for Arduino",
+      "paragraph": "ThingSpeak ( https://www.thingspeak.com ) is a free IoT service for building systems that collect, analyze, and react to their environments.",
+      "website": "https://www.thingspeak.com/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mathworks/thingspeak-arduino/archive/v1.0.0.zip",
+      "archiveFileName": "ThingSpeak-1.0.0-github.zip",
+      "size": 33821,
+      "checksum": "SHA-256:9496825fe5803988090b5285ffc32b05e28387561a954bdb41dcd228a56720f3"
+    },
+    {
+      "name": "DallasTemperature",
+      "version": "3.7.2",
+      "author": "Miles Burton \u003cmiles@mnetcs.com\u003e, Tim Newsome \u003cnuisance@casualhacker.net\u003e, Guil Barros \u003cgfbarros@bappos.com\u003e, Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Miles Burton \u003cmiles@mnetcs.com\u003e",
+      "sentence": "Arduino Library for Dallas Temperature ICs",
+      "paragraph": "Supports DS18B20, DS18S20, DS1822, DS1820",
+      "website": "https://github.com/milesburton/Arduino-Temperature-Control-Library",
+      "category": "Sensor",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/milesburton/Arduino-Temperature-Control-Library/archive/3.7.3.zip",
+      "archiveFileName": "DallasTemperature-3.7.2-github.zip",
+      "size": 29915,
+      "checksum": "SHA-256:59f7537761dc5d31b10805bf1efcfb54383c7753a7538b794f7c0a3efe93efbe"
+    },
+    {
+      "name": "DallasTemperature",
+      "version": "3.7.5",
+      "author": "Miles Burton \u003cmiles@mnetcs.com\u003e, Tim Newsome \u003cnuisance@casualhacker.net\u003e, Guil Barros \u003cgfbarros@bappos.com\u003e, Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Miles Burton \u003cmiles@mnetcs.com\u003e",
+      "sentence": "Arduino Library for Dallas Temperature ICs",
+      "paragraph": "Supports DS18B20, DS18S20, DS1822, DS1820",
+      "website": "https://github.com/milesburton/Arduino-Temperature-Control-Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/milesburton/Arduino-Temperature-Control-Library/archive/3.7.5.zip",
+      "archiveFileName": "DallasTemperature-3.7.5-github.zip",
+      "size": 31341,
+      "checksum": "SHA-256:7aaad0839357f3a3d1e9430801aaeb66949af245f4a64b61654b1a36387bafa0"
+    },
+    {
       "name": "MINDSi",
       "version": "2.0.0",
       "author": "MINDSi corp.",
@@ -8079,6 +8756,166 @@
       "archiveFileName": "ArduinoUnit-2.1.0-github.zip",
       "size": 299181,
       "checksum": "SHA-256:eb0d59902ed56c89408e96dced17b4211868e9d4ed5dab8a6f20de49fa93e2b3"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.1",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.1.zip",
+      "archiveFileName": "JTAG-1.0.1-github.zip",
+      "size": 53005,
+      "checksum": "SHA-256:06c361131c6f281f7535098cbcdd7dfb6467a2dc1ea24c92458a0f48d963e3f9"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.10",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.10.zip",
+      "archiveFileName": "JTAG-1.0.10-github.zip",
+      "size": 77120,
+      "checksum": "SHA-256:f685ed4cccee39501811adc93f281f0764795c15e2b0dcd73f76a2335ff1a110"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.3",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.3.zip",
+      "archiveFileName": "JTAG-1.0.3-github.zip",
+      "size": 60815,
+      "checksum": "SHA-256:644f089b91bb997d886e7dd057a18ead4650353c1204b84f2a77918f078715ba"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.5",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.5.zip",
+      "archiveFileName": "JTAG-1.0.5-github.zip",
+      "size": 67276,
+      "checksum": "SHA-256:7f1bea2692f227e467240a92d42505e532839188375ddd88105166f913c329c7"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.6",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.6.zip",
+      "archiveFileName": "JTAG-1.0.6-github.zip",
+      "size": 67326,
+      "checksum": "SHA-256:9ef115f4db254dbcdb5d5f9d10b9a8feb41f0a99ad3000d4bf649107d9e02938"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.7",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.7.zip",
+      "archiveFileName": "JTAG-1.0.7-github.zip",
+      "size": 67327,
+      "checksum": "SHA-256:3c4a4b39faae1a48b65c519a6c50172077814c35434581ed45701eca0cf76c26"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.8",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.8.zip",
+      "archiveFileName": "JTAG-1.0.8-github.zip",
+      "size": 67305,
+      "checksum": "SHA-256:a1d37380ba063e892351d142997d7df7f42f01761cfb56d05d9af122bbe1f50c"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.9",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.9.zip",
+      "archiveFileName": "JTAG-1.0.9-github.zip",
+      "size": 75243,
+      "checksum": "SHA-256:876aa4ac70a2ef52f287cecdbf625b7e69aa46e2f4fccde5eeaa3a78996de650"
     },
     {
       "name": "AtTouch",
@@ -8564,6 +9401,66 @@
       "checksum": "SHA-256:c4722975ab9d55ee9ce0dcdafcd16b38b2bbc26685ef9f3c2fc85dd68c669fcd"
     },
     {
+      "name": "AStar32U4",
+      "version": "1.0.0",
+      "author": "Pololu",
+      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
+      "sentence": "A-Star 32U4 Arduino library",
+      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on Pololu A-Star 32U4 controllers.",
+      "website": "https://github.com/pololu/a-star-32u4-arduino-library",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/pololu/a-star-32u4-arduino-library/archive/1.0.0.zip",
+      "archiveFileName": "AStar32U4-1.0.0-github.zip",
+      "size": 58506,
+      "checksum": "SHA-256:2d6c37145a1775a3a9906c0f7083f715d05e0ced26f3e499dc3c18f66f902b50"
+    },
+    {
+      "name": "AStar32U4",
+      "version": "1.0.2",
+      "author": "Pololu",
+      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
+      "sentence": "A-Star 32U4 Arduino library",
+      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on Pololu A-Star 32U4 controllers.",
+      "website": "https://github.com/pololu/a-star-32u4-arduino-library",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/pololu/a-star-32u4-arduino-library/archive/1.0.2.zip",
+      "archiveFileName": "AStar32U4-1.0.2-github.zip",
+      "size": 58700,
+      "checksum": "SHA-256:0df0b82489471128f75daf9498052a48ad82b5c774de41d2ae402c324dbc23a1"
+    },
+    {
+      "name": "AStar32U4",
+      "version": "1.0.3",
+      "author": "Pololu",
+      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
+      "sentence": "A-Star 32U4 Arduino library",
+      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on Pololu A-Star 32U4 controllers.",
+      "website": "https://github.com/pololu/a-star-32u4-arduino-library",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/pololu/a-star-32u4-arduino-library/archive/1.0.3.zip",
+      "archiveFileName": "AStar32U4-1.0.3-github.zip",
+      "size": 58751,
+      "checksum": "SHA-256:610a5af35d48458b93dbdf652d4fc23776615f57f7b93daf6108b4dab4dc4aad"
+    },
+    {
       "name": "PololuMaestro",
       "version": "1.0.0",
       "author": "Pololu",
@@ -8582,6 +9479,26 @@
       "archiveFileName": "PololuMaestro-1.0.0-github.zip",
       "size": 16681,
       "checksum": "SHA-256:450ed814936c956a05d7f3fd02326ffddc034af933eb827650bb132014fada3f"
+    },
+    {
+      "name": "Zumo32U4",
+      "version": "1.1.1",
+      "author": "Pololu",
+      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
+      "sentence": "Zumo 32U4 Arduino library",
+      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on the Pololu Zumo 32U4 robot.",
+      "website": "https://github.com/pololu/zumo-32u4-arduino-library",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/pololu/zumo-32u4-arduino-library/archive/1.1.1.zip",
+      "archiveFileName": "Zumo32U4-1.1.1-github.zip",
+      "size": 135360,
+      "checksum": "SHA-256:c20cdd163a6d275a5507d6b186e6817473034bce939f1ff3f43eb5657241378a"
     },
     {
       "name": "Printoo_Library",
@@ -8864,6 +9781,26 @@
       "checksum": "SHA-256:124015bb41a9f2ded233003d58ca9f1c7df2527a491c2407e9fb6536052884c8"
     },
     {
+      "name": "Quirkbot",
+      "version": "0.4.4",
+      "author": "Quirkbot",
+      "maintainer": "Paulo Barcelos \u003cpaulo@quirkbot.com\u003e",
+      "sentence": "Allows you to program Quirkbots.",
+      "paragraph": "The library is designed to be used with Quirkbot hardware. While other Arduinos boards might work, they are not supported. For instructions on how to install official Quirkbot boards, visit https://github.com/Quirkbot/QuirkbotArduinoHardware/releases.",
+      "website": "https://github.com/Quirkbot/QuirkbotArduinoLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Quirkbot/QuirkbotArduinoLibrary/archive/0.4.4.zip",
+      "archiveFileName": "Quirkbot-0.4.4-github.zip",
+      "size": 61416,
+      "checksum": "SHA-256:d65bde9ee6d3e2e0a603918b5875bd5f94ba563667662187f46b5798786f164c"
+    },
+    {
       "name": "RBL_nRF8001",
       "version": "1.0.0",
       "author": "Cheong",
@@ -8944,6 +9881,66 @@
       "checksum": "SHA-256:09bc9704752afe7aed2f533cf9f631687b5b9687bc9c7863e4d890c47f91ac16"
     },
     {
+      "name": "Analog Buttons",
+      "version": "1.1.0",
+      "author": "AgileWare",
+      "maintainer": "Roberto Lo Giacco \u003crlogiacco@gmail.com\u003e",
+      "sentence": "Arduino multi button support library",
+      "paragraph": "Arduino multi button support library",
+      "website": "https://github.com/rlogiacco/AnalogButtons",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/rlogiacco/AnalogButtons/archive/1.1.0.zip",
+      "archiveFileName": "Analog_Buttons-1.1.0-github.zip",
+      "size": 305517,
+      "checksum": "SHA-256:1d1f1cbc76454d8a6f199da88f833258273050fd33fcd019e5333e684a41b419"
+    },
+    {
+      "name": "MicroDebug",
+      "version": "1.1.0",
+      "author": "AgileWare",
+      "maintainer": "Roberto Lo Giacco \u003crlogiacco@gmail.com\u003e",
+      "sentence": "Arduino debugging support library",
+      "paragraph": "Arduino debugging support library",
+      "website": "https://github.com/rlogiacco/MicroDebug",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/rlogiacco/MicroDebug/archive/1.1.0.zip",
+      "archiveFileName": "MicroDebug-1.1.0-github.zip",
+      "size": 17104,
+      "checksum": "SHA-256:5407aa4c1888bf8289df4b57a4936ee42e57f59dc2253f64718ee8d5028834b2"
+    },
+    {
+      "name": "Voltage Reference",
+      "version": "1.2.0",
+      "author": "AgileWare",
+      "maintainer": "Roberto Lo Giacco \u003crlogiacco@gmail.com\u003e",
+      "sentence": "Arduino voltage reference library",
+      "paragraph": "Arduino voltage reference library",
+      "website": "https://github.com/rlogiacco/VoltageReference",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/rlogiacco/VoltageReference/archive/1.2.0.zip",
+      "archiveFileName": "Voltage_Reference-1.2.0-github.zip",
+      "size": 179078,
+      "checksum": "SHA-256:01315f30d62fd84911d81a06696305979355107b7c70925da0c37e287dbbcb0d"
+    },
+    {
       "name": "BobaBlox",
       "version": "2.0.0",
       "author": "Robert Gallup \u003csupport@robertgallup.com\u003e",
@@ -8962,6 +9959,26 @@
       "archiveFileName": "BobaBlox-2.0.0-github.zip",
       "size": 21603,
       "checksum": "SHA-256:7612f4fd536da83415ad7e9136ed195485b7ed66bb7a8df242e88b356949c39f"
+    },
+    {
+      "name": "RoboCore - Serial Relay",
+      "version": "1.0.0",
+      "author": "RoboCore Tecnologia (suporte@robocore.net)",
+      "maintainer": "RoboCore Tecnologia (suporte@robocore.net)",
+      "sentence": "Library for the Serial Relay module (https://www.robocore.net/modules.php?name=GR_LojaVirtual\u0026prod=663)",
+      "paragraph": "Control up to 40 relays with only two pins.",
+      "website": "https://github.com/RoboCore/SerialRelay",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/RoboCore/SerialRelay/archive/v1.0.0.zip",
+      "archiveFileName": "RoboCore___Serial_Relay-1.0.0-github.zip",
+      "size": 9904,
+      "checksum": "SHA-256:f324702cc0c71eab83225d8169e8a675c4140362446c79528ec9630b73325f83"
     },
     {
       "name": "Robopoly PRismino",
@@ -9115,6 +10132,25 @@
       "archiveFileName": "BLEPeripheral-0.1.4-github.zip",
       "size": 656740,
       "checksum": "SHA-256:c8f4cd263269b4b926cf68bae226e70d6427c6ca23113e117487461bf2446da4"
+    },
+    {
+      "name": "BLEPeripheral",
+      "version": "0.1.5",
+      "author": "Sandeep Mistry \u003csandeep.mistry@gmail.com\u003e",
+      "maintainer": "Sandeep Mistry \u003csandeep.mistry@gmail.com\u003e",
+      "sentence": "An Arduino library for creating custom BLE peripherals.",
+      "paragraph": "Supports nRF8001 and nRF51822 based boards/shields",
+      "website": "https://github.com/sandeepmistry/arduino-BLEPeripheral",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/sandeepmistry/arduino-BLEPeripheral/archive/0.1.5.zip",
+      "archiveFileName": "BLEPeripheral-0.1.5-github.zip",
+      "size": 656736,
+      "checksum": "SHA-256:ac069faf2d04b764f5ef3d867c9d704fbb0978fa0ad88713707d1a5f966e3f76"
     },
     {
       "name": "GPRSbee",
@@ -9330,6 +10366,46 @@
       "checksum": "SHA-256:eb7b732463fbb552a56e8e02aced381d49ed08bd13f06b3eb6d320b4cbcb904d"
     },
     {
+      "name": "Gamer",
+      "version": "2.0.0",
+      "author": "Mike Vanis \u003chello@mikevanis.com\u003e, Andy Sheen \u003candymsheen@gmail.com\u003e",
+      "maintainer": "Mike Vanis \u003chello@mikevanis.com\u003e",
+      "sentence": "A library for the DIY Gamer Kit by Technology Will Save Us.",
+      "paragraph": "Makes interfacing with the Gamer's screen, buttons, IR, buzzer and other peripherals a walk in the park!",
+      "website": "http://github.com/techwillsaveus/Gamer",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/techwillsaveus/Gamer/archive/v2.0.zip",
+      "archiveFileName": "Gamer-2.0.0-github.zip",
+      "size": 32693,
+      "checksum": "SHA-256:1d98eb4450e2f5fb27a908af50f827181b90fb2917a179cb3ef932639fa6d630"
+    },
+    {
+      "name": "GamerIR",
+      "version": "2.0.0",
+      "author": "Mike Vanis \u003chello@mikevanis.com\u003e, Andy Sheen \u003candymsheen@gmail.com\u003e",
+      "maintainer": "Mike Vanis \u003chello@mikevanis.com\u003e",
+      "sentence": "Infrared communication library for the DIY Gamer Kit by Tech Will Save Us",
+      "paragraph": "Makes interfacing with the Gamer's infrared transmitter and receiver a walk in the park!",
+      "website": "http://github.com/techwillsaveus/GamerIR",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/techwillsaveus/GamerIR/archive/v1.0.zip",
+      "archiveFileName": "GamerIR-2.0.0-github.zip",
+      "size": 3471,
+      "checksum": "SHA-256:035a095efc17148f462c559486d5e772f135bd00a007e80e2f9d97ebfdcd099e"
+    },
+    {
       "name": "SoftwareWire",
       "version": "1.3.2",
       "author": "Testato, Koepel",
@@ -9408,6 +10484,66 @@
       "archiveFileName": "CmdMessenger-4.0.0-github.zip",
       "size": 1424647,
       "checksum": "SHA-256:d831a8b6caf42374a2bccbe2d2f7873fbcdbbf63cc3eb89037a354f15c03feba"
+    },
+    {
+      "name": "thinger.io",
+      "version": "1.0.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@gmail.com\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Library for connecting to the thinger.io IoT platform.",
+      "paragraph": "Enable easy remote control of your things.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/thinger-io/Arduino-Library/archive/1.0.0.zip",
+      "archiveFileName": "thinger_io-1.0.0-github.zip",
+      "size": 30897,
+      "checksum": "SHA-256:f1c344ff815715b48bde94ba18806a8416f419522904101b8691d3350ad9c85f"
+    },
+    {
+      "name": "thinger.io",
+      "version": "1.1.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@gmail.com\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for the thinger.io IoT platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow easily connecting your things or devices for remote sensing and actuating. Working with several devices like ESP8266, Arduino Ethernet, Arduino Wifi, Arduino Yun, Adafruit CC3000, Texax Instruments CC3200.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/thinger-io/Arduino-Library/archive/1.1.0.zip",
+      "archiveFileName": "thinger_io-1.1.0-github.zip",
+      "size": 33608,
+      "checksum": "SHA-256:592f4f4f3465007fffa3f9c1c5e81f63b239c87649d3ef8877be227e2b521003"
+    },
+    {
+      "name": "thinger.io",
+      "version": "1.1.1",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@gmail.com\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for the thinger.io IoT platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow easily connecting your things or devices for remote sensing and actuating. Working with several devices like ESP8266, Arduino Ethernet, Arduino Wifi, Arduino Yun, Adafruit CC3000, Texas Instruments CC3200.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/thinger-io/Arduino-Library/archive/1.1.1.zip",
+      "archiveFileName": "thinger_io-1.1.1-github.zip",
+      "size": 34551,
+      "checksum": "SHA-256:ca5358573702d48d2177356891d15f2a4c7653c29fa153194989cb09f2b9d529"
     },
     {
       "name": "Bounce2",
@@ -9530,6 +10666,66 @@
       "checksum": "SHA-256:77bb00d26f1fdf1d7a34b008933fe821036840ee8a555025d145feca5bfc29bb"
     },
     {
+      "name": "MCStools",
+      "version": "1.3.0",
+      "author": "Wilfried Klaas",
+      "maintainer": "Wilfried Klaas",
+      "sentence": "A library to add support for rc receivers.",
+      "paragraph": "This library can read and decode PPM signals from simple RC receivers.",
+      "website": "https://github.com/willie68/RCReceiver.git",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/willie68/RCReceiver/archive/1.3.0.zip",
+      "archiveFileName": "MCStools-1.3.0-github.zip",
+      "size": 10365,
+      "checksum": "SHA-256:2141c0eb7534daf03f7d3bfa02dfeb100c0f1f69a066a501b67c6c5e7ee299e8"
+    },
+    {
+      "name": "MCStools",
+      "version": "1.2.0",
+      "author": "Wilfried Klaas",
+      "maintainer": "Wilfried Klaas",
+      "sentence": "A library to add support for rc receivers.",
+      "paragraph": "This library can read and decode PPM signals from simple RC receivers.",
+      "website": "https://github.com/willie68/RCReceiver.git",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/willie68/RCReceiver/archive/Release_1.1.zip",
+      "archiveFileName": "MCStools-1.2.0-github.zip",
+      "size": 8824,
+      "checksum": "SHA-256:f7c3ae4e6dfc79f5e59c29c22282463ed4b44c80cd498dd7750898d841d7bd08"
+    },
+    {
+      "name": "RCReceiver",
+      "version": "1.4.0",
+      "author": "Wilfried Klaas \u003cw.klaas@gmx.de\u003e",
+      "maintainer": "Wilfried Klaas \u003cw.klaas@gmx.de\u003e",
+      "sentence": "A library to add support for rc receivers.",
+      "paragraph": "This library can read and decode PPM signals from simple RC receivers. On Arduino Uno there are 2 channels supported, on others like leonardo or mega, 4 channels.",
+      "website": "https://github.com/willie68/RCReceiver.git",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/willie68/RCReceiver/archive/1.4.0.zip",
+      "archiveFileName": "RCReceiver-1.4.0-github.zip",
+      "size": 10523,
+      "checksum": "SHA-256:68d819d32ddb50fb61edf14a24d91d5802ef75e44d73f6cd220d8a7a3955e201"
+    },
+    {
       "name": "MAX78630",
       "version": "1.0.1",
       "author": "Gunce Akkoyun \u003cgunce.akkoyun@lvx.com.tr\u003e, Alp Erkan Savli \u003calp.erkan@lvx.com.tr\u003e",
@@ -9630,494 +10826,153 @@
       "checksum": "SHA-256:a23378c3ee63211b29ffdc9f6881c8ac814b7614670c5c9d7c5b5d7f3fd5fcac"
     },
     {
-      "name": "DallasTemperature",
-      "version": "3.7.2",
-      "author": "Miles Burton \u003cmiles@mnetcs.com\u003e, Tim Newsome \u003cnuisance@casualhacker.net\u003e, Guil Barros \u003cgfbarros@bappos.com\u003e, Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
-      "maintainer": "Miles Burton \u003cmiles@mnetcs.com\u003e",
-      "sentence": "Arduino Library for Dallas Temperature ICs",
-      "paragraph": "Supports DS18B20, DS18S20, DS1822, DS1820",
-      "website": "https://github.com/milesburton/Arduino-Temperature-Control-Library",
-      "category": "Sensor",
+      "name": "PubSubClient",
+      "version": "2.2.0",
+      "author": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "maintainer": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "sentence": "A client library for MQTT messaging.",
+      "paragraph": "MQTT is a lightweight messaging protocol ideal for small devices. This library allows you to send and receive MQTT messages from a remote server. It supports the latest MQTT 3.1.1 protocol and can be configured to use the older MQTT 3.1 if needed. It supports all Arduino Ethernet Client compatible hardware, including the Intel Galileo/Edison and ESP8266.",
+      "website": "http://knolleary.github.io/pubsubclient/",
+      "category": "Communication",
       "architectures": [
         "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/milesburton/Arduino-Temperature-Control-Library/archive/3.7.3.zip",
-      "archiveFileName": "DallasTemperature-3.7.2-github.zip",
-      "size": 29915,
-      "checksum": "SHA-256:59f7537761dc5d31b10805bf1efcfb54383c7753a7538b794f7c0a3efe93efbe"
+      "url": "https://github.com/knolleary/pubsubclient/archive/v2.2.zip",
+      "archiveFileName": "PubSubClient-2.2.0-github.zip",
+      "size": 34175,
+      "checksum": "SHA-256:04a33c4830d27bd8451073ba0c25f310fd3c7841136a22854d2f8d5519ff62b1"
     },
     {
-      "name": "MicroDebug",
-      "version": "1.1.0",
-      "author": "AgileWare",
-      "maintainer": "Roberto Lo Giacco \u003crlogiacco@gmail.com\u003e",
-      "sentence": "Arduino debugging support library",
-      "paragraph": "Arduino debugging support library",
-      "website": "https://github.com/rlogiacco/MicroDebug",
-      "category": "Other",
+      "name": "PubSubClient",
+      "version": "2.3.0",
+      "author": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "maintainer": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "sentence": "A client library for MQTT messaging.",
+      "paragraph": "MQTT is a lightweight messaging protocol ideal for small devices. This library allows you to send and receive MQTT messages. It supports the latest MQTT 3.1.1 protocol and can be configured to use the older MQTT 3.1 if needed. It supports all Arduino Ethernet Client compatible hardware, including the Intel Galileo/Edison, ESP8266 and TI CC3000.",
+      "website": "http://pubsubclient.knolleary.net",
+      "category": "Communication",
       "architectures": [
         "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/rlogiacco/MicroDebug/archive/1.1.0.zip",
-      "archiveFileName": "MicroDebug-1.1.0-github.zip",
-      "size": 17104,
-      "checksum": "SHA-256:5407aa4c1888bf8289df4b57a4936ee42e57f59dc2253f64718ee8d5028834b2"
+      "url": "https://github.com/knolleary/pubsubclient/archive/v2.3.zip",
+      "archiveFileName": "PubSubClient-2.3.0-github.zip",
+      "size": 36218,
+      "checksum": "SHA-256:ccf80094f6c4b4de230201762f4bb3dbc318b8cb0196d405589d53856237e8cc"
     },
     {
-      "name": "Analog Buttons",
-      "version": "1.1.0",
-      "author": "AgileWare",
-      "maintainer": "Roberto Lo Giacco \u003crlogiacco@gmail.com\u003e",
-      "sentence": "Arduino multi button support library",
-      "paragraph": "Arduino multi button support library",
-      "website": "https://github.com/rlogiacco/AnalogButtons",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/rlogiacco/AnalogButtons/archive/1.1.0.zip",
-      "archiveFileName": "Analog_Buttons-1.1.0-github.zip",
-      "size": 305517,
-      "checksum": "SHA-256:1d1f1cbc76454d8a6f199da88f833258273050fd33fcd019e5333e684a41b419"
-    },
-    {
-      "name": "Voltage Reference",
-      "version": "1.2.0",
-      "author": "AgileWare",
-      "maintainer": "Roberto Lo Giacco \u003crlogiacco@gmail.com\u003e",
-      "sentence": "Arduino voltage reference library",
-      "paragraph": "Arduino voltage reference library",
-      "website": "https://github.com/rlogiacco/VoltageReference",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/rlogiacco/VoltageReference/archive/1.2.0.zip",
-      "archiveFileName": "Voltage_Reference-1.2.0-github.zip",
-      "size": 179078,
-      "checksum": "SHA-256:01315f30d62fd84911d81a06696305979355107b7c70925da0c37e287dbbcb0d"
-    },
-    {
-      "name": "UTFT_SdRaw",
-      "version": "1.2.0",
-      "author": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
-      "maintainer": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
-      "sentence": "A library that adds high speed image drawing functions from SD to UTFT.",
-      "paragraph": "Supports PAN/SCALE/CPLD Page from SD also basic drawing from Serial source.",
-      "website": "https://github.com/ghlawrence2000/UTFT_SdRaw",
-      "category": "Display",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/ghlawrence2000/UTFT_SdRaw/archive/v1.2.0.zip",
-      "archiveFileName": "UTFT_SdRaw-1.2.0-github.zip",
-      "size": 3629095,
-      "checksum": "SHA-256:3d19c90a2b99bd68150a5a56bc3eef36e1270f60617e4e28eae4af99b44d94fe"
-    },
-    {
-      "name": "AStar32U4",
-      "version": "1.0.0",
-      "author": "Pololu",
-      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
-      "sentence": "A-Star 32U4 Arduino library",
-      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on Pololu A-Star 32U4 controllers.",
-      "website": "https://github.com/pololu/a-star-32u4-arduino-library",
+      "name": "Dynamixel_Servo",
+      "version": "2.1.0",
+      "author": "Michael Krzyzaniak\u003cmkrzyzan@asu.edu\u003e",
+      "maintainer": "Michael Krzyzaniak\u003cmkrzyzan@asu.edu\u003e",
+      "sentence": "Dynamixel_Servo is an Arduino compatible library for controlling Dynamixel MX and RX series servos.",
+      "paragraph": "This module presents a high-level interface and a low-level interface for manipulating the servo's registers. The high-level interface looks up the width (one or two bytes) of the specified value and manipulates all relevant registers (low byte and high byte) as a single value. The high-level interface also performs automatic conversions between the raw values defined in the servo's datasheet, and physical values such as radians, radians-per-second, Amperes, Volts, baud, microseconds, degrees-Celcius, percent (of the motor's maximum torque) etc... as appropriate to the value. The down-side is that the high-level interface hogs several kilobytes of code space, as the result of using floating-point math and having some large-ish lookup tables. Therefore a low-level interface is provided that allows more straightforward access to the servo's registers using raw values, which may optionally be converted to and from physical values using the provided functions. Using the low-level interface and raw values may save several kilobytes of code space (The compiler won't compile functions that aren't used). The low-level interface also provides the capability to access several of the servo's values in a single command using the xxx_raw_page functions.",
+      "website": "https://github.com/michaelkrzyzaniak/Dynamixel_Servo",
       "category": "Device Control",
       "architectures": [
-        "avr"
+        "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/pololu/a-star-32u4-arduino-library/archive/1.0.0.zip",
-      "archiveFileName": "AStar32U4-1.0.0-github.zip",
-      "size": 58506,
-      "checksum": "SHA-256:2d6c37145a1775a3a9906c0f7083f715d05e0ced26f3e499dc3c18f66f902b50"
+      "url": "https://github.com/michaelkrzyzaniak/Dynamixel_Servo/archive/2.1.0.zip",
+      "archiveFileName": "Dynamixel_Servo-2.1.0-github.zip",
+      "size": 35121,
+      "checksum": "SHA-256:654c85599224ef6e4bcaa7bdf96e29ed55d34efef4c06611cd557aad62456fa5"
     },
     {
-      "name": "AStar32U4",
-      "version": "1.0.2",
-      "author": "Pololu",
-      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
-      "sentence": "A-Star 32U4 Arduino library",
-      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on Pololu A-Star 32U4 controllers.",
-      "website": "https://github.com/pololu/a-star-32u4-arduino-library",
+      "name": "Universal Inputs",
+      "version": "2.0.2",
+      "author": "Dan Nixon",
+      "maintainer": "Dan Nixon \u003cdan@dan-nixon.com\u003e",
+      "sentence": "Arduino library for reading multiple input devices of different types.",
+      "paragraph": "Arduino library for reading multiple input devices of different types.",
+      "website": "https://github.com/DanNixon/ArduinoUniversalInput",
       "category": "Device Control",
       "architectures": [
-        "avr"
+        "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/pololu/a-star-32u4-arduino-library/archive/1.0.2.zip",
-      "archiveFileName": "AStar32U4-1.0.2-github.zip",
-      "size": 58700,
-      "checksum": "SHA-256:0df0b82489471128f75daf9498052a48ad82b5c774de41d2ae402c324dbc23a1"
+      "url": "https://github.com/DanNixon/ArduinoUniversalInput/archive/v2.0.2.zip",
+      "archiveFileName": "Universal_Inputs-2.0.2-github.zip",
+      "size": 19826,
+      "checksum": "SHA-256:c1df34a2fa31283ff738c82937d17580d1a65e8ff4c5ec144262498aa476d3a4"
     },
     {
-      "name": "thinger.io",
+      "name": "XBee-Arduino library",
+      "version": "0.6.0",
+      "author": "Andrew Rapp",
+      "maintainer": "Andrew Rapp \u003candrew.rapp@gmail.com\u003e",
+      "sentence": "Library for talking to to various wireless XBee modules from Digi.",
+      "paragraph": "This supports various devices, configured to use the more advanced \"API\" mode.",
+      "website": "https://github.com/andrewrapp/xbee-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/andrewrapp/xbee-arduino/archive/v0.6.0.zip",
+      "archiveFileName": "XBee_Arduino_library-0.6.0-github.zip",
+      "size": 423407,
+      "checksum": "SHA-256:34f8b3467031e6599be9c2db71086222d1f91c3668d579e6a02a0b758b1f4c2d"
+    },
+    {
+      "name": "NeoNextion",
       "version": "1.0.0",
-      "author": "Alvaro Luis Bustamante \u003calvarolb@gmail.com\u003e",
-      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
-      "sentence": "Library for connecting to the thinger.io IoT platform.",
-      "paragraph": "Enable easy remote control of your things.",
-      "website": "https://github.com/thinger-io/Arduino-Library",
-      "category": "Communication",
+      "author": "Dan Nixon",
+      "maintainer": "Dan Nixon \u003cdan@dan-nixon.com\u003e",
+      "sentence": "Arduino library for controlling Nextion displays",
+      "paragraph": "Arduino library for controlling Nextion displays",
+      "website": "https://github.com/DanNixon/NeoNextion",
+      "category": "Device Control",
       "architectures": [
         "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/thinger-io/Arduino-Library/archive/1.0.0.zip",
-      "archiveFileName": "thinger_io-1.0.0-github.zip",
-      "size": 30897,
-      "checksum": "SHA-256:f1c344ff815715b48bde94ba18806a8416f419522904101b8691d3350ad9c85f"
+      "url": "https://github.com/DanNixon/NeoNextion/archive/v1.0.0.zip",
+      "archiveFileName": "NeoNextion-1.0.0-github.zip",
+      "size": 52784,
+      "checksum": "SHA-256:57d8c775dcec7f4fb73d9d9a45391b76c50b444c5fa95f3330a9b2d1d2d2c421"
     },
     {
-      "name": "thinger.io",
-      "version": "1.1.0",
-      "author": "Alvaro Luis Bustamante \u003calvarolb@gmail.com\u003e",
-      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
-      "sentence": "Arduino library for the thinger.io IoT platform.",
-      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow easily connecting your things or devices for remote sensing and actuating. Working with several devices like ESP8266, Arduino Ethernet, Arduino Wifi, Arduino Yun, Adafruit CC3000, Texax Instruments CC3200.",
-      "website": "https://github.com/thinger-io/Arduino-Library",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/thinger-io/Arduino-Library/archive/1.1.0.zip",
-      "archiveFileName": "thinger_io-1.1.0-github.zip",
-      "size": 33608,
-      "checksum": "SHA-256:592f4f4f3465007fffa3f9c1c5e81f63b239c87649d3ef8877be227e2b521003"
-    },
-    {
-      "name": "Cardinal",
-      "version": "1.0.0",
-      "author": "DaAwesomeP",
-      "maintainer": "DaAwesomeP",
-      "license": "Apache-2.0",
-      "sentence": "An Arduino library that takes input in degrees and output a string or integer for the 4, 8, 16, or 32 compass headings (like North, South, East, and West).",
-      "paragraph": "Cardinal is an Arduino library that takes input in degrees and output a string or integer for the 4, 8, 16, or 32 compass headings (like North, South, East, and West). It also makes available environment variables for the minimum, maximum, and middle azimuth of all of the 32 directions. It works fantastically when paired with a magnetometer.",
-      "website": "https://github.com/DaAwesomeP/arduino-cardinal",
-      "category": "Data Processing",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/DaAwesomeP/arduino-cardinal/archive/1.0.0.zip",
-      "archiveFileName": "Cardinal-1.0.0-github.zip",
-      "size": 12827,
-      "checksum": "SHA-256:0ebd0e5ebdaa51028b3f55cf32bb3d1761c28c552fb8e4f60a46f23a9f140814"
-    },
-    {
-      "name": "Exosite",
-      "version": "2.3.3",
-      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
-      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
-      "sentence": "Easily interface with Exosite's simple data APIs.",
-      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
-      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.4.zip",
-      "archiveFileName": "Exosite-2.3.3-github.zip",
-      "size": 263698,
-      "checksum": "SHA-256:eff1a072c1565526a881b56ef36c82c308197b2dfd043e35e38698e6a525f87b"
-    },
-    {
-      "name": "Exosite",
-      "version": "2.3.5",
-      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
-      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
-      "sentence": "Easily interface with Exosite's simple data APIs.",
-      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
-      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.5.zip",
-      "archiveFileName": "Exosite-2.3.5-github.zip",
-      "size": 407114,
-      "checksum": "SHA-256:129d6293ea4f2928c2df82de6ef1e775d9bc44bf2abb35161a4576b1fa6230f9"
-    },
-    {
-      "name": "Exosite",
-      "version": "2.3.6",
-      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
-      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
-      "sentence": "Easily interface with Exosite's simple data APIs.",
-      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
-      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.6.zip",
-      "archiveFileName": "Exosite-2.3.6-github.zip",
-      "size": 407302,
-      "checksum": "SHA-256:ea3aa0b261b32b618c96a75583114e077a17deab735e1776b6356048e9b316e6"
-    },
-    {
-      "name": "JTAG",
+      "name": "NeoNextion",
       "version": "1.0.1",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.1.zip",
-      "archiveFileName": "JTAG-1.0.1-github.zip",
-      "size": 53005,
-      "checksum": "SHA-256:06c361131c6f281f7535098cbcdd7dfb6467a2dc1ea24c92458a0f48d963e3f9"
-    },
-    {
-      "name": "JTAG",
-      "version": "1.0.3",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.3.zip",
-      "archiveFileName": "JTAG-1.0.3-github.zip",
-      "size": 60815,
-      "checksum": "SHA-256:644f089b91bb997d886e7dd057a18ead4650353c1204b84f2a77918f078715ba"
-    },
-    {
-      "name": "JTAG",
-      "version": "1.0.5",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.5.zip",
-      "archiveFileName": "JTAG-1.0.5-github.zip",
-      "size": 67276,
-      "checksum": "SHA-256:7f1bea2692f227e467240a92d42505e532839188375ddd88105166f913c329c7"
-    },
-    {
-      "name": "JTAG",
-      "version": "1.0.6",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.6.zip",
-      "archiveFileName": "JTAG-1.0.6-github.zip",
-      "size": 67326,
-      "checksum": "SHA-256:9ef115f4db254dbcdb5d5f9d10b9a8feb41f0a99ad3000d4bf649107d9e02938"
-    },
-    {
-      "name": "JTAG",
-      "version": "1.0.7",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.7.zip",
-      "archiveFileName": "JTAG-1.0.7-github.zip",
-      "size": 67327,
-      "checksum": "SHA-256:3c4a4b39faae1a48b65c519a6c50172077814c35434581ed45701eca0cf76c26"
-    },
-    {
-      "name": "JTAG",
-      "version": "1.0.8",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.8.zip",
-      "archiveFileName": "JTAG-1.0.8-github.zip",
-      "size": 67305,
-      "checksum": "SHA-256:a1d37380ba063e892351d142997d7df7f42f01761cfb56d05d9af122bbe1f50c"
-    },
-    {
-      "name": "aREST UI",
-      "version": "1.0.1",
-      "author": "Marco Schwartz",
-      "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
-      "sentence": "A graphical user interface for Arduino based on the aREST API.",
-      "paragraph": "A graphical user interface for Arduino based on the aREST API. It is designed to be universal and currently supports REST calls via HTTP, Serial \u0026 BLE.  See more at: http://arest.io/",
-      "website": "https://github.com/marcoschwartz/aREST_UI",
-      "category": "Communication",
+      "author": "Dan Nixon",
+      "maintainer": "Dan Nixon \u003cdan@dan-nixon.com\u003e",
+      "sentence": "Arduino library for controlling Nextion displays",
+      "paragraph": "Arduino library for controlling Nextion displays",
+      "website": "https://github.com/DanNixon/NeoNextion",
+      "category": "Display",
       "architectures": [
         "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/marcoschwartz/aREST_UI/archive/1.0.1.zip",
-      "archiveFileName": "aREST_UI-1.0.1-github.zip",
-      "size": 9472,
-      "checksum": "SHA-256:636561a8df0db43205cc170e3c872109aaeb6a8f5f2e976e7092f2be26097328"
+      "url": "https://github.com/DanNixon/NeoNextion/archive/v1.0.1.zip",
+      "archiveFileName": "NeoNextion-1.0.1-github.zip",
+      "size": 52779,
+      "checksum": "SHA-256:57849c9031ade06575ff8f40384a8f8237787e00d1d3af4c88518646d5bf6e56"
     },
     {
-      "name": "arduino-menusystem",
-      "version": "2.0.0",
-      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
-      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
-      "sentence": "A library for implementing a menu system",
-      "paragraph": "Supports nesting and tracks the current selected item.",
-      "website": "https://github.com/jonblack/arduino-menusystem",
-      "category": "Display",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/jonblack/arduino-menusystem/archive/2.0.0.zip",
-      "archiveFileName": "arduino_menusystem-2.0.0-github.zip",
-      "size": 14747,
-      "checksum": "SHA-256:2125214696922570ba96636115b8b15aa277036b211831f3b3bcdcd26dbb940e"
-    },
-    {
-      "name": "arduino-menusystem",
-      "version": "2.0.1",
-      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
-      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
-      "sentence": "A library for implementing a menu system",
-      "paragraph": "Supports nesting and tracks the current selected item.",
-      "website": "https://github.com/jonblack/arduino-menusystem",
-      "category": "Display",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/jonblack/arduino-menusystem/archive/2.0.1.zip",
-      "archiveFileName": "arduino_menusystem-2.0.1-github.zip",
-      "size": 18363,
-      "checksum": "SHA-256:0362c5a695d46341e89ceb3f3078c2c86805150a9c8b99433c1b858f65cf534d"
-    },
-    {
-      "name": "Gamer",
-      "version": "2.0.0",
-      "author": "Mike Vanis \u003chello@mikevanis.com\u003e, Andy Sheen \u003candymsheen@gmail.com\u003e",
-      "maintainer": "Mike Vanis \u003chello@mikevanis.com\u003e",
-      "sentence": "A library for the DIY Gamer Kit by Technology Will Save Us.",
-      "paragraph": "Makes interfacing with the Gamer's screen, buttons, IR, buzzer and other peripherals a walk in the park!",
-      "website": "http://github.com/techwillsaveus/Gamer",
-      "category": "Other",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/techwillsaveus/Gamer/archive/v2.0.zip",
-      "archiveFileName": "Gamer-2.0.0-github.zip",
-      "size": 32693,
-      "checksum": "SHA-256:1d98eb4450e2f5fb27a908af50f827181b90fb2917a179cb3ef932639fa6d630"
-    },
-    {
-      "name": "GamerIR",
-      "version": "2.0.0",
-      "author": "Mike Vanis \u003chello@mikevanis.com\u003e, Andy Sheen \u003candymsheen@gmail.com\u003e",
-      "maintainer": "Mike Vanis \u003chello@mikevanis.com\u003e",
-      "sentence": "Infrared communication library for the DIY Gamer Kit by Tech Will Save Us",
-      "paragraph": "Makes interfacing with the Gamer's infrared transmitter and receiver a walk in the park!",
-      "website": "http://github.com/techwillsaveus/GamerIR",
-      "category": "Other",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/techwillsaveus/GamerIR/archive/v1.0.zip",
-      "archiveFileName": "GamerIR-2.0.0-github.zip",
-      "size": 3471,
-      "checksum": "SHA-256:035a095efc17148f462c559486d5e772f135bd00a007e80e2f9d97ebfdcd099e"
-    },
-    {
-      "name": "LiquidCrystal_I2C",
+      "name": "NeoNextion",
       "version": "1.1.0",
-      "author": "Marco Schwartz",
-      "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
-      "sentence": "A library for DFRobot I2C LCD displays.",
-      "paragraph": "A library for DFRobot I2C LCD displays. It allows to control DFRobot I2C displays with commands similar to the Arduino LiquidCrystal library.",
-      "website": "https://github.com/marcoschwartz/LiquidCrystal_I2C",
+      "author": "Dan Nixon",
+      "maintainer": "Dan Nixon \u003cdan@dan-nixon.com\u003e",
+      "sentence": "Arduino library for controlling Nextion displays",
+      "paragraph": "Arduino library for controlling Nextion displays",
+      "website": "https://github.com/DanNixon/NeoNextion",
       "category": "Display",
       "architectures": [
         "*"
@@ -10125,346 +10980,10 @@
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/marcoschwartz/LiquidCrystal_I2C/archive/1.1.0.zip",
-      "archiveFileName": "LiquidCrystal_I2C-1.1.0-github.zip",
-      "size": 20483,
-      "checksum": "SHA-256:d04db3302e1b42ddf3e498f2e9d6834b97a65ead60874aa0f2fece64329003de"
-    },
-    {
-      "name": "MCStools",
-      "version": "1.3.0",
-      "author": "Wilfried Klaas",
-      "maintainer": "Wilfried Klaas",
-      "sentence": "A library to add support for rc receivers.",
-      "paragraph": "This library can read and decode PPM signals from simple RC receivers.",
-      "website": "https://github.com/willie68/RCReceiver.git",
-      "category": "Communication",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/willie68/RCReceiver/archive/1.3.0.zip",
-      "archiveFileName": "MCStools-1.3.0-github.zip",
-      "size": 10365,
-      "checksum": "SHA-256:2141c0eb7534daf03f7d3bfa02dfeb100c0f1f69a066a501b67c6c5e7ee299e8"
-    },
-    {
-      "name": "MCStools",
-      "version": "1.2.0",
-      "author": "Wilfried Klaas",
-      "maintainer": "Wilfried Klaas",
-      "sentence": "A library to add support for rc receivers.",
-      "paragraph": "This library can read and decode PPM signals from simple RC receivers.",
-      "website": "https://github.com/willie68/RCReceiver.git",
-      "category": "Communication",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/willie68/RCReceiver/archive/Release_1.1.zip",
-      "archiveFileName": "MCStools-1.2.0-github.zip",
-      "size": 8824,
-      "checksum": "SHA-256:f7c3ae4e6dfc79f5e59c29c22282463ed4b44c80cd498dd7750898d841d7bd08"
-    },
-    {
-      "name": "RCReceiver",
-      "version": "1.4.0",
-      "author": "Wilfried Klaas \u003cw.klaas@gmx.de\u003e",
-      "maintainer": "Wilfried Klaas \u003cw.klaas@gmx.de\u003e",
-      "sentence": "A library to add support for rc receivers.",
-      "paragraph": "This library can read and decode PPM signals from simple RC receivers. On Arduino Uno there are 2 channels supported, on others like leonardo or mega, 4 channels.",
-      "website": "https://github.com/willie68/RCReceiver.git",
-      "category": "Communication",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/willie68/RCReceiver/archive/1.4.0.zip",
-      "archiveFileName": "RCReceiver-1.4.0-github.zip",
-      "size": 10523,
-      "checksum": "SHA-256:68d819d32ddb50fb61edf14a24d91d5802ef75e44d73f6cd220d8a7a3955e201"
-    },
-    {
-      "name": "ArduinoJson",
-      "version": "4.0.0",
-      "author": "Benoit Blanchon \u003chttp://blog.benoitblanchon.fr/\u003e",
-      "maintainer": "Benoit Blanchon \u003chttp://blog.benoitblanchon.fr/\u003e",
-      "sentence": "An efficient and elegant JSON library for Arduino",
-      "paragraph": "Supports JSON parsing and formatting. Uses fixed memory allocation.",
-      "website": "https://github.com/bblanchon/ArduinoJson",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/bblanchon/ArduinoJson/archive/v4.0.zip",
-      "archiveFileName": "ArduinoJson-4.0.0-github.zip",
-      "size": 1286167,
-      "checksum": "SHA-256:14afaa44b8bd1fa821c18d88d5b83b4a764b67748f3b7dc0409eec826998b979"
-    },
-    {
-      "name": "ArduinoJson",
-      "version": "5.0.0",
-      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
-      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
-      "sentence": "An efficient and elegant JSON library for Arduino.",
-      "paragraph": "Like this project? Please star it on GitHub!",
-      "website": "https://github.com/bblanchon/ArduinoJson",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0-beta-1.zip",
-      "archiveFileName": "ArduinoJson-5.0.0-github.zip",
-      "size": 1296491,
-      "checksum": "SHA-256:0e4a83f4b23275a8a2fac65ce7908da6717e003ae582e133cee5c41d786e85f8"
-    },
-    {
-      "name": "ArduinoJson",
-      "version": "5.0.1",
-      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
-      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
-      "sentence": "An efficient and elegant JSON library for Arduino.",
-      "paragraph": "Like this project? Please star it on GitHub!",
-      "website": "https://github.com/bblanchon/ArduinoJson",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.1.zip",
-      "archiveFileName": "ArduinoJson-5.0.1-github.zip",
-      "size": 1302865,
-      "checksum": "SHA-256:0072d9585ccfd388bd431c1f3de945d8f23d4462337d685ffc0f951ac044a046"
-    },
-    {
-      "name": "ArduinoJson",
-      "version": "5.0.2",
-      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
-      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
-      "sentence": "An efficient and elegant JSON library for Arduino.",
-      "paragraph": "Like this project? Please star it on GitHub!",
-      "website": "https://github.com/bblanchon/ArduinoJson",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.2.zip",
-      "archiveFileName": "ArduinoJson-5.0.2-github.zip",
-      "size": 1303791,
-      "checksum": "SHA-256:ec0998775082eb8828e4e4b2602ef73cb992a574941856f19817743d418a6597"
-    },
-    {
-      "name": "ThingSpeak",
-      "version": "1.0.1",
-      "author": "MathWorks \u003cthingspeak@mathworks.com\u003e",
-      "maintainer": "MathWorks \u003cthingspeak@mathworks.com\u003e",
-      "sentence": "ThingSpeak Communication Library for Arduino",
-      "paragraph": "ThingSpeak ( https://www.thingspeak.com ) is a free IoT service for building systems that collect, analyze, and react to their environments.",
-      "website": "https://www.thingspeak.com/",
-      "category": "Communication",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mathworks/thingspeak-arduino/archive/1.0.1.zip",
-      "archiveFileName": "ThingSpeak-1.0.1-github.zip",
-      "size": 148903,
-      "checksum": "SHA-256:58c05a372e5a95d357ff9c569d229cc3f0724bebaf7f973904892cb4f930fdb6"
-    },
-    {
-      "name": "ThingSpeak",
-      "version": "1.0.0",
-      "author": "MathWorks \u003cthingspeak@mathworks.com\u003e",
-      "maintainer": "MathWorks \u003cthingspeak@mathworks.com\u003e",
-      "sentence": "ThingSpeak Communication Library for Arduino",
-      "paragraph": "ThingSpeak ( https://www.thingspeak.com ) is a free IoT service for building systems that collect, analyze, and react to their environments.",
-      "website": "https://www.thingspeak.com/",
-      "category": "Communication",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mathworks/thingspeak-arduino/archive/v1.0.0.zip",
-      "archiveFileName": "ThingSpeak-1.0.0-github.zip",
-      "size": 33821,
-      "checksum": "SHA-256:9496825fe5803988090b5285ffc32b05e28387561a954bdb41dcd228a56720f3"
-    },
-    {
-      "name": "PrintEx",
-      "version": "1.1.0",
-      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
-      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
-      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
-      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes printf with floating point support, repitition and EEPROM/PROGMEM access.",
-      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.0.zip",
-      "archiveFileName": "PrintEx-1.1.0-github.zip",
-      "size": 22221,
-      "checksum": "SHA-256:b14e76ba2ddf1b81c32b56b30732daa9e2f91ca851b66b84866e42f8ee1633ee"
-    },
-    {
-      "name": "PrintEx",
-      "version": "1.1.1",
-      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
-      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
-      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
-      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes printf with floating point support, repitition and EEPROM/PROGMEM access.",
-      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.1.zip",
-      "archiveFileName": "PrintEx-1.1.1-github.zip",
-      "size": 25175,
-      "checksum": "SHA-256:59140bf4f988b6f4569253a46f7c6bde67a516b00abaeeeae7f7b972b3d30920"
-    },
-    {
-      "name": "PrintEx",
-      "version": "1.1.3",
-      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
-      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
-      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
-      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes printf with floating point support, repitition and EEPROM/PROGMEM access.",
-      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.3.zip",
-      "archiveFileName": "PrintEx-1.1.3-github.zip",
-      "size": 27882,
-      "checksum": "SHA-256:7a542400da0fdf91eb19debdb111be9f914e844658d9db38236deb64020b5f7b"
-    },
-    {
-      "name": "Awesome",
-      "version": "0.1.0",
-      "author": "Chris Palmer \u003cchris@awesomeshield.com\u003e",
-      "maintainer": "Chris Palmer \u003cchris@awesomeshield.com\u003e",
-      "sentence": "The library that supports the Awesome Shield PCB.",
-      "paragraph": "An integral part of the Awesome Shield learning ecosystem. Learn more at AwesomeShield dot com.",
-      "website": "https://github.com/awesomeshield/Awesome-Shield-Library",
-      "category": "Other",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/awesomeshield/Awesome-Shield-Library/archive/v0.1.0.zip",
-      "archiveFileName": "Awesome-0.1.0-github.zip",
-      "size": 12349,
-      "checksum": "SHA-256:6b8322030f574d5cf7caaba7eda6eb741f0fa4d3b2f9be7e86e1a4c09f70df91"
-    },
-    {
-      "name": "RoboCore - Serial Relay",
-      "version": "1.0.0",
-      "author": "RoboCore Tecnologia (suporte@robocore.net)",
-      "maintainer": "RoboCore Tecnologia (suporte@robocore.net)",
-      "sentence": "Library for the Serial Relay module (https://www.robocore.net/modules.php?name=GR_LojaVirtual\u0026prod=663)",
-      "paragraph": "Control up to 40 relays with only two pins.",
-      "website": "https://github.com/RoboCore/SerialRelay",
-      "category": "Device Control",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/RoboCore/SerialRelay/archive/v1.0.0.zip",
-      "archiveFileName": "RoboCore___Serial_Relay-1.0.0-github.zip",
-      "size": 9904,
-      "checksum": "SHA-256:f324702cc0c71eab83225d8169e8a675c4140362446c79528ec9630b73325f83"
-    },
-    {
-      "name": "MP3Player",
-      "version": "1.0.0",
-      "author": "Cytron Technologies Sdn Bhd \u003csupport@cytron.com.my\u003e",
-      "maintainer": "Cytron Technologies Sdn Bhd \u003cwww.cytron.com.my\u003e",
-      "sentence": "Library for playing MP3 files",
-      "paragraph": "This library works with Cytron Tech MP3 shield",
-      "website": "https://github.com/CytronTechnologies/Cytron_MP3Shield",
-      "category": "Audio",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/CytronTechnologies/Cytron_MP3Shield/archive/v1.0.0.zip",
-      "archiveFileName": "MP3Player-1.0.0-github.zip",
-      "size": 232708,
-      "checksum": "SHA-256:a08247303e8c4dff9b5d41c6052662c7cd7456172a7c618fcf8ae9df701c978f"
-    },
-    {
-      "name": "Zumo32U4",
-      "version": "1.1.1",
-      "author": "Pololu",
-      "maintainer": "Pololu \u003cinbox@pololu.com\u003e",
-      "sentence": "Zumo 32U4 Arduino library",
-      "paragraph": "This is a library for the Arduino IDE that helps interface with the on-board hardware on the Pololu Zumo 32U4 robot.",
-      "website": "https://github.com/pololu/zumo-32u4-arduino-library",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/pololu/zumo-32u4-arduino-library/archive/1.1.1.zip",
-      "archiveFileName": "Zumo32U4-1.1.1-github.zip",
-      "size": 135360,
-      "checksum": "SHA-256:c20cdd163a6d275a5507d6b186e6817473034bce939f1ff3f43eb5657241378a"
-    },
-    {
-      "name": "arduino-fsm",
-      "version": "2.0.0",
-      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
-      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
-      "sentence": "A library for implementing a finite state machine",
-      "paragraph": "Supports events for exiting and entering states.",
-      "website": "https://github.com/jonblack/arduino-fsm",
-      "category": "Other",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/jonblack/arduino-fsm/archive/2.0.0.zip",
-      "archiveFileName": "arduino_fsm-2.0.0-github.zip",
-      "size": 5082,
-      "checksum": "SHA-256:bb035adcdfc6ab74a954145ab06cc4bc20f515c482f99d074faeb73b2a0d3fea"
+      "url": "https://github.com/DanNixon/NeoNextion/archive/v1.1.0.zip",
+      "archiveFileName": "NeoNextion-1.1.0-github.zip",
+      "size": 66680,
+      "checksum": "SHA-256:f3c4d84d3b64180479fbccda9063a72a2272d9b718753623ff2546077ee8ef73"
     }
   ]
 }
