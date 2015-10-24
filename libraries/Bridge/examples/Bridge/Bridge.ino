@@ -1,34 +1,34 @@
 /*
   Arduino Yún Bridge example
 
-  This example for the Arduino Yún shows how to use the
-  Bridge library to access the digital and analog pins
-  on the board through REST calls. It demonstrates how
-  you can create your own API when using REST style
-  calls through the browser.
+ This example for the Arduino Yún shows how to use the
+ Bridge library to access the digital and analog pins
+ on the board through REST calls. It demonstrates how
+ you can create your own API when using REST style
+ calls through the browser.
 
-  Possible commands created in this shetch:
+ Possible commands created in this shetch:
 
-  "/arduino/digital/13"     -> digitalRead(13)
-  "/arduino/digital/13/1"   -> digitalWrite(13, HIGH)
-  "/arduino/analog/2/123"   -> analogWrite(2, 123)
-  "/arduino/analog/2"       -> analogRead(2)
-  "/arduino/mode/13/input"  -> pinMode(13, INPUT)
-  "/arduino/mode/13/output" -> pinMode(13, OUTPUT)
+ * "/arduino/digital/13"     -> digitalRead(13)
+ * "/arduino/digital/13/1"   -> digitalWrite(13, HIGH)
+ * "/arduino/analog/2/123"   -> analogWrite(2, 123)
+ * "/arduino/analog/2"       -> analogRead(2)
+ * "/arduino/mode/13/input"  -> pinMode(13, INPUT)
+ * "/arduino/mode/13/output" -> pinMode(13, OUTPUT)
 
-  This example code is part of the public domain
+ This example code is part of the public domain
 
-  http://www.arduino.cc/en/Tutorial/Bridge
+ http://www.arduino.cc/en/Tutorial/Bridge
 
-*/
+ */
 
 #include <Bridge.h>
-#include <BridgeServer.h>
-#include <BridgeClient.h>
+#include <YunServer.h>
+#include <YunClient.h>
 
 // Listen to the default port 5555, the Yún webserver
 // will forward there all the HTTP requests you send
-BridgeServer server;
+YunServer server;
 
 void setup() {
   // Bridge startup
@@ -45,7 +45,7 @@ void setup() {
 
 void loop() {
   // Get clients coming from server
-  BridgeClient client = server.accept();
+  YunClient client = server.accept();
 
   // There is a new client?
   if (client) {
@@ -59,7 +59,7 @@ void loop() {
   delay(50); // Poll every 50ms
 }
 
-void process(BridgeClient client) {
+void process(YunClient client) {
   // read the command
   String command = client.readStringUntil('/');
 
@@ -79,7 +79,7 @@ void process(BridgeClient client) {
   }
 }
 
-void digitalCommand(BridgeClient client) {
+void digitalCommand(YunClient client) {
   int pin, value;
 
   // Read pin number
@@ -90,7 +90,8 @@ void digitalCommand(BridgeClient client) {
   if (client.read() == '/') {
     value = client.parseInt();
     digitalWrite(pin, value);
-  } else {
+  }
+  else {
     value = digitalRead(pin);
   }
 
@@ -106,7 +107,7 @@ void digitalCommand(BridgeClient client) {
   Bridge.put(key, String(value));
 }
 
-void analogCommand(BridgeClient client) {
+void analogCommand(YunClient client) {
   int pin, value;
 
   // Read pin number
@@ -129,7 +130,8 @@ void analogCommand(BridgeClient client) {
     String key = "D";
     key += pin;
     Bridge.put(key, String(value));
-  } else {
+  }
+  else {
     // Read analog pin
     value = analogRead(pin);
 
@@ -146,7 +148,7 @@ void analogCommand(BridgeClient client) {
   }
 }
 
-void modeCommand(BridgeClient client) {
+void modeCommand(YunClient client) {
   int pin;
 
   // Read pin number

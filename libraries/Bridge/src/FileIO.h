@@ -25,8 +25,6 @@
 #define FILE_WRITE 1
 #define FILE_APPEND 2
 
-namespace BridgeLib {
-
 class File : public Stream {
 
   public:
@@ -101,20 +99,5 @@ class FileSystemClass {
 };
 
 extern FileSystemClass FileSystem;
-
-};
-
-// We enclose File and FileSystem classes in namespace BridgeLib to avoid
-// conflicts with legacy SD library.
-
-// This ensure compatibility with older sketches that uses only Bridge lib
-// (the user can still use File instead of BridgeFile)
-using namespace BridgeLib;
-
-// This allows sketches to use BridgeLib::File together with SD library
-// (you must use BridgeFile instead of File when needed to disambiguate)
-typedef BridgeLib::File            BridgeFile;
-typedef BridgeLib::FileSystemClass BridgeFileSystemClass;
-#define BridgeFileSystem           BridgeLib::FileSystem
 
 #endif

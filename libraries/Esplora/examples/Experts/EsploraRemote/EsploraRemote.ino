@@ -37,9 +37,8 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available()) {
+  if (Serial.available())
     parseCommand();
-  }
 }
 
 /*

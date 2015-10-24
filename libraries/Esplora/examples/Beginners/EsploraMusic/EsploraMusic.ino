@@ -45,7 +45,8 @@ void loop() {
     byte thisNote = map(slider, 0, 1023, 0, 13);
     // play the note corresponding to the slider's position:
     Esplora.tone(note[thisNote]);
-  } else {
+  }
+  else {
     // if the button isn't pressed, turn the note off:
     Esplora.noTone();
   }

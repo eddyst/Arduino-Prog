@@ -15,8 +15,6 @@ Mailbox	KEYWORD1	YunMailboxConstructor
 HttpClient	KEYWORD1	YunHttpClientConstructor
 YunServer	KEYWORD1	YunServerConstructor
 YunClient	KEYWORD1	YunClientConstructor
-BridgeServer	KEYWORD1	YunServerConstructor
-BridgeClient	KEYWORD1	YunClientConstructor
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -44,7 +42,6 @@ connected	KEYWORD2
 
 # FileIO Class
 File	KEYWORD2
-BridgeFile	KEYWORD2
 seek	KEYWORD2
 position	KEYWORD2
 size	KEYWORD2
@@ -74,7 +71,7 @@ getAsynchronously	KEYWORD2
 ready	KEYWORD2
 getResult	KEYWORD2
 
-# BridgeServer Class
+# YunServer Class
 accept	KEYWORD2
 stop	KEYWORD2
 connect	KEYWORD2

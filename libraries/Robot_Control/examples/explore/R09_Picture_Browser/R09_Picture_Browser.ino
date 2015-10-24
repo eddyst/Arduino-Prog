@@ -93,15 +93,11 @@ void keyboardControl() {
     int keyPressed = Robot.keyboardRead(); // read the button values
     switch (keyPressed) {
       case BUTTON_LEFT:  // display previous picture
-        if (--i < 1) {
-          i = NUM_PICS;
-        }
+        if (--i < 1) i = NUM_PICS;
         return;
       case BUTTON_MIDDLE:  // do nothing
       case BUTTON_RIGHT:  // display next picture
-        if (++i > NUM_PICS) {
-          i = 1;
-        }
+        if (++i > NUM_PICS) i = 1;
         return;
       case BUTTON_UP:  // change mode
         changeMode(-1);
@@ -122,16 +118,11 @@ void compassControl(int change) {
 
     //get the change of angle
     int diff = Robot.compassRead() - oldV;
-    if (diff > 180) {
-      diff -= 360;
-    } else if (diff < -180) {
-      diff += 360;
-    }
+    if (diff > 180) diff -= 360;
+    else if (diff < -180) diff += 360;
 
     if (abs(diff) > change) {
-      if (++i > NUM_PICS) {
-        i = 1;
-      }
+      if (++i > NUM_PICS) i = 1;
       return;
     }
 
@@ -155,9 +146,8 @@ void changeMode(int changeDir) {
   mode += changeDir;
   if (mode < 0) {
     mode = 1;
-  } else if (mode > 1) {
+  } else if (mode > 1)
     mode = 0;
-  }
 
   // display  the mode on screen
   Robot.fill(255, 255, 255);

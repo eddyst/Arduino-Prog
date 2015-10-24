@@ -11,11 +11,13 @@
  */
 #include <Esplora.h>
 
-void setup() {
+void setup()
+{
   Serial.begin(9600);      // initialize serial communications with your computer
 }
 
-void loop() {
+void loop()
+{
   // read the temperature sensor in Celsius, then Fahrenheit:
   int celsius = Esplora.readTemperature(DEGREES_C);
   int fahrenheit = Esplora.readTemperature(DEGREES_F);

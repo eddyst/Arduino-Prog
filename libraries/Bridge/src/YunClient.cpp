@@ -16,36 +16,34 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
 
-#include <BridgeClient.h>
+#include <YunClient.h>
 
-BridgeClient::BridgeClient(int _h, BridgeClass &_b) :
+YunClient::YunClient(int _h, BridgeClass &_b) :
   bridge(_b), handle(_h), opened(true), buffered(0) {
 }
 
-BridgeClient::BridgeClient(BridgeClass &_b) :
+YunClient::YunClient(BridgeClass &_b) :
   bridge(_b), handle(0), opened(false), buffered(0) {
 }
 
-BridgeClient::~BridgeClient() {
+YunClient::~YunClient() {
 }
 
-BridgeClient& BridgeClient::operator=(const BridgeClient &_x) {
+YunClient& YunClient::operator=(const YunClient &_x) {
   opened = _x.opened;
   handle = _x.handle;
   return *this;
 }
 
-void BridgeClient::stop() {
+void YunClient::stop() {
   if (opened) {
     uint8_t cmd[] = {'j', handle};
     bridge.transfer(cmd, 2);
   }
   opened = false;
-  buffered = 0;
-  readPos = 0;
 }
 
-void BridgeClient::doBuffer() {
+void YunClient::doBuffer() {
   // If there are already char in buffer exit
   if (buffered > 0)
     return;
@@ -56,13 +54,13 @@ void BridgeClient::doBuffer() {
   buffered = bridge.transfer(cmd, 3, buffer, sizeof(buffer));
 }
 
-int BridgeClient::available() {
+int YunClient::available() {
   // Look if there is new data available
   doBuffer();
   return buffered;
 }
 
-int BridgeClient::read() {
+int YunClient::read() {
   doBuffer();
   if (buffered == 0)
     return -1; // no chars available
@@ -72,7 +70,7 @@ int BridgeClient::read() {
   }
 }
 
-int BridgeClient::read(uint8_t *buff, size_t size) {
+int YunClient::read(uint8_t *buff, size_t size) {
   int readed = 0;
   do {
     if (buffered == 0) {
@@ -86,7 +84,7 @@ int BridgeClient::read(uint8_t *buff, size_t size) {
   return readed;
 }
 
-int BridgeClient::peek() {
+int YunClient::peek() {
   doBuffer();
   if (buffered == 0)
     return -1; // no chars available
@@ -94,7 +92,7 @@ int BridgeClient::peek() {
     return buffer[readPos];
 }
 
-size_t BridgeClient::write(uint8_t c) {
+size_t YunClient::write(uint8_t c) {
   if (!opened)
     return 0;
   uint8_t cmd[] = {'l', handle, c};
@@ -102,7 +100,7 @@ size_t BridgeClient::write(uint8_t c) {
   return 1;
 }
 
-size_t BridgeClient::write(const uint8_t *buf, size_t size) {
+size_t YunClient::write(const uint8_t *buf, size_t size) {
   if (!opened)
     return 0;
   uint8_t cmd[] = {'l', handle};
@@ -110,23 +108,19 @@ size_t BridgeClient::write(const uint8_t *buf, size_t size) {
   return size;
 }
 
-void BridgeClient::flush() {
+void YunClient::flush() {
 }
 
-uint8_t BridgeClient::connected() {
+uint8_t YunClient::connected() {
   if (!opened)
     return false;
-  // Client is "connected" if it has unread bytes
-  if (available())
-    return true;
-
   uint8_t cmd[] = {'L', handle};
   uint8_t res[1];
   bridge.transfer(cmd, 2, res, 1);
   return (res[0] == 1);
 }
 
-int BridgeClient::connect(IPAddress ip, uint16_t port) {
+int YunClient::connect(IPAddress ip, uint16_t port) {
   String address;
   address.reserve(18);
   address += ip[0];
@@ -139,7 +133,7 @@ int BridgeClient::connect(IPAddress ip, uint16_t port) {
   return connect(address.c_str(), port);
 }
 
-int BridgeClient::connect(const char *host, uint16_t port) {
+int YunClient::connect(const char *host, uint16_t port) {
   uint8_t tmp[] = {
     'C',
     (port >> 8) & 0xFF,
