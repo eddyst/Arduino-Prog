@@ -188,11 +188,14 @@ div#blog_update_list>a {
 		font-style: normal;
 		font-weight: normal;
 		font-stretch: normal;
-		font-size: 13px;
-		font-size: .72rem;
-		line-height: 17px;
-		line-height: .9rem;
+		font-size: 15px;
+		line-height: 20px;
+		background-color: #ECF1F1;
 		}
+
+	#wikitext pre {
+	  margin-bottom: 1.5em;
+	}
 	
 	p {
 		margin-top: 0;
@@ -573,6 +576,7 @@ div.breadcrumb a:first-child {
   color: #333333;
   font-size: 14px;
   line-height: 2.1em;
+  padding-left: 12px;
 }
 
 #wikitext div.subHeader {
@@ -586,6 +590,7 @@ margin-top: -78px;
 }
 
 #wikitext div.language-dropdown {
+  cursor: pointer;
   background: #fff;
   border: 1px solid #47ADB3;
   text-transform: uppercase;
@@ -601,7 +606,6 @@ margin-top: -78px;
 }
 
 #wikitext div.language-dropdown .current {
-  cursor: default;
   white-space: nowrap;
   line-height: 2.25em;
   color: rgba(0, 0, 0, 0.75);
@@ -619,7 +623,6 @@ margin-top: -78px;
 }
 
 #wikitext div.language-dropdown .selector {
-  cursor: default;
   position: absolute;
   width: 2.5em;
   height: 2.3125em;
@@ -630,6 +633,10 @@ margin-top: -78px;
 
 #wikitext div.language-dropdown a.selector:after {
   border-color: #47ADB3 transparent transparent transparent;
+}
+
+#wikitext div.language-dropdown:hover a.selector:after {
+  border-color: #005558 transparent transparent transparent;
 }
 
 #wikitext div.language-dropdown .selector:after {
@@ -643,6 +650,7 @@ margin-top: -78px;
   left: 0.9375em;
   top: 50%;
   margin-top: -3px;
+  border-top-style: solid;
 }
 
 #wikitext div.language-dropdown ul {
@@ -714,6 +722,7 @@ margin-top: -78px;
 
 #wikitext .product-page ul.product-page-nav li:before {
 content: "";
+margin-right: 0;
 }
 
 #wikitext .product-page ul.product-page-nav li a {
@@ -754,17 +763,27 @@ content: "";
 	height: 34px;
 	font-size: 14px;
 }
-
+div.product-page div.container-buttons {
+    margin: 35px 0 0 40px;
+}
 #wikitext .product-page .buttons {
-	text-align: right;
-	margin-right: 95px;
-	margin-top: -76px;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	width: auto;
 }
-
+div.buttons .blue-button, div.buttons .orange-button, div.buttons a {
+	position: relative;
+	float: left;
+}
 #wikitext .product-page .buttons a:last-child {
-	margin-left: 5px;
+	margin-left: 0;
 }
-
+div.buttons .blue-button {
+	margin-right: 10px;
+	line-height: 14px;
+}
 .orange-button {
 	background-color: #f1c40f;
 	color: #ffffff;
@@ -788,7 +807,10 @@ content: "";
 
 .product-page-header {
 	background-color: #f4f4f4;
-	padding: 25px 5px;
+	position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 0;
 }
 
 .product-page-header h1 {
@@ -802,22 +824,24 @@ content: "";
 	font-family: "TyponineSans Light 17";
 	font-size: 21px;
 	width: 40%;
-	text-align: center;
+	text-align: right;
 	position: absolute;
-	top: 75px;
-	right: 70px;
+	top: 40px;
+	right: 40px;
 }
 
 .description {
-	white-space: pre;
 	line-height: 23px;
 	font-size: 17.5px;
 	margin-left:25px;
 }
-
+div.description, div.titolo {
+      margin-left: 40px;
+}
 .titolo{
 	font-size: 35px;
-	margin-left:20px;
+	line-height: 40px;
+	margin: 20px 0 20px 20px;
 }
 
 table tr:nth-child(odd) {
@@ -839,6 +863,13 @@ div#wikitext .textsummary table td{
 	color: #E67E22;
 	font-size: 30px;
 	margin-top:45px;
+	margin-bottom: 5px;
+	font-family: "TyponineSans Regular 18";
+}
+
+.title1nomargin {
+	color: #E67E22;
+	font-size: 30px;
 	margin-bottom: 5px;
 	font-family: "TyponineSans Regular 18";
 }
@@ -992,5 +1023,35 @@ div#wikitext .textsummary table td{
 }
 
 .header-image {
-	width:60%
+	width: 54%
+}
+
+ul.product-page-nav + div.note {
+	margin-top: 20px;
+	max-width: 130px;
+	border: 2px solid #dae3e3;
+	text-align: center;
+	padding-top: 15px;
+}
+ul.product-page-nav + div.note p {
+	font-family:;
+	font-size: 13px;
+	line-height: 19px;
+	letter-spacing: 0.7px;
+	text-align: center;
+	padding: 12px 12px 0 12px;
+}
+div.learning-page-header h2 {
+	margin: 20px 0;
+}
+div.learning-page-header img {
+	width: 100%;
+}
+div.learning-page-header p.description-below {
+	font-size: 21px;
+	line-height: 34px;
+	margin-top: 20px !important;
+}
+ul.follower-list {
+	margin-bottom: 25px !important;
 }

@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/Millis by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:19:53 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/Millis by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:01:32 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -86,6 +86,70 @@ div.toc p { background-color: #f9f6d6;
     .lfloat { float:left; margin-right:0.5em; }
     .rfloat { float:right; margin-left:0.5em; }
 a.varlink { text-decoration:none; }
+/**
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ */
+.arduino  {font-family:monospace;}
+.arduino .imp {font-weight: bold; color: red;}
+.arduino .kw1 {color: #CC6600;}
+.arduino .kw2 {color: #006699;}
+.arduino .kw3 {color: #CC6600; font-weight: bold;}
+.arduino .co1 {color: #7E7E7E; font-style: italic;}
+.arduino .co2 {color: #7E7E7E;}
+.arduino .coMULTI {color: #7E7E7E; font-style: italic;}
+.arduino .es0 {color: #000099; font-weight: bold;}
+.arduino .es1 {color: #000099; font-weight: bold;}
+.arduino .es2 {color: #660099; font-weight: bold;}
+.arduino .es3 {color: #660099; font-weight: bold;}
+.arduino .es4 {color: #660099; font-weight: bold;}
+.arduino .es5 {color: #006699; font-weight: bold;}
+.arduino .br0 {color: #000000;}
+.arduino .sy0 {color: #000000;}
+.arduino .st0 {color: #0066CC;}
+.arduino .nu0 {color: #000000;}
+.arduino .nu6 {color: #208080;}
+.arduino .nu8 {color: #208080;}
+.arduino .nu12 {color: #208080;}
+.arduino .nu16 {color:#800080;}
+.arduino .nu17 {color:#800080;}
+.arduino .nu18 {color:#800080;}
+.arduino .nu19 {color:#800080;}
+.arduino .me1 {color: #ff1493;}
+.arduino .me2 {color: #ff1493;}
+.arduino span.xtra { display:block; }
+
+.sourceblocklink {
+  text-align: right;
+  font-size: smaller;
+}
+.sourceblocktext {
+  padding: 0.5em;
+  color: #000000;
+  background-color: #ECF1F1;
+}
+.sourceblock .sourceblocktext .arduino {
+  font-family: 'TyponineSans Monospace Regular 4';
+  font-size: 14px;
+  line-height: 18px;
+}
+code {
+  background-color: #ECF1F1;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 2px 10px 5px 10px;
+}
+.sourceblocktext div {
+  font-family: monospace;
+  font-size: small;
+  line-height: 1;
+  height: 1%;
+}
+.sourceblocktext div.head,
+.sourceblocktext div.foot {
+  font: italic medium serif;
+  padding: 0.5em;
+}
 
 --></style><script type="text/javascript">
 function toggle(obj) {
@@ -99,7 +163,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +245,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -232,25 +298,28 @@ function toggle(obj) {
 <p class='vspace'></p><h4>Returns</h4>
 <p>Number of milliseconds since the program started (<em>unsigned long</em>)
 </p>
+<p class='vspace'></p><h4>Note:</h4>
+<p>Please note that the return value for millis() is an unsigned long, logic errors may occur if a programmer tries to do arithmetic with smaller data types such as int's. Even signed long may encounter errors as its maximum value is half that of its unsigned counterpart.
+</p>
 <p class='vspace'></p><h4>Example</h4>
-<pre>
-unsigned long time;
+<p>
+<div class='sourceblock ' id='sourceblock1'>
+  <div class='sourceblocktext'><div class="arduino"><span class="kw1">unsigned</span> <span class="kw1">long</span> time<span class="sy0">;</span><br />
+<br />
+<span class="kw1">void</span> <span class="kw3">setup</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#123;</span><br />
+&nbsp; <span class="kw1">Serial</span>.<span class="kw1">begin</span><span class="br0">&#40;</span><span class="nu0">9600</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+<span class="br0">&#125;</span><br />
+<span class="kw1">void</span> <span class="kw3">loop</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#123;</span><br />
+&nbsp; <span class="kw1">Serial</span>.<span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">&quot;Time: &quot;</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; time <span class="sy0">=</span> <span class="kw1">millis</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; <span class="co1">//prints time since program started</span><br />
+&nbsp; <span class="kw1">Serial</span>.<span class="kw1">println</span><span class="br0">&#40;</span>time<span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; <span class="co1">// wait a second so as not to send massive amounts of data</span><br />
+&nbsp; <span class="kw1">delay</span><span class="br0">&#40;</span><span class="nu0">1000</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+<span class="br0">&#125;</span></div></div>
+  <div class='sourceblocklink'><a href='http://www.arduino.cc/en/Reference/Millis?action=sourceblock&amp;num=1' type='text/plain'>[Get Code]</a></div>
+</div>
 
-void setup(){
-  Serial.begin(9600);
-}
-void loop(){
-  Serial.print("Time: ");
-  time = millis();
-  //prints time since program started
-  Serial.println(time);
-  // wait a second so as not to send massive amounts of data
-  delay(1000);
-}
-
-</pre>
-<p class='vspace'></p><h4>Tip:</h4>
-<p>Note that the parameter for millis is an unsigned long, errors may be generated if a programmer tries to do math with other datatypes such as ints. 
 </p>
 <p class='vspace'></p><h4>See also</h4>
 <ul><li><a class='wikilink' href='Micros.html'>micros</a>()
@@ -521,13 +590,102 @@ void loop(){
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/Millis by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:19:54 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/Millis by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:01:32 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

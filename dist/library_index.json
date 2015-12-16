@@ -81,6 +81,26 @@
       "checksum": "SHA-256:5b40f68e5f8062ae9f3d866b10c9b1f31232e41932a58d2b9a9f6040e539c30a"
     },
     {
+      "name": "Audio",
+      "version": "1.0.4",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows playing audio files from an SD card. For Arduino DUE only.",
+      "paragraph": "With this library you can use the Arduino Due DAC outputs to play audio files.\u003cbr /\u003eThe audio files must be in the raw .wav format.",
+      "website": "http://www.arduino.cc/en/Reference/Audio",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "sam"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Audio/archive/1.0.4.zip",
+      "archiveFileName": "Audio-1.0.4-github.zip",
+      "size": 7286,
+      "checksum": "SHA-256:f4a19e893dad9598e3a4b9bca7fabf008054fbf8a02da24aefaccb6c63b1c861"
+    },
+    {
       "name": "AudioZero",
       "version": "1.0.0",
       "author": "Arduino",
@@ -259,6 +279,46 @@
       "archiveFileName": "Bridge-1.0.7-github.zip",
       "size": 86276,
       "checksum": "SHA-256:99ee157847d421be3bfc4e9d2f0f099767bea8415452eb69fbbd9af7edaf3f90"
+    },
+    {
+      "name": "Bridge",
+      "version": "1.1.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables the communication between the Linux processor and the AVR. For Arduino Yún and TRE only.",
+      "paragraph": "The Bridge library feature: access to the shared storage, run and manage linux processes, open a remote console, access to the linux file system, including the SD card, enstablish http clients or servers.",
+      "website": "http://www.arduino.cc/en/Reference/YunBridgeLibrary",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Bridge/archive/1.1.0.zip",
+      "archiveFileName": "Bridge-1.1.0-github.zip",
+      "size": 62620,
+      "checksum": "SHA-256:061806179b9e5457c937ed89486f5427c74118c3d2b9d63d0c51cbf539a8aace"
+    },
+    {
+      "name": "Bridge",
+      "version": "1.6.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables the communication between the Linux processor and the AVR. For Arduino Yún and TRE only.",
+      "paragraph": "The Bridge library feature: access to the shared storage, run and manage linux processes, open a remote console, access to the linux file system, including the SD card, enstablish http clients or servers.",
+      "website": "http://www.arduino.cc/en/Reference/YunBridgeLibrary",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Bridge/archive/1.6.0.zip",
+      "archiveFileName": "Bridge-1.6.0-github.zip",
+      "size": 63246,
+      "checksum": "SHA-256:ffe63763d7e5bc44c387055392405711207c6f081c18d9d9caa0142415b4b26b"
     },
     {
       "name": "Esplora",
@@ -486,6 +546,46 @@
       "checksum": "SHA-256:748f79ddab05f00fb7d825187708397ea52a06892db4fe14d39e041ac742931c"
     },
     {
+      "name": "Ethernet",
+      "version": "1.1.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables network connection (local and Internet) using the Arduino Ethernet board or shield. For all Arduino boards.",
+      "paragraph": "With this library you can use the Arduino Ethernet (shield or board) to connect to Internet. The library provides both Client and server functionalities. The library permits you to connect to a local network also with DHCP and to resolve DNS.",
+      "website": "http://www.arduino.cc/en/Reference/Ethernet",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Ethernet/archive/1.1.0.zip",
+      "archiveFileName": "Ethernet-1.1.0-github.zip",
+      "size": 50317,
+      "checksum": "SHA-256:683a471d9e1991adfa9a3642a7c070071c0a0120dc8a9660697daef7c81c43ab"
+    },
+    {
+      "name": "Ethernet",
+      "version": "1.1.1",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables network connection (local and Internet) using the Arduino Ethernet board or shield. For all Arduino boards.",
+      "paragraph": "With this library you can use the Arduino Ethernet (shield or board) to connect to Internet. The library provides both Client and server functionalities. The library permits you to connect to a local network also with DHCP and to resolve DNS.",
+      "website": "http://www.arduino.cc/en/Reference/Ethernet",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Ethernet/archive/1.1.1.zip",
+      "archiveFileName": "Ethernet-1.1.1-github.zip",
+      "size": 50344,
+      "checksum": "SHA-256:866d51af85a1495f7095f1f7657e67c026b584127890df82f7b566bce4d11835"
+    },
+    {
       "name": "Firmata",
       "version": "2.3.6",
       "author": "Firmata Developers",
@@ -547,6 +647,26 @@
     },
     {
       "name": "Firmata",
+      "version": "2.5.0",
+      "author": "Firmata Developers",
+      "maintainer": "https://github.com/firmata/arduino",
+      "sentence": "Enables the communication with computer apps using a standard serial protocol. For all Arduino boards.",
+      "paragraph": "The Firmata library implements the Firmata protocol for communicating with software on the host computer. This allows you to write custom firmware without having to create your own protocol and objects for the programming environment that you are using.",
+      "website": "https://github.com/firmata/arduino",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/firmata/arduino/archive/2.5.0.zip",
+      "archiveFileName": "Firmata-2.5.0-github.zip",
+      "size": 145154,
+      "checksum": "SHA-256:dc9f5cec167b09ee34243bf71170192c75966365f223dc12cde0a5c1eec0f7b1"
+    },
+    {
+      "name": "Firmata",
       "version": "2.4.2",
       "author": "Firmata Developers",
       "maintainer": "https://github.com/firmata/arduino",
@@ -560,10 +680,10 @@
       "types": [
         "Arduino"
       ],
-      "url": "https://github.com/arduino-libraries/Firmata/archive/v.2.4.2.zip",
+      "url": "https://github.com/firmata/arduino/archive/v.2.4.2.zip",
       "archiveFileName": "Firmata-2.4.2-github.zip",
       "size": 72829,
-      "checksum": "SHA-256:3805e9e790b1aa319db5ce96d8c507abf0c2498e67add858f6bf44f279b5a0ad"
+      "checksum": "SHA-256:9d360e2077154c4d6e7cfb2511e3ef2692c48c3d2ac5f748945c21f15e888062"
     },
     {
       "name": "Firmata",
@@ -579,10 +699,10 @@
       "types": [
         "Arduino"
       ],
-      "url": "https://github.com/arduino-libraries/Firmata/archive/v2.4.0.zip",
+      "url": "https://github.com/firmata/arduino/archive/v2.4.0.zip",
       "archiveFileName": "Firmata-2.4.0-github.zip",
       "size": 71531,
-      "checksum": "SHA-256:6eebc76e20a2674a2c48996706982e8ca65426ca4ea531045b9f19df9be13539"
+      "checksum": "SHA-256:a5abc9635ef02bb77e5dcfb9be1a3a24ba1815fe5a2ee421ff5b3499c1f59e46"
     },
     {
       "name": "Firmata",
@@ -599,10 +719,10 @@
       "types": [
         "Arduino"
       ],
-      "url": "https://github.com/arduino-libraries/Firmata/archive/v2.4.1.zip",
+      "url": "https://github.com/firmata/arduino/archive/v2.4.1.zip",
       "archiveFileName": "Firmata-2.4.1-github.zip",
       "size": 72624,
-      "checksum": "SHA-256:56661cecc2712ec4f6636b505cfbe7a9217d2711e46b4e46b972068bba6eb254"
+      "checksum": "SHA-256:9122af32ca02c6752c58a5ef8eae36563a6142a435715d2d051010a3c02ac366"
     },
     {
       "name": "Firmata",
@@ -619,10 +739,10 @@
       "types": [
         "Arduino"
       ],
-      "url": "https://github.com/arduino-libraries/Firmata/archive/v2.4.3.zip",
+      "url": "https://github.com/firmata/arduino/archive/v2.4.3.zip",
       "archiveFileName": "Firmata-2.4.3-github.zip",
       "size": 84170,
-      "checksum": "SHA-256:33d80a78fb592f1b04dad99907f68a846f4fde4094cd4829b9702f580ff6cef9"
+      "checksum": "SHA-256:d6263d9562b92e9a82e93ecf738fe830ba0f2738a3b4a5cf9673033271ea5644"
     },
     {
       "name": "Firmata",
@@ -639,10 +759,10 @@
       "types": [
         "Arduino"
       ],
-      "url": "https://github.com/arduino-libraries/Firmata/archive/v2.4.4.zip",
+      "url": "https://github.com/firmata/arduino/archive/v2.4.4.zip",
       "archiveFileName": "Firmata-2.4.4-github.zip",
       "size": 101394,
-      "checksum": "SHA-256:618a2b43e561d06fe21e1d85f1d6dda3ebebc4d2df125f1e742994cfe1077720"
+      "checksum": "SHA-256:8be74c6c544d542ab171262dd41c01ed4d1a3f3edd114389b5efc0f1780bc69c"
     },
     {
       "name": "GSM",
@@ -745,6 +865,26 @@
       "checksum": "SHA-256:a781f3e60381bb703a41cabc8db1f63138f1d8ca369ab24a79991ba826dd9600"
     },
     {
+      "name": "GSM",
+      "version": "1.0.5",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables GSM/GRPS network connection using the Arduino GSM Shield. For all Arduino boards BUT Arduino DUE.",
+      "paragraph": "Use this library to make/receive voice calls, to send and receive SMS with the Quectel M10 GSM module.\u003c/br\u003eThis library also allows you to connect to internet through the GPRS networks. You can either use web Clients and Servers.\u003c/br\u003e",
+      "website": "http://www.arduino.cc/en/Reference/GSM",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/GSM/archive/1.0.5.zip",
+      "archiveFileName": "GSM-1.0.5-github.zip",
+      "size": 148546,
+      "checksum": "SHA-256:2cf970500d6746d52cc5e03e7cd4bcf7ab8991d1e7dd2a42f0e26791459187d4"
+    },
+    {
       "name": "LiquidCrystal",
       "version": "1.0.0",
       "author": "Arduino, Adafruit",
@@ -823,6 +963,26 @@
       "archiveFileName": "LiquidCrystal-1.0.3-github.zip",
       "size": 18148,
       "checksum": "SHA-256:16a0d2c2a165091012ef75476524859d943d8ddb1cd9047aa886660e967983dd"
+    },
+    {
+      "name": "LiquidCrystal",
+      "version": "1.0.4",
+      "author": "Arduino, Adafruit",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows communication with alphanumerical liquid crystal displays (LCDs). For all Arduino boards.",
+      "paragraph": "This library allows an Arduino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs. The library works with in either 4 or 8 bit mode (i.e. using 4 or 8 data lines in addition to the rs, enable, and, optionally, the rw control lines).",
+      "website": "http://www.arduino.cc/en/Reference/LiquidCrystal",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/LiquidCrystal/archive/1.0.4.zip",
+      "archiveFileName": "LiquidCrystal-1.0.4-github.zip",
+      "size": 18183,
+      "checksum": "SHA-256:9e8d9ebee01acb8a585b910d2b1ed12d73de83c44bc2bf69e34126db052c7069"
     },
     {
       "name": "Robot Control",
@@ -1088,6 +1248,46 @@
       "checksum": "SHA-256:a53032d5979899e92e0e641dc573086e1771deedea20fd9ba3c7673a8c65f9db"
     },
     {
+      "name": "RTCZero",
+      "version": "1.3.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows to use the RTC functionalities. For Arduino Zero only.",
+      "paragraph": "With this library you can use the RTC peripheral of an Arduino Zero in order to program actions related to date and time.",
+      "website": "http://www.arduino.cc/en/Reference/RTCZero",
+      "category": "Timing",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/RTCZero/archive/1.3.0.zip",
+      "archiveFileName": "RTCZero-1.3.0-github.zip",
+      "size": 8030,
+      "checksum": "SHA-256:c3c6185d3ba2d748519b5addf5d15033e8bd7db228e7e634e078e0bc25d72179"
+    },
+    {
+      "name": "RTCZero",
+      "version": "1.3.1",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows to use the RTC functionalities. For Arduino Zero only.",
+      "paragraph": "With this library you can use the RTC peripheral of an Arduino Zero in order to program actions related to date and time.",
+      "website": "http://www.arduino.cc/en/Reference/RTCZero",
+      "category": "Timing",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/RTCZero/archive/1.3.1.zip",
+      "archiveFileName": "RTCZero-1.3.1-github.zip",
+      "size": 8018,
+      "checksum": "SHA-256:0d3395bde72c79bb1ba5a240dae05bcaa443cf87f2f937f34f449d85e8af0c21"
+    },
+    {
       "name": "Scheduler",
       "version": "0.4.0",
       "author": "Arduino",
@@ -1146,6 +1346,27 @@
       "archiveFileName": "Scheduler-0.4.3-github.zip",
       "size": 5297,
       "checksum": "SHA-256:07989c927b63b38869c0fa7076c149afe5c4ff75fdd2b7380ae36252bbeb9f9c"
+    },
+    {
+      "name": "Scheduler",
+      "version": "0.4.4",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows multiple tasks to run at the same time, without interrupting each other. For Arduino sam and samd architectures only (Due, Zero...).",
+      "paragraph": "The Scheduler library enables the Arduino to run multiple functions at the same time. This allows tasks to happen without interrupting each other.\u003c/br\u003eThis is a cooperative scheduler in that the CPU switches from one task to another. The library includes methods for passing control between tasks.",
+      "website": "http://www.arduino.cc/en/Reference/Scheduler",
+      "category": "Other",
+      "architectures": [
+        "sam",
+        "samd"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Scheduler/archive/0.4.4.zip",
+      "archiveFileName": "Scheduler-0.4.4-github.zip",
+      "size": 5706,
+      "checksum": "SHA-256:5bcb4892c997db547c6f31ac72d0de5f6b0b9d655fd5c45cfc86dec38fc2e1db"
     },
     {
       "name": "SD",
@@ -1246,6 +1467,26 @@
       "archiveFileName": "SD-1.0.5-github.zip",
       "size": 59633,
       "checksum": "SHA-256:2e82b63d34b21e29840dbecb4df5058441d53b046f5d219b4267d24fd8fe8587"
+    },
+    {
+      "name": "SD",
+      "version": "1.0.6",
+      "author": "Arduino, SparkFun",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables reading and writing on SD cards. For all Arduino boards.",
+      "paragraph": "Once an SD memory card is connected to the SPI interfare of the Arduino board you are enabled to create files and read/write on them. You can also move through directories on the SD card.",
+      "website": "http://www.arduino.cc/en/Reference/SD",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/SD/archive/1.0.6.zip",
+      "archiveFileName": "SD-1.0.6-github.zip",
+      "size": 59867,
+      "checksum": "SHA-256:a0b7b616cf0658fea42445e8f99b5f962561dd69e975972e9b6ac77aebfec25e"
     },
     {
       "name": "Servo",
@@ -1354,6 +1595,28 @@
       "checksum": "SHA-256:2f2690c399288291396e607559a72fa4303ed343107f4608949903aa0eef5fdc"
     },
     {
+      "name": "Servo",
+      "version": "1.1.1",
+      "author": "Michael Margolis, Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows Arduino boards to control a variety of servo motors. For all Arduino boards.",
+      "paragraph": "This library can control a great number of servos.\u003cbr /\u003eIt makes careful use of timers: the library can control 12 servos using only 1 timer.\u003cbr /\u003eOn the Arduino Due you can control up to 60 servos.\u003cbr /\u003e",
+      "website": "http://www.arduino.cc/en/Reference/Servo",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "sam",
+        "samd"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Servo/archive/1.1.1.zip",
+      "archiveFileName": "Servo-1.1.1-github.zip",
+      "size": 19672,
+      "checksum": "SHA-256:a1fb3baa72583753ac6299cab3813487b31c53e4da1753549b76136152dd308c"
+    },
+    {
       "name": "SpacebrewYun",
       "version": "1.0.0",
       "author": "Julio Terra",
@@ -1448,10 +1711,30 @@
       "types": [
         "Arduino"
       ],
-      "url": "https://github.com/arduino-libraries/Stepper/archive/1.0.3.zip",
+      "url": "https://github.com/arduino-libraries/Stepper/archive/1.1.1.zip",
       "archiveFileName": "Stepper-1.1.1-github.zip",
       "size": 10142,
-      "checksum": "SHA-256:88f23f9cd45d3132b2d37e656115a78b4605c77d97a040a56150501bf57b2cf5"
+      "checksum": "SHA-256:d5a6c5270e9878d044d8f2a32956c977938ff1da45bcd25787900212039fb20f"
+    },
+    {
+      "name": "Stepper",
+      "version": "1.1.2",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows Arduino boards to control a variety of stepper motors. For all Arduino boards.",
+      "paragraph": "This library allows you to control unipolar or bipolar stepper motors. To use it you will need a stepper motor, and the appropriate hardware to control it.",
+      "website": "http://www.arduino.cc/en/Reference/Stepper",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Stepper/archive/1.1.2.zip",
+      "archiveFileName": "Stepper-1.1.2-github.zip",
+      "size": 10106,
+      "checksum": "SHA-256:b1c99067bbdc2f46de5a101a1a00830ed31d29bca3fce350a83c6a454e4905a1"
     },
     {
       "name": "TFT",
@@ -1559,6 +1842,27 @@
       "checksum": "SHA-256:4e1522e455bd602d1b1589d1315663d7a9886791f914256550295fed6b4a71aa"
     },
     {
+      "name": "TFT",
+      "version": "1.0.5",
+      "author": "Arduino, Adafruit",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows drawing text, images, and shapes on the Arduino TFT graphical display. For all Arduino boards.",
+      "paragraph": "This library is compatible with most of the TFT display based on the ST7735 chipset",
+      "website": "http://www.arduino.cc/en/Reference/TFTLibrary",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino",
+        "Retired"
+      ],
+      "url": "https://github.com/arduino-libraries/TFT/archive/1.0.5.zip",
+      "archiveFileName": "TFT-1.0.5-github.zip",
+      "size": 48456,
+      "checksum": "SHA-256:586b8952d7c2b33811d20724ae06ea9bf19783ec93193e159e9519f1adf75692"
+    },
+    {
       "name": "USBHost",
       "version": "1.0.0",
       "author": "Arduino",
@@ -1637,6 +1941,26 @@
       "archiveFileName": "USBHost-1.0.3-github.zip",
       "size": 55696,
       "checksum": "SHA-256:2320dc8cf2bdc9cf4b79e449bc0a7566cac6c72b1f298da4490a049dc0f62b63"
+    },
+    {
+      "name": "USBHost",
+      "version": "1.0.4",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows the communication with USB peripherals like mice, keyboards, and thumbdrives. For Arduino DUE only.",
+      "paragraph": "The USBHost library allows an Arduino Due board to appear as a USB host, enabling it to communicate with peripherals like USB mice and keyboards. USBHost does not support devices that are connected through USB hubs. This includes some keyboards that have an internal hub.",
+      "website": "http://www.arduino.cc/en/Reference/USBHost",
+      "category": "Device Control",
+      "architectures": [
+        "sam"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/USBHost/archive/1.0.4.zip",
+      "archiveFileName": "USBHost-1.0.4-github.zip",
+      "size": 55696,
+      "checksum": "SHA-256:21421bd2814e19c88354fd51cd37a016788d51965a93d302502788a31f076b6d"
     },
     {
       "name": "WiFi",
@@ -1765,6 +2089,27 @@
       "checksum": "SHA-256:2285d6ce73dc4a390663aeaf9e4ffda57b2f8368cf1a6941558b8ace9800dc93"
     },
     {
+      "name": "WiFi",
+      "version": "1.2.6",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables network connection (local and Internet) using the Arduino WiFi shield. For all Arduino boards.",
+      "paragraph": "With this library you can instantiate Servers, Clients and send/receive UDP packets through WiFi. The shield can connect either to open or encrypted networks (WEP, WPA). The IP address can be assigned statically or through a DHCP. The library can also manage DNS.",
+      "website": "http://www.arduino.cc/en/Reference/WiFi",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino",
+        "Retired"
+      ],
+      "url": "https://github.com/arduino-libraries/WiFi/archive/1.2.6.zip",
+      "archiveFileName": "WiFi-1.2.6-github.zip",
+      "size": 5277203,
+      "checksum": "SHA-256:99aa4b64ee734a6dc99d35a9c5a4d420cbc9bc6d662d64fbae8de108b9a3f9fa"
+    },
+    {
       "name": "WiFi101",
       "version": "0.5.0",
       "author": "Arduino",
@@ -1803,6 +2148,86 @@
       "archiveFileName": "WiFi101-0.5.1-github.zip",
       "size": 177252,
       "checksum": "SHA-256:fae7ff21c7924ce0d74047ee2d7738b860857b2ba272bbc32864f8ea28528192"
+    },
+    {
+      "name": "WiFi101",
+      "version": "0.6.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Network driver for the Arduino Wifi Shield 101",
+      "paragraph": "This library implements a network driver for devices based on the ATMEL WINC1500 wifi module",
+      "website": "http://www.arduino.cc/en/Reference/WiFi101",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/WiFi101/archive/0.6.0.zip",
+      "archiveFileName": "WiFi101-0.6.0-github.zip",
+      "size": 179637,
+      "checksum": "SHA-256:8d1a87acfdf20407d6d08230f6406ec98caf79ca1895baaa8dede0fc79502836"
+    },
+    {
+      "name": "Mouse",
+      "version": "1.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows an Arduino board with USB capabilites to act as a Mouse. For Leonardo/Micro only",
+      "paragraph": "This library plugs on the HID library. Can be used with or without other HID-based libraries (Keyboard, Gamepad etc)",
+      "website": "http://www.arduino.cc/en/Reference/Mouse",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Mouse/archive/1.0.0.zip",
+      "archiveFileName": "Mouse-1.0.0-github.zip",
+      "size": 4104,
+      "checksum": "SHA-256:126be37a40b6346dacd5562b2c7e2112d98969cdd9a396e5515d9660e11e6e5c"
+    },
+    {
+      "name": "Keyboard",
+      "version": "1.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Allows an Arduino board with USB capabilites to act as a Keyboard. For Leonardo/Micro only",
+      "paragraph": "This library plugs on the HID library. It can be used with or without other HID-based libraries (Mouse, Gamepad etc)",
+      "website": "http://www.arduino.cc/en/Reference/Keyboard",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/Keyboard/archive/1.0.0.zip",
+      "archiveFileName": "Keyboard-1.0.0-github.zip",
+      "size": 5812,
+      "checksum": "SHA-256:141b9a5a15470ae252b13e68af613728e5038f097bf98a05dbb442123227597f"
+    },
+    {
+      "name": "AzureIoT",
+      "version": "0.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Azure IoT library for the Arduino. For Arduino MKR1000 or Zero and WiFi Shield 101 only.",
+      "paragraph": "Arduino port of the Azure IoT C device SDK. Allows you to use your Arduino with the Azure IoT Hub.",
+      "website": "https://github.com/arduino-libraries/AzureIoT",
+      "category": "Communication",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Partner"
+      ],
+      "url": "https://github.com/arduino-libraries/AzureIoT/archive/0.0.0.zip",
+      "archiveFileName": "AzureIoT-0.0.0-github.zip",
+      "size": 271458,
+      "checksum": "SHA-256:36568613728453b3303cbabbc677261c39ba15ee7226c5d6bb574abf82a5bbd8"
     },
     {
       "name": "EducationShield",
@@ -3383,6 +3808,26 @@
       "archiveFileName": "Adafruit_NeoMatrix-1.0.0-github.zip",
       "size": 23346,
       "checksum": "SHA-256:8ed84fcd48d363f9d942d2702d388e65b3ecc4fa67033b5be5ebd71f082f0ade"
+    },
+    {
+      "name": "Adafruit NeoMatrix",
+      "version": "1.1.1",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit_GFX-compatible library for NeoPixel grids",
+      "paragraph": "Adafruit_GFX-compatible library for NeoPixel grids",
+      "website": "https://github.com/adafruit/Adafruit_NeoMatrix",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_NeoMatrix/archive/1.1.1.zip",
+      "archiveFileName": "Adafruit_NeoMatrix-1.1.1-github.zip",
+      "size": 23837,
+      "checksum": "SHA-256:9607831d890e5df29e5f0b2bbeac60657379d5ef4230db5d03c32f301a2602a5"
     },
     {
       "name": "Adafruit NeoMatrix",
@@ -5286,6 +5731,46 @@
     },
     {
       "name": "Adafruit MQTT Library",
+      "version": "0.12.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "MQTT library that supports the CC3000, FONA, ESP8266, Yun, and generic Arduino Client hardware.",
+      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
+      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_MQTT_Library/archive/0.12.0.zip",
+      "archiveFileName": "Adafruit_MQTT_Library-0.12.0-github.zip",
+      "size": 34481,
+      "checksum": "SHA-256:41ef3de40086814844a7addfc8201d288db35a78f88c004968dbadda20696c5f"
+    },
+    {
+      "name": "Adafruit MQTT Library",
+      "version": "0.12.1",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "MQTT library that supports the CC3000, FONA, ESP8266, Yun, and generic Arduino Client hardware.",
+      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
+      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_MQTT_Library/archive/0.12.1.zip",
+      "archiveFileName": "Adafruit_MQTT_Library-0.12.1-github.zip",
+      "size": 34760,
+      "checksum": "SHA-256:28df599c12b4555543004a5fd067cba11b4e544c0da29a9c25c7817888b663bb"
+    },
+    {
+      "name": "Adafruit MQTT Library",
       "version": "0.9.0",
       "author": "Adafruit",
       "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
@@ -5345,26 +5830,6 @@
       "checksum": "SHA-256:756d4d6347b2c2d923dae713bed73b358797142cec084aea6cad88906cf8c5c4"
     },
     {
-      "name": "Adafruit MQTT Library",
-      "version": "0.12.0",
-      "author": "Adafruit",
-      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
-      "sentence": "MQTT library that supports the CC3000, FONA, ESP8266, Yun, and generic Arduino Client hardware.",
-      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
-      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Recommended"
-      ],
-      "url": "https://github.com/adafruit/Adafruit_MQTT_Library/archive/0.12.0.zip",
-      "archiveFileName": "Adafruit_MQTT_Library-0.12.0-github.zip",
-      "size": 34481,
-      "checksum": "SHA-256:41ef3de40086814844a7addfc8201d288db35a78f88c004968dbadda20696c5f"
-    },
-    {
       "name": "Adafruit SleepyDog Library",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -5383,6 +5848,26 @@
       "archiveFileName": "Adafruit_SleepyDog_Library-1.0.0-github.zip",
       "size": 7332,
       "checksum": "SHA-256:28f19cfd8dfa5be324ebed3b37f3abd16429b013959c00d33a4c96b52b447fc0"
+    },
+    {
+      "name": "Adafruit SleepyDog Library",
+      "version": "1.1.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library to use the watchdog timer for system reset and low power sleep.",
+      "paragraph": "Arduino library to use the watchdog timer for system reset and low power sleep.",
+      "website": "https://github.com/adafruit/Adafruit_SleepyDog",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_SleepyDog/archive/1.1.0.zip",
+      "archiveFileName": "Adafruit_SleepyDog_Library-1.1.0-github.zip",
+      "size": 9689,
+      "checksum": "SHA-256:cc6c8139bfa33974b2453e6445ac73aea1ef86b866c60166a104fa4e3354b6ba"
     },
     {
       "name": "Adafruit IO Arduino",
@@ -5563,6 +6048,46 @@
       "archiveFileName": "Adafruit_BMP280_Library-1.0.0-github.zip",
       "size": 6012,
       "checksum": "SHA-256:63b05661bf341dcd71dc8e1f7934c5aa8b764ac438d96633db29f989682ebb1b"
+    },
+    {
+      "name": "Adafruit BMP280 Library",
+      "version": "1.0.1",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for BMP280 sensors.",
+      "paragraph": "Arduino library for BMP280 pressure and altitude sensors.",
+      "website": "https://github.com/adafruit/Adafruit_BMP280_Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_BMP280_Library/archive/1.0.1.zip",
+      "archiveFileName": "Adafruit_BMP280_Library-1.0.1-github.zip",
+      "size": 6091,
+      "checksum": "SHA-256:bc2302a7a547902ed6d9f96848f0619dddcd34952092d49beb47daddbca1df32"
+    },
+    {
+      "name": "Adafruit LIS3DH",
+      "version": "1.0.0",
+      "author": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Library for the Adafruit LIS3DH Accelerometer.",
+      "paragraph": "Designed specifically to work with the Adafruit LIS3DH Breakout, and is based on Adafruit's Unified Sensor Library.",
+      "website": "https://github.com/adafruit/Adafruit_LIS3DH",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "url": "https://github.com/adafruit/Adafruit_LIS3DH/archive/1.0.0.zip",
+      "archiveFileName": "Adafruit_LIS3DH-1.0.0-github.zip",
+      "size": 10460,
+      "checksum": "SHA-256:c7aeca7a01ddd2449349511c94a4034edbf9027377ca1a21bcd64b66a61c73ff"
     },
     {
       "name": "SmartEverything SIGFOX LE51-868",
@@ -5995,6 +6520,25 @@
       "checksum": "SHA-256:556b9246f6c7cb0e3ccde3884517652385ceabad01c1f7fa1e6ae845f71d1f10"
     },
     {
+      "name": "OneWire",
+      "version": "2.3.1",
+      "author": "Jim Studt, Tom Pollard, Robin James, Glenn Trewitt, Jason Dangel, Guillermo Lovato, Paul Stoffregen, Scott Roberts, Bertrik Sikken, Mark Tillotson, Ken Butcher, Roger Clark, Love Nystrom",
+      "maintainer": "Paul Stoffregen",
+      "sentence": "Access 1-wire temperature sensors, memory and other chips.",
+      "website": "http://www.pjrc.com/teensy/td_libs_OneWire.html",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/PaulStoffregen/OneWire/archive/v2.3.1.zip",
+      "archiveFileName": "OneWire-2.3.1-github.zip",
+      "size": 17045,
+      "checksum": "SHA-256:561e07157ea1d10117cb246f420b492d75865c473967452c0cfa50c94e917947"
+    },
+    {
       "name": "PS2Keyboard",
       "version": "2.4.0",
       "author": "Christian Weichel, Paul Stoffregen, L. Abraham Smith, Cuningan",
@@ -6112,6 +6656,26 @@
       "archiveFileName": "Time-1.4.0-github.zip",
       "size": 25465,
       "checksum": "SHA-256:3ae1f8839a6d48aeb3c0c4489e0ddeb32b245df700b8fb01b03f784a47aee18e"
+    },
+    {
+      "name": "Time",
+      "version": "1.5.0",
+      "author": "Michael Margolis",
+      "maintainer": "Paul Stoffregen",
+      "sentence": "Timekeeping functionality for Arduino",
+      "paragraph": "Date and Time functions, with provisions to synchronize to external time sources like GPS and NTP (Internet).  This library is often used together with TimeAlarms and DS1307RTC.",
+      "website": "http://playground.arduino.cc/code/time",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/PaulStoffregen/Time/archive/v1.5.zip",
+      "archiveFileName": "Time-1.5.0-github.zip",
+      "size": 27868,
+      "checksum": "SHA-256:3457962a9faab8802065484fa175f13e9b8d2b44b02f08ad52bb99f7227d3e81"
     },
     {
       "name": "TimerOne",
@@ -7111,6 +7675,106 @@
       "checksum": "SHA-256:a7da7a5455d3860953c65b4898d8133bb55187a914eac60b43e7d328e66ef504"
     },
     {
+      "name": "SparkFun LSM303C 6 DOF IMU Breakout",
+      "version": "1.0.0",
+      "author": "SparkFun Electronics",
+      "maintainer": "SparkFun Electronics \u003cTechSupport@SparkFun.com\u003e",
+      "sentence": "Driver for ST's LSM303C 6-DOF IMU (3-axis accelerometer \u0026 3-axis magnetometer)",
+      "paragraph": "The \u003ca href=\"http://www.st.com/web/en/resource/technical/document/datasheet/DM00089896.pdf\"\u003eLSM303C\u003c/a\u003e is a system-in-package featuring a 3D digital linear acceleration sensor and a 3D digital magnetic sensor. The LSM303C has linear acceleration full scales of ±2 g / ±4 g / ±8 g and a magnetic field full scale of ±16 gauss. The LSM303C includes an I2C serial bus interface that supports standard and fast mode (100 kHz and 400 kHz) and a half-duplex subset of the SPI serial interface.",
+      "website": "https://github.com/sparkfun/LSM303C_6_DOF_IMU_Breakout",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/sparkfun/SparkFun_LSM303C_6_DOF_IMU_Breakout_Arduino_Library/archive/V_1.0.0.zip",
+      "archiveFileName": "SparkFun_LSM303C_6_DOF_IMU_Breakout-1.0.0-github.zip",
+      "size": 17045,
+      "checksum": "SHA-256:22d42c2cd46dac2bb1ceb85bf11ce42baeccb3aa6f4f18ca500cd77a9717dc62"
+    },
+    {
+      "name": "RedBot Line Follower Bar Arduino Library",
+      "version": "0.4.0",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library to operate the 8 position line sensor bar for robots.",
+      "paragraph": "This library can: get raw data, get position, get number of points detected, and build a circular buffer to record the data as it passes.",
+      "website": "https://github.com/sparkfun/RedBot_Line_Follower_Bar_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/sparkfun/SparkFun_Line_Follower_Array_Arduino_Library/archive/V_0.4.0.zip",
+      "archiveFileName": "RedBot_Line_Follower_Bar_Arduino_Library-0.4.0-github.zip",
+      "size": 41801,
+      "checksum": "SHA-256:a2c4e712e16e6ab864a23c61675c59719a4366cc39f7282518f2b91c2fbf489c"
+    },
+    {
+      "name": "SparkFun Line Follower Array",
+      "version": "1.0.0",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library to operate the 8 position line sensor array for robots.",
+      "paragraph": "This library can: get raw data, get position, get number of points detected, and build a circular buffer to record the data as it passes.",
+      "website": "https://github.com/sparkfun/SparkFun_Line_Follower_Array_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/sparkfun/SparkFun_Line_Follower_Array_Arduino_Library/archive/V_1.0.0.zip",
+      "archiveFileName": "SparkFun_Line_Follower_Array-1.0.0-github.zip",
+      "size": 239836,
+      "checksum": "SHA-256:0206ac3a590be9aa4e0cfd160230b28c1e47f8181efa1dcc1421987c71420ac5"
+    },
+    {
+      "name": "SparkFun BME280",
+      "version": "1.0.0",
+      "author": "Marshall Taylor",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "A library to drive the Bosch BME280 Altimeter and Pressure sensor",
+      "paragraph": "See code for comments.",
+      "website": "https://github.com/sparkfun/SparkFun_BME280_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/sparkfun/SparkFun_BME280_Arduino_Library/archive/V_1.0.0.zip",
+      "archiveFileName": "SparkFun_BME280-1.0.0-github.zip",
+      "size": 54373,
+      "checksum": "SHA-256:3e71dffee7d714e140d0695fac655c85e496c13d5c55b1c2a44bf1e239299bd5"
+    },
+    {
+      "name": "SparkFun MAX31855K Thermocouple Digitizer",
+      "version": "1.0.0",
+      "author": "SparkFun Electronics",
+      "maintainer": "SparkFun Electronics \u003ctechsupport@SparkFun.com\u003e",
+      "sentence": "K type thermocouple digitizer board.",
+      "paragraph": "The \u003ca href=\"http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf\"\u003eMAX31855\u003c/a\u003e performs cold-junction compensation and digitizes the signal from a K-type thermocouple. The data is output in a signed 14-bit, SPI-compatible, read-only format. Example is pin compatible with the 3.3 V \u003ca href=\"http://www.sparkfun.com/products/11114\"\u003eArduino Pro Mini\u003c/a\u003e.",
+      "website": "http://github.com/sparkfun/MAX31855K_Thermocouple_Digitizer",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/sparkfun/SparkFun_MAX31855K_Thermocouple_Breakout_Arduino_Library/archive/V_1.0.0.zip",
+      "archiveFileName": "SparkFun_MAX31855K_Thermocouple_Digitizer-1.0.0-github.zip",
+      "size": 12331,
+      "checksum": "SHA-256:b7277bf5587d813a414e0e88e0adf572d38412ca500d658ac4234b01134e041d"
+    },
+    {
       "name": "MQTT",
       "version": "1.0.0",
       "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
@@ -7318,6 +7982,105 @@
       "archiveFileName": "MQTT-1.8.0-github.zip",
       "size": 56044,
       "checksum": "SHA-256:f110daae3208e26ae9a1ae76c08ad2c0034e6b13cbbf7ad461384a0aa537ea5d"
+    },
+    {
+      "name": "MQTT",
+      "version": "1.8.1",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "paragraph": "This library bundles the Embedded MQTT C/C++ Client library of the Eclipse Paho project and adds a thin wrapper to get an Arduino like API. Additionally there is an drop-in alternative for the Arduino Yùn that uses a python based client on the linux processor and a binary interface to lower program space usage on the Arduino side.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/256dpi/arduino-mqtt/archive/v1.8.1.zip",
+      "archiveFileName": "MQTT-1.8.1-github.zip",
+      "size": 56065,
+      "checksum": "SHA-256:f0c0687abd88d73b47dc2c99c38640b438e154e75e9a92ea78923538367ee966"
+    },
+    {
+      "name": "MQTT",
+      "version": "1.8.2",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "paragraph": "This library bundles the Embedded MQTT C/C++ Client library of the Eclipse Paho project and adds a thin wrapper to get an Arduino like API. Additionally there is an drop-in alternative for the Arduino Yùn that uses a python based client on the linux processor and a binary interface to lower program space usage on the Arduino side.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/256dpi/arduino-mqtt/archive/v1.8.2.zip",
+      "archiveFileName": "MQTT-1.8.2-github.zip",
+      "size": 56387,
+      "checksum": "SHA-256:a9b19c7a36773c4d1f05d764cb08bb2263bf71de2ac26719a0eb4c4b1ae7a855"
+    },
+    {
+      "name": "MQTT",
+      "version": "1.9.0",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "paragraph": "This library bundles the Embedded MQTT C/C++ Client library of the Eclipse Paho project and adds a thin wrapper to get an Arduino like API. Additionally there is an drop-in alternative for the Arduino Yùn that uses a python based client on the linux processor and a binary interface to lower program space usage on the Arduino side.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/256dpi/arduino-mqtt/archive/v1.9.0.zip",
+      "archiveFileName": "MQTT-1.9.0-github.zip",
+      "size": 56724,
+      "checksum": "SHA-256:4791bd200b891aeda413b8cec591c20d6ad98f43974e25f35dbf6faf1f052f0f"
+    },
+    {
+      "name": "MQTT",
+      "version": "1.9.1",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "paragraph": "This library bundles the Embedded MQTT C/C++ Client library of the Eclipse Paho project and adds a thin wrapper to get an Arduino like API. Additionally there is an drop-in alternative for the Arduino Yùn that uses a python based client on the linux processor and a binary interface to lower program space usage on the Arduino side.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/256dpi/arduino-mqtt/archive/v1.9.1.zip",
+      "archiveFileName": "MQTT-1.9.1-github.zip",
+      "size": 59027,
+      "checksum": "SHA-256:1a1567c57a2921c1da6dc0fe89925750d0c3483576eaa5eccdf2f78eef326d9b"
+    },
+    {
+      "name": "MQTT",
+      "version": "1.9.2",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "paragraph": "This library bundles the Embedded MQTT C/C++ Client library of the Eclipse Paho project and adds a thin wrapper to get an Arduino like API. Additionally there is an drop-in alternative for the Arduino Yùn that uses a python based client on the linux processor and a binary interface to lower program space usage on the Arduino side.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/256dpi/arduino-mqtt/archive/v1.9.2.zip",
+      "archiveFileName": "MQTT-1.9.2-github.zip",
+      "size": 63938,
+      "checksum": "SHA-256:1bf77b3413b08526cf6c7120f10ae9c94dddf49e49a1b0a600021fc18e4b7226"
     },
     {
       "name": "ModbusMaster",
@@ -7695,6 +8458,65 @@
       "checksum": "SHA-256:0af689ad9c4b4942a82fa1fa83a284cd0d5e5fe5a93e25f3711dc96510515535"
     },
     {
+      "name": "ArduinoJson",
+      "version": "5.0.5",
+      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino.",
+      "paragraph": "Like this project? Please star it on GitHub!",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.5.zip",
+      "archiveFileName": "ArduinoJson-5.0.5-github.zip",
+      "size": 1311389,
+      "checksum": "SHA-256:eca38286f7af37e306fe201ebd2df394a84041ec69bb9d56503080202e75014e"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "5.0.6",
+      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino.",
+      "paragraph": "Like this project? Please star it on GitHub!",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.6.zip",
+      "archiveFileName": "ArduinoJson-5.0.6-github.zip",
+      "size": 1311606,
+      "checksum": "SHA-256:e3549753565a5269448cad6f180ebc61ef6839a35651a7bb6ada6e085126d62a"
+    },
+    {
+      "name": "ArduinoJson",
+      "version": "5.0.7",
+      "author": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "maintainer": "Benoit Blanchon \u003cblog.benoitblanchon.fr\u003e",
+      "sentence": "An efficient and elegant JSON library for Arduino.",
+      "paragraph": "Like this project? Please star it on GitHub!",
+      "website": "https://github.com/bblanchon/ArduinoJson",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bblanchon/ArduinoJson/archive/v5.0.7.zip",
+      "archiveFileName": "ArduinoJson-5.0.7-github.zip",
+      "size": 1311219,
+      "checksum": "SHA-256:873ef06a58fe81e4c2a3e5176acc743d914e13be1ac3c8a4ca306223da522211"
+    },
+    {
       "name": "ALA",
       "version": "2.0.0",
       "author": "bportaluri",
@@ -7753,6 +8575,26 @@
       "archiveFileName": "ALA-2.2.0-github.zip",
       "size": 901215,
       "checksum": "SHA-256:bb1041741bd76fa1dda33e175efa2c0a28f39d8ca3b80650e14688ac589bca2a"
+    },
+    {
+      "name": "ALA",
+      "version": "2.3.0",
+      "author": "bportaluri",
+      "maintainer": "Bruno Portaluri \u003cbportaluri@gmail.com\u003e",
+      "sentence": "Arduino Light Animation (ALA) is a library",
+      "paragraph": "Arduino Light Animation (ALA) is a library for Arduino boards to simplify the development of light animations using LEDs and LED strips.",
+      "website": "https://github.com/bportaluri/ALA",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bportaluri/ALA/archive/v2.3.zip",
+      "archiveFileName": "ALA-2.3.0-github.zip",
+      "size": 902373,
+      "checksum": "SHA-256:3d593ee16f7ad4ef0eaf51e12a55e9462d3732c8ff765718087362e5aa17be8b"
     },
     {
       "name": "PID",
@@ -7875,6 +8717,46 @@
       "checksum": "SHA-256:c0c1c4abf349ab61436084e3297dbbf3a7070fb56c1c920c3b84f0b1424fd5a7"
     },
     {
+      "name": "BitBool",
+      "version": "1.1.2",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "Easily control bit sets, just like an array!",
+      "paragraph": "This library provides an efficient and easy to use method for dealing with individual bits. The library is in fact a drop-in replacement for a bool or boolean array. However it has many more possibilities and is perfect for use on embedded systems. The main feature of this library is the fact it allows bits to be read and written using a simple array subscript notation.",
+      "website": "https://arduino.land/Code/BitBool/",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/BitBool/archive/1.1.2.zip",
+      "archiveFileName": "BitBool-1.1.2-github.zip",
+      "size": 5461,
+      "checksum": "SHA-256:513c508ead961b98c4443fbdfb895bca4881da0c343b56d1fad0a1ca2445c52e"
+    },
+    {
+      "name": "BitBool",
+      "version": "1.1.3",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "Easily control bit sets, just like an array!",
+      "paragraph": "This library provides an efficient and easy to use method for dealing with individual bits. The library is in fact a drop-in replacement for a bool or boolean array. However it has many more possibilities and is perfect for use on embedded systems. The main feature of this library is the fact it allows bits to be read and written using a simple array subscript notation.",
+      "website": "https://arduino.land/Code/BitBool/",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/BitBool/archive/1.1.3.zip",
+      "archiveFileName": "BitBool-1.1.3-github.zip",
+      "size": 6542,
+      "checksum": "SHA-256:21bf78d7e82474689a4363bc5373e9bef3f6fd9321d9dcaafbf1fa0e3188cf16"
+    },
+    {
       "name": "Keypad",
       "version": "3.1.0",
       "author": "Mark Stanley, Alexander Brevig",
@@ -7933,6 +8815,26 @@
       "archiveFileName": "PrintEx-1.1.8-github.zip",
       "size": 31806,
       "checksum": "SHA-256:75b16bba0babc70874cc6085602f31c3f35867b63419f7f35bec467d42551dda"
+    },
+    {
+      "name": "PrintEx",
+      "version": "1.1.9",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A printing \u0026 formatting enhancement for Stream \u0026 Print based libraries.",
+      "paragraph": "Enhance your projects with an Arduino tailored set of functionality. Includes streaming (in/out), printf with floating point support, repitition and EEPROM/PROGMEM access.",
+      "website": "https://github.com/Chris--A/PrintEx#printex-library-for-arduino-",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PrintEx/archive/1.1.9.zip",
+      "archiveFileName": "PrintEx-1.1.9-github.zip",
+      "size": 31834,
+      "checksum": "SHA-256:22ba2b14cee313faddfe20fa6f3f45527d70f273f065fd31a0e9ad199623f32e"
     },
     {
       "name": "SmallSetup",
@@ -8016,6 +8918,26 @@
     },
     {
       "name": "Exosite",
+      "version": "2.3.10",
+      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "sentence": "Easily interface with Exosite's simple data APIs.",
+      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
+      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.10.zip",
+      "archiveFileName": "Exosite-2.3.10-github.zip",
+      "size": 2448084,
+      "checksum": "SHA-256:a89b6b75c1acb2deba916107f6063362c00b2c5b33334e28558b481067c0dd26"
+    },
+    {
+      "name": "Exosite",
       "version": "2.3.3",
       "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
       "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
@@ -8093,6 +9015,26 @@
       "archiveFileName": "Exosite-2.3.7-github.zip",
       "size": 408311,
       "checksum": "SHA-256:d821befe404fd03dfa76245ec77e7c6a80b920d7777762d71e3b17cd235c87ba"
+    },
+    {
+      "name": "Exosite",
+      "version": "2.3.9",
+      "author": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "maintainer": "Patrick Barrett \u003cpatrickbarrett@exosite.com\u003e",
+      "sentence": "Easily interface with Exosite's simple data APIs.",
+      "paragraph": "This allows you to easily read and write data to Exosite's One Platform.",
+      "website": "https://github.com/exosite-garage/arduino_exosite_library/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/exosite-garage/arduino_exosite_library/archive/v2.3.9.zip",
+      "archiveFileName": "Exosite-2.3.9-github.zip",
+      "size": 2447973,
+      "checksum": "SHA-256:f15ed446888690842c8fe5d7f57ade44f2d1ea8068a45f0538d2cb7ac87ea94e"
     },
     {
       "name": "Pin",
@@ -8236,6 +9178,26 @@
     },
     {
       "name": "USB Host Shield Library 2.0",
+      "version": "1.0.0",
+      "author": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e, Alexei Glushchenko (Circuits@Home) \u003calex-gl@mail.ru\u003e",
+      "maintainer": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e",
+      "sentence": "Revision 2.0 of MAX3421E-based USB Host Shield Library.",
+      "paragraph": "Supports HID devices, FTDI, ADK, ACM, PL2303, Bluetooth HID devices, SPP communication and mass storage devices. Furthermore it supports PS3, PS4, PS Buzz, Wii and Xbox controllers.",
+      "website": "https://github.com/felis/USB_Host_Shield_2.0",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/felis/USB_Host_Shield_2.0/archive/1.0.0.zip",
+      "archiveFileName": "USB_Host_Shield_Library_2_0-1.0.0-github.zip",
+      "size": 362085,
+      "checksum": "SHA-256:0a61c8b55f987cadbb095011f9c669e583e48b2a3869f89962a374e28d0b935a"
+    },
+    {
+      "name": "USB Host Shield Library 2.0",
       "version": "1.1.0",
       "author": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e, Alexei Glushchenko (Circuits@Home) \u003calex-gl@mail.ru\u003e",
       "maintainer": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e",
@@ -8276,8 +9238,8 @@
     },
     {
       "name": "USB Host Shield Library 2.0",
-      "version": "1.0.0",
-      "author": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e, Alexei Glushchenko (Circuits@Home) \u003calex-gl@mail.ru\u003e",
+      "version": "1.2.0",
+      "author": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e, Alexei Glushchenko (Circuits@Home) \u003calex-gl@mail.ru\u003e",
       "maintainer": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e",
       "sentence": "Revision 2.0 of MAX3421E-based USB Host Shield Library.",
       "paragraph": "Supports HID devices, FTDI, ADK, ACM, PL2303, Bluetooth HID devices, SPP communication and mass storage devices. Furthermore it supports PS3, PS4, PS Buzz, Wii and Xbox controllers.",
@@ -8289,10 +9251,30 @@
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/felis/USB_Host_Shield_2.0/archive/1.0.0.zip",
-      "archiveFileName": "USB_Host_Shield_Library_2_0-1.0.0-github.zip",
-      "size": 362085,
-      "checksum": "SHA-256:0a61c8b55f987cadbb095011f9c669e583e48b2a3869f89962a374e28d0b935a"
+      "url": "https://github.com/felis/USB_Host_Shield_2.0/archive/1.2.0.zip",
+      "archiveFileName": "USB_Host_Shield_Library_2_0-1.2.0-github.zip",
+      "size": 367562,
+      "checksum": "SHA-256:8b037156c8ad3498ad6d5c0512d6122f17f6800b4a9c46ece70bfc2ac2287921"
+    },
+    {
+      "name": "USB Host Shield Library 2.0",
+      "version": "1.2.1",
+      "author": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e, Alexei Glushchenko (Circuits@Home) \u003calex-gl@mail.ru\u003e",
+      "maintainer": "Oleg Mazurov (Circuits@Home) \u003cmazurov@circuitsathome.com\u003e, Kristian Lauszus (TKJ Electronics) \u003ckristianl@tkjelectronics.com\u003e, Andrew Kroll \u003cxxxajk@gmail.com\u003e",
+      "sentence": "Revision 2.0 of MAX3421E-based USB Host Shield Library.",
+      "paragraph": "Supports HID devices, FTDI, ADK, ACM, PL2303, Bluetooth HID devices, SPP communication and mass storage devices. Furthermore it supports PS3, PS4, PS Buzz, Wii and Xbox controllers.",
+      "website": "https://github.com/felis/USB_Host_Shield_2.0",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/felis/USB_Host_Shield_2.0/archive/1.2.1.zip",
+      "archiveFileName": "USB_Host_Shield_Library_2_0-1.2.1-github.zip",
+      "size": 367720,
+      "checksum": "SHA-256:db2196f54fd699ddbcf05ed76ccb9cb1b1c892de1059aa45fdc8d4d997745149"
     },
     {
       "name": "FTOLED",
@@ -8462,6 +9444,46 @@
       "checksum": "SHA-256:3d19c90a2b99bd68150a5a56bc3eef36e1270f60617e4e28eae4af99b44d94fe"
     },
     {
+      "name": "UTFT_SdRaw",
+      "version": "1.2.2",
+      "author": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
+      "maintainer": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
+      "sentence": "A library that adds high speed image drawing functions from SD to UTFT.",
+      "paragraph": "Supports PAN/SCALE/CPLD Page from SD also basic drawing from Serial source.",
+      "website": "https://github.com/ghlawrence2000/UTFT_SdRaw",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/ghlawrence2000/UTFT_SdRaw/archive/v1.2.2.zip",
+      "archiveFileName": "UTFT_SdRaw-1.2.2-github.zip",
+      "size": 3794094,
+      "checksum": "SHA-256:22e0040e64b993585e9b1b8f937dc0ef411bbdec74567d77d4e80dd2c8035eb4"
+    },
+    {
+      "name": "UTFT_SdRaw",
+      "version": "1.2.3",
+      "author": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
+      "maintainer": "Graham Lawrence \u003cghlawrence2000@yahoo.co.uk\u003e",
+      "sentence": "A library that adds high speed image drawing functions from SD to UTFT.",
+      "paragraph": "Supports load/pan/loadcpld from SD and loadS for drawing images from Serial source.",
+      "website": "https://github.com/ghlawrence2000/UTFT_SdRaw",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/ghlawrence2000/UTFT_SdRaw/archive/v1.2.3.zip",
+      "archiveFileName": "UTFT_SdRaw-1.2.3-github.zip",
+      "size": 3797428,
+      "checksum": "SHA-256:52cf4922384b03fb8fd1e8757fc5022e40135c6e31d35bbc767a45a3babbc09d"
+    },
+    {
       "name": "EnableInterrupt",
       "version": "0.6.0",
       "author": "Mike \"GreyGnome\" Schwager \u003cmschwage@gmail.com\u003e",
@@ -8582,6 +9604,26 @@
       "checksum": "SHA-256:bf5b3efe65d11527d3d9baeee3b4635857be5c52560efcb87a73429b42bd04bd"
     },
     {
+      "name": "EnableInterrupt",
+      "version": "0.9.4",
+      "author": "Mike \"GreyGnome\" Schwager \u003cmschwage@gmail.com\u003e",
+      "maintainer": "Mike \"GreyGnome\" Schwager \u003cmschwage@gmail.com\u003e",
+      "sentence": "Assign an interrupt to any supported pin on all Arduinos, plus ATtiny 84/85 and ATmega 644/1284.",
+      "paragraph": "Provides a consistent API across chips, architectures, and interrupt types. Makes External and Pin Change on the ATmega series, and Due and Zero pin interrupts operate similarly. Code optimized for speed; includes an extra-high-speed mode for speed critical code.",
+      "website": "https://github.com/GreyGnome/EnableInterrupt",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/GreyGnome/EnableInterrupt/archive/0.9.4.zip",
+      "archiveFileName": "EnableInterrupt-0.9.4-github.zip",
+      "size": 2814513,
+      "checksum": "SHA-256:ae4827e26e5900c7e219ba27f25a5d04bc6a4aa2cfdb5d68e2dd4e596977d1f0"
+    },
+    {
       "name": "Pushetta",
       "version": "1.0.0",
       "author": "Fabrizio Guglielmino \u003cguglielmino@gumino.com\u003e",
@@ -8659,6 +9701,26 @@
       "archiveFileName": "OneSheeld-1.6.1-github.zip",
       "size": 191891,
       "checksum": "SHA-256:f003eb9d2bd3f151eb10bf333096db543a4263d6c55394bbf1af59784f150b63"
+    },
+    {
+      "name": "OneSheeld",
+      "version": "1.7.0",
+      "author": "Integreight, Inc. \u003cinfo@integreight.com\u003e",
+      "maintainer": "Eslam Ali \u003ceali@integreight.com\u003e, Islam Mustafa \u003cislam@integreight.com\u003e, Mustafa Fayez \u003cmustafa@integreight.com\u003e",
+      "sentence": "It allows you to control your 1Sheeld(s).",
+      "paragraph": "1Sheeld is an All-In-One Arduino shield that lets you use your smartphone capabilites (Sensors, Internet,...etc) to power your Arduino projects.",
+      "website": "http://www.1sheeld.com/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Integreight/1Sheeld-Arduino-Library/archive/v1.7.0.zip",
+      "archiveFileName": "OneSheeld-1.7.0-github.zip",
+      "size": 195532,
+      "checksum": "SHA-256:5ea1cfccc707c615d997f6f2bb3f168ebb21319648d8ea718d655390cc6ddb20"
     },
     {
       "name": "Iobeam",
@@ -8981,6 +10043,26 @@
       "checksum": "SHA-256:bb035adcdfc6ab74a954145ab06cc4bc20f515c482f99d074faeb73b2a0d3fea"
     },
     {
+      "name": "arduino-fsm",
+      "version": "2.1.0",
+      "author": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "maintainer": "Jon Black \u003cjon@humblecoder.com\u003e",
+      "sentence": "A library for implementing a finite state machine",
+      "paragraph": "Supports events for exiting and entering states.",
+      "website": "https://github.com/jonblack/arduino-fsm",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/jonblack/arduino-fsm/archive/2.1.0.zip",
+      "archiveFileName": "arduino_fsm-2.1.0-github.zip",
+      "size": 6394,
+      "checksum": "SHA-256:0d9f44eb7cf32c6365b62d9b1975ff934f726211f8a361b99189905e57179032"
+    },
+    {
       "name": "aREST",
       "version": "1.9.9",
       "author": "Marco Schwartz",
@@ -9019,6 +10101,26 @@
       "archiveFileName": "aREST-1.9.7-github.zip",
       "size": 22903,
       "checksum": "SHA-256:93f77f5f77a217e8e8d4b7b3991dfc237b4393a00342538250529a0de8a7039e"
+    },
+    {
+      "name": "aREST",
+      "version": "2.0.1",
+      "author": "Marco Schwartz",
+      "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
+      "sentence": "RESTful API for the Arduino platform.",
+      "paragraph": "A simple library that implements a REST API for Arduino. It is designed to be universal and currently supports REST calls via HTTP, Serial \u0026 BLE.  See more at: http://arest.io/",
+      "website": "https://github.com/marcoschwartz/aREST",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/marcoschwartz/aREST/archive/v2.0.1.zip",
+      "archiveFileName": "aREST-2.0.1-github.zip",
+      "size": 27275,
+      "checksum": "SHA-256:810c23db0c29c4d1edb5d53ab4161b88bab822d5a47ee6182e8fed3e9909acc5"
     },
     {
       "name": "aREST UI",
@@ -9281,6 +10383,46 @@
       "checksum": "SHA-256:559da495c1c74bcf831ec77b7a0f0a0db1878e039ba7c0e3bec0aefca4fbfb8a"
     },
     {
+      "name": "SPIFlash",
+      "version": "2.1.1",
+      "author": "Marzogh",
+      "maintainer": "Marzogh \u003cmarzogh@icloud.com\u003e",
+      "sentence": "Winbond SPI flash library for Arduino.",
+      "paragraph": "This library enables read, write, erase and power functions on the following Winbond NOR Flash chips - W25X05CL, W25X10BV, W25X20BV, W25X40BV, W25Q80BV, W25Q16BV, W25Q32BV, W25Q64BV \u0026 W25Q128BV. Refer to change log for further information about this release.",
+      "website": "https://github.com/Marzogh/SPIFlash",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Marzogh/SPIFlash/archive/v2.1.1.zip",
+      "archiveFileName": "SPIFlash-2.1.1-github.zip",
+      "size": 77538,
+      "checksum": "SHA-256:291502fab28b22f55c001de77b2f949ad9557a725721e1c08c6de8bfe1818b47"
+    },
+    {
+      "name": "SPIFlash",
+      "version": "2.2.0",
+      "author": "Prajwal Bhattaram",
+      "maintainer": "Prajwal Bhattaram \u003cmarzogh@icloud.com\u003e",
+      "sentence": "Winbond SPI flash library for Arduino.",
+      "paragraph": "This library enables read, write, erase and power functions on the following Winbond NOR Flash chips - W25X05CL, W25X10BV, W25X20BV, W25X40BV, W25Q80BV, W25Q16BV, W25Q32BV, W25Q64BV \u0026 W25Q128BV. Refer to change log for further information about this release.",
+      "website": "https://github.com/Marzogh/SPIFlash",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Marzogh/SPIFlash/archive/v2.2.0.zip",
+      "archiveFileName": "SPIFlash-2.2.0-github.zip",
+      "size": 82230,
+      "checksum": "SHA-256:ada2a7046354de299208fa03e67fe4325f879736a6f7bf93f8b1120cedc27492"
+    },
+    {
       "name": "DMXSerial",
       "version": "1.2.0",
       "author": "Matthias Hertel",
@@ -9299,6 +10441,26 @@
       "archiveFileName": "DMXSerial-1.2.0-github.zip",
       "size": 13981,
       "checksum": "SHA-256:680548f10ea06dfe5d9a921020b661151f80263c51f3b8d20d2488c1f34bf8dd"
+    },
+    {
+      "name": "DMXSerial",
+      "version": "1.3.0",
+      "author": "Matthias Hertel",
+      "maintainer": "Matthias Hertel \u003cwww.mathertel.de\u003e",
+      "sentence": "Enables DMX communication using the built-in serial port for Arduino boards UNO, Leonardo, Mega.",
+      "paragraph": "This is a library for implementing DMX controllers and devices.",
+      "website": "http://www.mathertel.de/Arduino/DMXSerial.aspx",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mathertel/DMXSerial/archive/1.3.0.zip",
+      "archiveFileName": "DMXSerial-1.3.0-github.zip",
+      "size": 14271,
+      "checksum": "SHA-256:848ac8b55ed35ba28f958ede7797a9b36d379d3422a851d504e546836d00c378"
     },
     {
       "name": "DMXSerial2",
@@ -9621,6 +10783,86 @@
     },
     {
       "name": "JTAG",
+      "version": "1.0.11",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.11.zip",
+      "archiveFileName": "JTAG-1.0.11-github.zip",
+      "size": 79300,
+      "checksum": "SHA-256:c7d4ab448796b1d92269bc23be83771590c92e0de71978e50e452f45eee2581e"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.12",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.12.zip",
+      "archiveFileName": "JTAG-1.0.12-github.zip",
+      "size": 79426,
+      "checksum": "SHA-256:ee6076420a0c76fa1e309023b4f37022e151cc7b62a92f95e3f1f635a425e8cb"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.13",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.13.zip",
+      "archiveFileName": "JTAG-1.0.13-github.zip",
+      "size": 79461,
+      "checksum": "SHA-256:047788bcab3830a3fe8e954421e7b9be8eefe0d253786146eda7579756e96e61"
+    },
+    {
+      "name": "JTAG",
+      "version": "1.0.14",
+      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
+      "sentence": "A library to perform JTAG operations and play XSVF.",
+      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
+      "website": "https://github.com/mrjimenez/JTAG",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.14.zip",
+      "archiveFileName": "JTAG-1.0.14-github.zip",
+      "size": 79673,
+      "checksum": "SHA-256:84245172f5ee7f6b54c23c24db5585d3fbb77c3a56f180b40a6206adf9471fef"
+    },
+    {
+      "name": "JTAG",
       "version": "1.0.3",
       "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
       "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
@@ -9738,26 +10980,6 @@
       "archiveFileName": "JTAG-1.0.9-github.zip",
       "size": 75243,
       "checksum": "SHA-256:876aa4ac70a2ef52f287cecdbf625b7e69aa46e2f4fccde5eeaa3a78996de650"
-    },
-    {
-      "name": "JTAG",
-      "version": "1.0.11",
-      "author": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "maintainer": "Marcelo Jimenez \u003cmarcelo.jimenez@gmail.com\u003e",
-      "sentence": "A library to perform JTAG operations and play XSVF.",
-      "paragraph": "This library is an API to perform JTAG operations and play XSVF files.",
-      "website": "https://github.com/mrjimenez/JTAG",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/mrjimenez/JTAG/archive/1.0.11.zip",
-      "archiveFileName": "JTAG-1.0.11-github.zip",
-      "size": 79300,
-      "checksum": "SHA-256:c7d4ab448796b1d92269bc23be83771590c92e0de71978e50e452f45eee2581e"
     },
     {
       "name": "AtTouch",
@@ -9938,6 +11160,26 @@
       "archiveFileName": "PinChangeInterrupt-1.2.1-github.zip",
       "size": 55342,
       "checksum": "SHA-256:e973d6eac4d72ac830d3719b1ead9bcfa7721df7ab6c6a9362771f5363dc1f3f"
+    },
+    {
+      "name": "PinChangeInterrupt",
+      "version": "1.2.2",
+      "author": "NicoHood",
+      "maintainer": "NicoHood \u003cblog@NicoHood.de\u003e",
+      "sentence": "A simple \u0026 compact PinChangeInterrupt library for Arduino.",
+      "paragraph": "PinChangeInterrupt library with a resource friendly implementation (API and LowLevel). PinChangeInterrupts are different than normal Interrupts. See readme for more information.",
+      "website": "https://github.com/NicoHood/PinChangeInterrupt",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/NicoHood/PinChangeInterrupt/archive/1.2.2.zip",
+      "archiveFileName": "PinChangeInterrupt-1.2.2-github.zip",
+      "size": 56166,
+      "checksum": "SHA-256:59147ada9af54e1824b922b0ec86c767917b90e7ef2469056af7a202d0283738"
     },
     {
       "name": "Ucglib",
@@ -10121,6 +11363,26 @@
       "archiveFileName": "SWAP-1.0.4-github.zip",
       "size": 117359,
       "checksum": "SHA-256:d8b8b55c2696ae1e570ae7e287df4605c878f8a3ff659dd804fc35cf83c00bf9"
+    },
+    {
+      "name": "SWAP",
+      "version": "1.0.5",
+      "author": "panStamp",
+      "maintainer": "panStamp \u003ccontact@panstamp.com\u003e",
+      "sentence": "Simple Wireless Abstract Protocol (SWAP) library for ISM radios",
+      "paragraph": "Simple Wireless Abstract Protocol (SWAP) library for ISM radios",
+      "website": "https://github.com/panStamp/swap.git",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/panStamp/swap/archive/1.0.5.zip",
+      "archiveFileName": "SWAP-1.0.5-github.zip",
+      "size": 125064,
+      "checksum": "SHA-256:df751e3b952c108becf391d1c32178d246e94b5c38cfc94152bdd11520bad692"
     },
     {
       "name": "MMA8652",
@@ -10703,6 +11965,106 @@
       "checksum": "SHA-256:bafe6ca9bab8161fdb646d4e059d50056b723ad99ce17b0e466946b85af181d5"
     },
     {
+      "name": "Quirkbot",
+      "version": "1.1.0",
+      "author": "Quirkbot",
+      "maintainer": "Paulo Barcelos \u003cpaulo@quirkbot.com\u003e",
+      "sentence": "Allows you to program Quirkbots.",
+      "paragraph": "The library is designed to be used with Quirkbot hardware. While other Arduinos boards might work, they are not supported. For instructions on how to install official Quirkbot boards, visit https://github.com/Quirkbot/QuirkbotArduinoHardware/releases.",
+      "website": "https://github.com/Quirkbot/QuirkbotArduinoLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Quirkbot/QuirkbotArduinoLibrary/archive/1.1.0.zip",
+      "archiveFileName": "Quirkbot-1.1.0-github.zip",
+      "size": 50282,
+      "checksum": "SHA-256:b29fed9ba70ef1e27c805a417400f22afb7936fbcf1ec64c63bfbe55faa9a048"
+    },
+    {
+      "name": "Quirkbot",
+      "version": "1.1.1",
+      "author": "Quirkbot",
+      "maintainer": "Paulo Barcelos \u003cpaulo@quirkbot.com\u003e",
+      "sentence": "Allows you to program Quirkbots.",
+      "paragraph": "The library is designed to be used with Quirkbot hardware. While other Arduinos boards might work, they are not supported. For instructions on how to install official Quirkbot boards, visit https://github.com/Quirkbot/QuirkbotArduinoHardware/releases.",
+      "website": "https://github.com/Quirkbot/QuirkbotArduinoLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Quirkbot/QuirkbotArduinoLibrary/archive/1.1.1.zip",
+      "archiveFileName": "Quirkbot-1.1.1-github.zip",
+      "size": 51255,
+      "checksum": "SHA-256:8d2a13445c811070f72a7be03450247fbcc0418a9491bbd54b4f47a1cc76f23e"
+    },
+    {
+      "name": "Quirkbot",
+      "version": "1.2.0",
+      "author": "Quirkbot",
+      "maintainer": "Paulo Barcelos \u003cpaulo@quirkbot.com\u003e",
+      "sentence": "Allows you to program Quirkbots.",
+      "paragraph": "The library is designed to be used with Quirkbot hardware. While other Arduinos boards might work, they are not supported. For instructions on how to install official Quirkbot boards, visit https://github.com/Quirkbot/QuirkbotArduinoHardware/releases.",
+      "website": "https://github.com/Quirkbot/QuirkbotArduinoLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Quirkbot/QuirkbotArduinoLibrary/archive/1.2.0.zip",
+      "archiveFileName": "Quirkbot-1.2.0-github.zip",
+      "size": 53527,
+      "checksum": "SHA-256:3ae666cf0de9da85964ad815b884a0f3d37d1a19712b76c6b754dcc890ca91d8"
+    },
+    {
+      "name": "Quirkbot",
+      "version": "2.0.0",
+      "author": "Quirkbot",
+      "maintainer": "Paulo Barcelos \u003cpaulo@quirkbot.com\u003e",
+      "sentence": "Allows you to program Quirkbots.",
+      "paragraph": "The library is designed to be used with Quirkbot hardware. While other Arduinos boards might work, they are not supported. For instructions on how to install official Quirkbot boards, visit https://github.com/Quirkbot/QuirkbotArduinoHardware/releases.",
+      "website": "https://github.com/Quirkbot/QuirkbotArduinoLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Quirkbot/QuirkbotArduinoLibrary/archive/2.0.0.zip",
+      "archiveFileName": "Quirkbot-2.0.0-github.zip",
+      "size": 53462,
+      "checksum": "SHA-256:60723fb86062eb07de110532faea4ed86dafae066166021feab4a1e347dad50d"
+    },
+    {
+      "name": "Quirkbot",
+      "version": "2.0.1",
+      "author": "Quirkbot",
+      "maintainer": "Paulo Barcelos \u003cpaulo@quirkbot.com\u003e",
+      "sentence": "Allows you to program Quirkbots.",
+      "paragraph": "The library is designed to be used with Quirkbot hardware. While other Arduinos boards might work, they are not supported. For instructions on how to install official Quirkbot boards, visit https://github.com/Quirkbot/QuirkbotArduinoHardware/releases.",
+      "website": "https://github.com/Quirkbot/QuirkbotArduinoLibrary",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Quirkbot/QuirkbotArduinoLibrary/archive/2.0.1.zip",
+      "archiveFileName": "Quirkbot-2.0.1-github.zip",
+      "size": 53543,
+      "checksum": "SHA-256:bde1ff6d28c5eb49e03a1eb1ae6500699cfde04af96569dbd9f079a7c25396dd"
+    },
+    {
       "name": "RBL_nRF8001",
       "version": "1.0.0",
       "author": "Cheong",
@@ -11075,6 +12437,26 @@
       "checksum": "SHA-256:fcf001e030c19feb28cba587569c5104f56bfe0ebd00f87c454626ce810c691f"
     },
     {
+      "name": "GPRSbee",
+      "version": "1.3.0",
+      "author": "keestux,SODAQ",
+      "maintainer": "Kees Bakker \u003ckees@m2m4all.com\u003e",
+      "sentence": "An Arduino library for the SODAQ GPRSbee.",
+      "paragraph": "It supports sending HTTP GET and POST, send data via FTP, and more.",
+      "website": "https://github.com/SodaqMoja/GPRSbee",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/SodaqMoja/GPRSbee/archive/v1.3.0.zip",
+      "archiveFileName": "GPRSbee-1.3.0-github.zip",
+      "size": 81481,
+      "checksum": "SHA-256:0949170628bc58b5a5cbe4a920fddac1dd444a6607ad22701c8602349357eff5"
+    },
+    {
       "name": "RTCTimer",
       "version": "1.0.0",
       "author": "keestux,SODAQ",
@@ -11131,6 +12513,25 @@
       "archiveFileName": "Sodaq_BMP085-1.2.1-github.zip",
       "size": 7534,
       "checksum": "SHA-256:27645474ea79f6629039b0fac7bbc3764fa4512d1be0dfd97b9573cb0dc79678"
+    },
+    {
+      "name": "Sodaq_BMP085",
+      "version": "1.3.0",
+      "author": "keestux,SODAQ",
+      "maintainer": "Kees Bakker \u003ckees@m2m4all.com\u003e",
+      "sentence": "An Arduino library for the BMP085/BMP180 Barometric Pressure + Temp sensor",
+      "website": "https://github.com/SodaqMoja/Sodaq_BMP085",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/SodaqMoja/Sodaq_BMP085/archive/v1.3.0.zip",
+      "archiveFileName": "Sodaq_BMP085-1.3.0-github.zip",
+      "size": 7518,
+      "checksum": "SHA-256:86cb24a0829aa0f30914c155c800cd26f52795ea6007cf27417141653bfc400e"
     },
     {
       "name": "Sodaq_SHT2x",
@@ -11308,6 +12709,27 @@
       "checksum": "SHA-256:ed905c9063fd7f93b92434ba323c1ed118b331bb52e143eb1d7eeca5046a4df4"
     },
     {
+      "name": "souliss",
+      "version": "7.1.1",
+      "author": "Souliss Team",
+      "maintainer": "Souliss Team",
+      "sentence": "SmartHome Networking Framework",
+      "paragraph": "Build a network of multiple nodes over WiFi/Ethernet, Wireless and RS485 for your smart home. Runs on AVRs and ESP8266.",
+      "website": "http://souliss.github.io",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/souliss/souliss/archive/v7.1-friariello.1.zip",
+      "archiveFileName": "souliss-7.1.1-github.zip",
+      "size": 637977,
+      "checksum": "SHA-256:8339447291808389a303323623f6de9dcd4af4cd7808949556f4b971c0f7fd10"
+    },
+    {
       "name": "Gamer",
       "version": "2.0.0",
       "author": "Mike Vanis \u003chello@mikevanis.com\u003e, Andy Sheen \u003candymsheen@gmail.com\u003e",
@@ -11366,6 +12788,26 @@
       "archiveFileName": "SoftwareWire-1.3.2-github.zip",
       "size": 14553,
       "checksum": "SHA-256:79cf09f6f0c21c46effa940a14cf18bdf967e4418afb34128b24c4f9d7cf3e11"
+    },
+    {
+      "name": "SoftwareWire",
+      "version": "1.4.0",
+      "author": "Testato, Koepel",
+      "maintainer": "Testato \u003cspeednpower@gmail.com\u003e",
+      "sentence": "Creates a software I2C/TWI bus on every pins.",
+      "paragraph": "The SoftwareWire is only I2C Master mode. More than one software I2C bus can be created. The clock pulse stretching is implemented, so the Slave can be another Arduino board",
+      "website": "https://github.com/Testato/SoftwareWire",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Testato/SoftwareWire/archive/v1.4.0.zip",
+      "archiveFileName": "SoftwareWire-1.4.0-github.zip",
+      "size": 14885,
+      "checksum": "SHA-256:d7ef13c76a0502c227f4355eac0772cfe11ab507ce550586674e988a062e8844"
     },
     {
       "name": "DCF77",
@@ -11486,6 +12928,26 @@
       "archiveFileName": "thinger_io-1.1.1-github.zip",
       "size": 34551,
       "checksum": "SHA-256:ca5358573702d48d2177356891d15f2a4c7653c29fa153194989cb09f2b9d529"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.0.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@gmail.com\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for the thinger.io IoT platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating. Working with several devices like ESP8266, Arduino Ethernet, Arduino Wifi, Arduino Yun, Adafruit CC3000, Texas Instruments CC3200.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/thinger-io/Arduino-Library/archive/2.0.0.zip",
+      "archiveFileName": "thinger_io-2.0.0-github.zip",
+      "size": 36054,
+      "checksum": "SHA-256:ab05d721b5f1e073225af586d4062f818b48aded6f7d0c5f3bcd556ba6e4cc6f"
     },
     {
       "name": "Bounce2",
@@ -11788,6 +13250,46 @@
       "checksum": "SHA-256:828882837fddda75b55a1db8cdbd09c1a96a98dd7c17ce522bb1a5ad02b18120"
     },
     {
+      "name": "EnergyBoard",
+      "version": "3.0.1",
+      "author": "Gunce Akkoyun \u003cgunce.akkoyun@lvx.com.tr\u003e",
+      "maintainer": "LVX \u003cinfo@lvx.com.tr\u003e",
+      "sentence": "Enables reading polyphase energy-monitor parameters of LVX EnergyBoard",
+      "paragraph": "The EnergyBoard is an energy measurement module for polyphase power-monitoring systems. It is designed for real-time monitoring for a variety of typical three-phase configurations in industrial applications. The EnergyBoard provides up to six analog inputs for interfacing to voltage and current sensors. Scaled voltages from the sensors are fed to the single converter front-end using a high-resolution delta-sigma converter. Supported current sensors include current transformers (CTs), Rogowski coils, and resistive shunts.",
+      "website": "http://www.lvx.com.tr",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/x2bus/EnergyBoard/archive/V3.0.1.zip",
+      "archiveFileName": "EnergyBoard-3.0.1-github.zip",
+      "size": 2405103,
+      "checksum": "SHA-256:edcf4968215f5461fe30669d8fa4d30708d096e265a4594736e581b335101e43"
+    },
+    {
+      "name": "PubSubClient",
+      "version": "2.4.0",
+      "author": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "maintainer": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
+      "sentence": "A client library for MQTT messaging.",
+      "paragraph": "MQTT is a lightweight messaging protocol ideal for small devices. This library allows you to send and receive MQTT messages. It supports the latest MQTT 3.1.1 protocol and can be configured to use the older MQTT 3.1 if needed. It supports all Arduino Ethernet Client compatible hardware, including the Intel Galileo/Edison, ESP8266 and TI CC3000.",
+      "website": "http://pubsubclient.knolleary.net",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/knolleary/pubsubclient/archive/2.4.zip",
+      "archiveFileName": "PubSubClient-2.4.0-github.zip",
+      "size": 36545,
+      "checksum": "SHA-256:5f3b11d78b370a1e596565e1769c86f3d003086d59b2de4e9dde9e9faf55e428"
+    },
+    {
       "name": "PubSubClient",
       "version": "2.2.0",
       "author": "Nick O'Leary \u003cnick.oleary@gmail.com\u003e",
@@ -12068,6 +13570,46 @@
       "checksum": "SHA-256:25df5a8c51aff2258f850f1f93b01045b0079d44a122049fcc634fb4fe413014"
     },
     {
+      "name": "NeoNextion",
+      "version": "2.1.0",
+      "author": "Dan Nixon",
+      "maintainer": "Dan Nixon \u003cdan@dan-nixon.com\u003e",
+      "sentence": "Arduino library for controlling Nextion displays",
+      "paragraph": "Arduino library for controlling Nextion displays",
+      "website": "https://github.com/DanNixon/NeoNextion",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/DanNixon/NeoNextion/archive/v2.1.0.zip",
+      "archiveFileName": "NeoNextion-2.1.0-github.zip",
+      "size": 72694,
+      "checksum": "SHA-256:90b55fa1147146d58d2b1b718e4f1635e226dd7d5c2e692300d87a1e0c330c51"
+    },
+    {
+      "name": "Controllino Library",
+      "version": "1.0.0",
+      "author": "SG-Tronic",
+      "maintainer": "SG-Tronic \u003cinfo@controllino.cc\u003e",
+      "sentence": "Library for Controllino PLC",
+      "paragraph": "Library for Controllino PLC",
+      "website": "https://github.com/Controllino/ControllinoLibrary",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Controllino/ControllinoLibrary/archive/V1.0.0.zip",
+      "archiveFileName": "Controllino_Library-1.0.0-github.zip",
+      "size": 12161,
+      "checksum": "SHA-256:4c468c484a885c527e6ec56636d9441abc60bb72cc596808529f1da87b743765"
+    },
+    {
       "name": "Controllino Library",
       "version": "0.9.0",
       "author": "SG-Tronic",
@@ -12208,6 +13750,86 @@
       "checksum": "SHA-256:c5c9d6af22947b58598425236efd7fe3052ddbea48cd2d2268c4ca7123c19b18"
     },
     {
+      "name": "RF24Mesh",
+      "version": "1.0.1",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices mesh.",
+      "paragraph": "Provides a simple and seamless 'mesh' layer for sensor networks, allowing automatic and dynamic configuration that can be customized to suit many scenarios. It is currently designed to interface directly with with the RF24Network Development library, an OSI Network Layer using nRF24L01(+) radios driven by the newly optimized RF24 library fork.",
+      "website": "http://tmrh20.github.io/RF24Mesh/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Mesh/archive/v1.0.1-beta.zip",
+      "archiveFileName": "RF24Mesh-1.0.1-github.zip",
+      "size": 30878,
+      "checksum": "SHA-256:d6d4c1997188a8e4434943e6a7bff2f3829d003b003ad37ddabd63094845e4e9"
+    },
+    {
+      "name": "RF24Mesh",
+      "version": "1.0.2",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices mesh.",
+      "paragraph": "Provides a simple and seamless 'mesh' layer for sensor networks, allowing automatic and dynamic configuration that can be customized to suit many scenarios. It is currently designed to interface directly with with the RF24Network Development library, an OSI Network Layer using nRF24L01(+) radios driven by the newly optimized RF24 library fork.",
+      "website": "http://tmrh20.github.io/RF24Mesh/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Mesh/archive/v1.0.2-beta.zip",
+      "archiveFileName": "RF24Mesh-1.0.2-github.zip",
+      "size": 31015,
+      "checksum": "SHA-256:c12b37fc8adc3b8efd8dcf0880c62c24200cd605071ced8a637c29b235050b82"
+    },
+    {
+      "name": "RF24Mesh",
+      "version": "1.0.3",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices mesh.",
+      "paragraph": "Provides a simple and seamless 'mesh' layer for sensor networks, allowing automatic and dynamic configuration that can be customized to suit many scenarios. It is currently designed to interface directly with with the RF24Network Development library, an OSI Network Layer using nRF24L01(+) radios driven by the newly optimized RF24 library fork.",
+      "website": "http://tmrh20.github.io/RF24Mesh/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Mesh/archive/v1.0.3-beta.zip",
+      "archiveFileName": "RF24Mesh-1.0.3-github.zip",
+      "size": 32263,
+      "checksum": "SHA-256:975fd1c3bb6d1092a665ab650e8ebb2f37bc5e7f7d08d2b01b38b2bf04e04334"
+    },
+    {
+      "name": "RF24Mesh",
+      "version": "1.0.4",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices mesh.",
+      "paragraph": "Provides a simple and seamless 'mesh' layer for sensor networks, allowing automatic and dynamic configuration that can be customized to suit many scenarios. It is currently designed to interface directly with with the RF24Network Development library, an OSI Network Layer using nRF24L01(+) radios driven by the newly optimized RF24 library fork.",
+      "website": "http://tmrh20.github.io/RF24Mesh/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Mesh/archive/v1.0.4-beta.zip",
+      "archiveFileName": "RF24Mesh-1.0.4-github.zip",
+      "size": 32637,
+      "checksum": "SHA-256:f3c9d1cc51cbfb156860d867c8d8fbee0bcaf5b4c546290027304249cf4c1896"
+    },
+    {
       "name": "RF24Network",
       "version": "1.0.0",
       "author": "TMRh20",
@@ -12226,6 +13848,86 @@
       "archiveFileName": "RF24Network-1.0.0-github.zip",
       "size": 115733,
       "checksum": "SHA-256:3d259346f593840fcffac600823aca677b1df82e7762c41190966d838e61a9ad"
+    },
+    {
+      "name": "RF24Network",
+      "version": "1.0.1",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices network.",
+      "paragraph": "Provides a simple and seamless netowork layer for sensor networks.",
+      "website": "http://tmrh20.github.io/RF24Network/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Network/archive/v1.0.1.zip",
+      "archiveFileName": "RF24Network-1.0.1-github.zip",
+      "size": 116015,
+      "checksum": "SHA-256:55465908de77f4246864f8f7eabf6a3b0e49977cf050ac762f393ce478adc040"
+    },
+    {
+      "name": "RF24Network",
+      "version": "1.0.2",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices network.",
+      "paragraph": "Provides a simple and seamless netowork layer for sensor networks.",
+      "website": "http://tmrh20.github.io/RF24Network/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Network/archive/v1.0.2.zip",
+      "archiveFileName": "RF24Network-1.0.2-github.zip",
+      "size": 115388,
+      "checksum": "SHA-256:8e14cd69bba9639b072a62a0d7873b3c850bb3dfae5a846db6f2c2e70a99c850"
+    },
+    {
+      "name": "RF24Network",
+      "version": "1.0.3",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices network.",
+      "paragraph": "Provides a simple and seamless netowork layer for sensor networks.",
+      "website": "http://tmrh20.github.io/RF24Network/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Network/archive/v1.0.3.zip",
+      "archiveFileName": "RF24Network-1.0.3-github.zip",
+      "size": 115814,
+      "checksum": "SHA-256:5e34207a3bdf1f35dd533ac607886d945a01fcfc9cdb3ec97ee595911d7bece3"
+    },
+    {
+      "name": "RF24Network",
+      "version": "1.0.4",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) devices network.",
+      "paragraph": "Provides a simple and seamless netowork layer for sensor networks.",
+      "website": "http://tmrh20.github.io/RF24Network/",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Network/archive/v1.0.4.zip",
+      "archiveFileName": "RF24Network-1.0.4-github.zip",
+      "size": 115827,
+      "checksum": "SHA-256:31df0283f9b894d18413f335672202bbfab2473ef6f7fe06fe74e6be98fd2ef3"
     },
     {
       "name": "RF24",
@@ -12308,6 +14010,46 @@
       "checksum": "SHA-256:0c7cb8a78d0b18b6126b0da50c41566b4ea03a0e77a79fd95151d3ee85cfbb85"
     },
     {
+      "name": "RF24",
+      "version": "1.1.3",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) communication.",
+      "paragraph": "Optimized library for nRF24L01(+) that is simple to use for beginners, but yet offers a lot for advanced users. It also has a lot of good examples how to use the library.",
+      "website": "http://tmrh20.github.io/RF24/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24/archive/v1.1.3.zip",
+      "archiveFileName": "RF24-1.1.3-github.zip",
+      "size": 310567,
+      "checksum": "SHA-256:b58a92dbdf1f2320acf7f4be66639753ae0d7f716307eb025d1999312eeefa0e"
+    },
+    {
+      "name": "RF24",
+      "version": "1.1.4",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "A library for NRF24L01(+) communication.",
+      "paragraph": "Optimized library for nRF24L01(+) that is simple to use for beginners, but yet offers a lot for advanced users. It also has a lot of good examples how to use the library.",
+      "website": "http://tmrh20.github.io/RF24/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24/archive/v1.1.4.zip",
+      "archiveFileName": "RF24-1.1.4-github.zip",
+      "size": 311103,
+      "checksum": "SHA-256:5e47d185987d2ba58552e1f4d1d7d84bc103840164aa573c509779f2cc110212"
+    },
+    {
       "name": "Automaton",
       "version": "0.1.0",
       "author": "Tinkerspy \u003ctinkerspy@myown.mailcan.com\u003e",
@@ -12369,46 +14111,6 @@
     },
     {
       "name": "TaskScheduler",
-      "version": "1.6.0",
-      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
-      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
-      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
-      "paragraph": "Enables developers to achieve pseudo multi-tasking. The library is NOT pre-emptive, and as such requires cooperative programming to be used; does NOT use any of the timers therefore does not affect PWM pins.",
-      "website": "https://github.com/arkhipenko/TaskScheduler.git",
-      "category": "Schedulers",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.6.0.zip",
-      "archiveFileName": "TaskScheduler-1.6.0-github.zip",
-      "size": 33973,
-      "checksum": "SHA-256:26b136b54caef96794837efe90e3aff4c521cc25fee4c28252e488dcc98dd54c"
-    },
-    {
-      "name": "TaskScheduler",
-      "version": "1.7.0",
-      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
-      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
-      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
-      "paragraph": "Enables developers to achieve pseudo multi-tasking. The library is NOT pre-emptive, and as such requires cooperative programming to be used; does NOT use any of the timers therefore does not affect PWM pins.",
-      "website": "https://github.com/arkhipenko/TaskScheduler.git",
-      "category": "Schedulers",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.7.0.zip",
-      "archiveFileName": "TaskScheduler-1.7.0-github.zip",
-      "size": 104343,
-      "checksum": "SHA-256:811c2185aa177705cca263c0494dc8178f0840c97aeca2c070a9575e0f7c30d2"
-    },
-    {
-      "name": "TaskScheduler",
       "version": "1.8.0",
       "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
       "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
@@ -12446,6 +14148,126 @@
       "archiveFileName": "TaskScheduler-1.8.1-github.zip",
       "size": 125778,
       "checksum": "SHA-256:28c7dfaec4d2150ef057165d747fd32e5d13aa689a7fe700bb75efc94310b6b4"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "1.8.2",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, support for event-driven task invocation via Status Request object, support for task IDs and Control Points for error handling and watchdog timer, support for Local Task Storage pointer (allowing use of same callback code for multiple tasks)",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.8.2.zip",
+      "archiveFileName": "TaskScheduler-1.8.2-github.zip",
+      "size": 129713,
+      "checksum": "SHA-256:5fb2439f0c6a3e7a1343cec35d29f5ee863cdfa12e6b7536224731cdcc0605c0"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "1.8.3",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, support for event-driven task invocation via Status Request object, support for task IDs and Control Points for error handling and watchdog timer, support for Local Task Storage pointer (allowing use of same callback code for multiple tasks)",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.8.3.zip",
+      "archiveFileName": "TaskScheduler-1.8.3-github.zip",
+      "size": 133178,
+      "checksum": "SHA-256:8f67301ca91f57d069e341150a888bd96f4c34bf8f3260774dd82342911a7a93"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "1.8.4",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, support for event-driven task invocation via Status Request object, support for task IDs and Control Points for error handling and watchdog timer, support for Local Task Storage pointer (allowing use of same callback code for multiple tasks)",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.8.4.zip",
+      "archiveFileName": "TaskScheduler-1.8.4-github.zip",
+      "size": 140409,
+      "checksum": "SHA-256:0b2b0dce824d1d9bbb80b65c44827d1bbb7163cd9b37bad18ba1154a4f6a1dde"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "1.8.5",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, support for event-driven task invocation via Status Request object, support for task IDs and Control Points for error handling and watchdog timer, support for Local Task Storage pointer (allowing use of same callback code for multiple tasks)",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.8.5.zip",
+      "archiveFileName": "TaskScheduler-1.8.5-github.zip",
+      "size": 142795,
+      "checksum": "SHA-256:f45c7bbfc7901f2922dedbe87986efd7d4e2657619591d96c3a97ce7fff9cace"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "1.9.0",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, support for event-driven task invocation via Status Request object, support for task IDs and Control Points for error handling and watchdog timer, support for Local Task Storage pointer (allowing use of same callback code for multiple tasks)",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.9.0.zip",
+      "archiveFileName": "TaskScheduler-1.9.0-github.zip",
+      "size": 142941,
+      "checksum": "SHA-256:c41a2a97c9018f1191db9ebd349ca2a5dacfb8fe5bd1e6886c6c7c94811def52"
+    },
+    {
+      "name": "TaskScheduler",
+      "version": "1.9.1",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "A light-weight cooperative multitasking library for arduino microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, support for event-driven task invocation via Status Request object, support for task IDs and Control Points for error handling and watchdog timer, support for Local Task Storage pointer (allowing use of same callback code for multiple tasks)",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/arkhipenko/TaskScheduler/archive/v1.9.1.zip",
+      "archiveFileName": "TaskScheduler-1.9.1-github.zip",
+      "size": 142253,
+      "checksum": "SHA-256:c8a37859fdbac8e16eb3ad98c3602c60fae8dde0120a7ec68d003fa4efb20136"
     },
     {
       "name": "FastLED",
@@ -12908,6 +14730,46 @@
       "checksum": "SHA-256:6c92153d0d61f48d21f38ae3cc7a27c54ae83bbf62d6f9294d8097f97157cd01"
     },
     {
+      "name": "RBD_Capacitance",
+      "version": "1.0.3",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Measure change in capacitance.",
+      "paragraph": "Detect human presence and touch from behind several millimeters of material, or detect change in water levels from the outside of a plastic container. This library is meant to help determine change in relative capacitance for the reasons above, and not for calculating exact capacitance. Relative capacitance is found by measuring how long it takes for an Arduino send-pin to charge a receive-pin to HIGH (in microseconds).",
+      "website": "https://github.com/alextaujenis/RBD_Capacitance",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Capacitance/archive/1.0.3.zip",
+      "archiveFileName": "RBD_Capacitance-1.0.3-github.zip",
+      "size": 9829,
+      "checksum": "SHA-256:b4404c6c4511ebb75bf65fd06d285064b6d54576c74493a3a42dcd3ba2819778"
+    },
+    {
+      "name": "RBD_Capacitance",
+      "version": "1.0.4",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Measure change in capacitance.",
+      "paragraph": "Detect human presence and touch from behind several millimeters of material, or detect change in water levels from the outside of a plastic container. This library is meant to help determine change in relative capacitance for the reasons above, and not for calculating exact capacitance. Relative capacitance is found by measuring how long it takes for an Arduino send-pin to charge a receive-pin to HIGH (in microseconds).",
+      "website": "https://github.com/alextaujenis/RBD_Capacitance",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Capacitance/archive/1.0.4.zip",
+      "archiveFileName": "RBD_Capacitance-1.0.4-github.zip",
+      "size": 9693,
+      "checksum": "SHA-256:9ab68861da9f2421f0f7281bef03810438ffa03eafc59b38734e905908ae47af"
+    },
+    {
       "name": "Wifi Connector",
       "version": "0.0.1",
       "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
@@ -12926,6 +14788,44 @@
       "archiveFileName": "Wifi_Connector-0.0.1-github.zip",
       "size": 64691,
       "checksum": "SHA-256:cf8e95275b57ca9078b061335941bc6bd726d094e0b53025842284c5be03f5b3"
+    },
+    {
+      "name": "Wifi Connector",
+      "version": "0.1.0",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.1.1.zip",
+      "archiveFileName": "Wifi_Connector-0.1.0-github.zip",
+      "size": 64551,
+      "checksum": "SHA-256:8340a1b44e481d769c0813bb8b8611cb9281346f9cae54d15ddc10e7c3de9c27"
+    },
+    {
+      "name": "WiFi Connect Helper",
+      "version": "0.0.9",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.0.10.zip",
+      "archiveFileName": "WiFi_Connect_Helper-0.0.9-github.zip",
+      "size": 64596,
+      "checksum": "SHA-256:4e7013b13a0ee4a4b61821978e7750bfdf5dc88254dd0b910fc97efec876c545"
     },
     {
       "name": "WiFi Connect Helper",
@@ -12987,6 +14887,25 @@
       "checksum": "SHA-256:1d8db5b6d3af99babbcc4002993d4061e3c6ff328df71d9403c6a61eb78246df"
     },
     {
+      "name": "WiFi Connect Helper",
+      "version": "0.1.1",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.1.4.zip",
+      "archiveFileName": "WiFi_Connect_Helper-0.1.1-github.zip",
+      "size": 64556,
+      "checksum": "SHA-256:891d71a2742c7d665aafb81bb433485ec27d76ba32f0ecb4fbc77c6d2a302c19"
+    },
+    {
       "name": "WiFi Connector",
       "version": "0.0.4",
       "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
@@ -13024,6 +14943,44 @@
       "archiveFileName": "WiFi_Connector-0.0.9-github.zip",
       "size": 64508,
       "checksum": "SHA-256:463595d6ad0c82a6f8bac8341cbf4d51d507d22b20d0f813e0c5f7e983c329c5"
+    },
+    {
+      "name": "WiFi Connector",
+      "version": "0.1.0",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.1.2.zip",
+      "archiveFileName": "WiFi_Connector-0.1.0-github.zip",
+      "size": 64550,
+      "checksum": "SHA-256:c1769dc3bcdad2b5a1c43c5df777f81db2111fd28cf7590ab45435124ac6ffc1"
+    },
+    {
+      "name": "WiFi Connector",
+      "version": "0.1.9",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.1.9.zip",
+      "archiveFileName": "WiFi_Connector-0.1.9-github.zip",
+      "size": 64550,
+      "checksum": "SHA-256:75c8ccbf0d76219d817c227e1c3b85b4fbaaa31889708ecdd62f1b6f193c235b"
     },
     {
       "name": "CMMC WiFi Connector",
@@ -13085,6 +15042,44 @@
       "checksum": "SHA-256:f14abf996babd72a4ba9a84fb83eb5316834b5824c4c3b16e69b654f7e6f5676"
     },
     {
+      "name": "WiFi Connector Helper",
+      "version": "0.1.0",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.1.3.zip",
+      "archiveFileName": "WiFi_Connector_Helper-0.1.0-github.zip",
+      "size": 64555,
+      "checksum": "SHA-256:441e695684f92fe0e7b779fbb4607f1c4f9f6579e7735c064ecec7110705744b"
+    },
+    {
+      "name": "WiFi Connector Helper",
+      "version": "0.1.8",
+      "author": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "maintainer": "Nat Weerawan \u003cnat.wrw@gmail.com\u003e",
+      "sentence": "**Deprecated** __DO NOT USE THIS LIBRARY__",
+      "website": "https://github.com/cmmakerclub/WiFiConnector",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/cmmakerclub/WiFiConnector/archive/v0.1.6.zip",
+      "archiveFileName": "WiFi_Connector_Helper-0.1.8-github.zip",
+      "size": 64555,
+      "checksum": "SHA-256:c3148b891cabdb4aaca76c649cf059d28c9c28e78e4719f74c86394ac00e4dec"
+    },
+    {
       "name": "PciManager",
       "version": "2.0.0",
       "author": "Balazs Kelemen \u003cprampec+arduino@gmail.com\u003e",
@@ -13105,24 +15100,24 @@
       "checksum": "SHA-256:4889ae085931f5774c136ecbd485d7801cce7f137911e1ad7a512be718d52ddc"
     },
     {
-      "name": "SparkFun LSM303C 6 DOF IMU Breakout",
-      "version": "1.0.0",
-      "author": "SparkFun Electronics",
-      "maintainer": "SparkFun Electronics \u003cTechSupport@SparkFun.com\u003e",
-      "sentence": "Driver for ST's LSM303C 6-DOF IMU (3-axis accelerometer \u0026 3-axis magnetometer)",
-      "paragraph": "The \u003ca href=\"http://www.st.com/web/en/resource/technical/document/datasheet/DM00089896.pdf\"\u003eLSM303C\u003c/a\u003e is a system-in-package featuring a 3D digital linear acceleration sensor and a 3D digital magnetic sensor. The LSM303C has linear acceleration full scales of ±2 g / ±4 g / ±8 g and a magnetic field full scale of ±16 gauss. The LSM303C includes an I2C serial bus interface that supports standard and fast mode (100 kHz and 400 kHz) and a half-duplex subset of the SPI serial interface.",
-      "website": "https://github.com/sparkfun/LSM303C_6_DOF_IMU_Breakout",
-      "category": "Sensors",
+      "name": "PciManager",
+      "version": "2.1.0",
+      "author": "Balazs Kelemen \u003cprampec+arduino@gmail.com\u003e",
+      "maintainer": "Balazs Kelemen \u003cprampec+arduino@gmail.com\u003e",
+      "sentence": "This library helps you manage Pin Change Interrupts: subscribe and receive change events.",
+      "paragraph": "With PciManager Arduino library you can manage the Pin Change Interrupt of the microcontroller. You can register listeners in the PciManager for a change of a pin. The manager handles the interrupt and calls the listeners.",
+      "website": "https://github.com/prampec/arduino-pcimanager",
+      "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/sparkfun/SparkFun_LSM303C_6_DOF_IMU_Breakout_Arduino_Library/archive/V_1.0.0.zip",
-      "archiveFileName": "SparkFun_LSM303C_6_DOF_IMU_Breakout-1.0.0-github.zip",
-      "size": 17045,
-      "checksum": "SHA-256:22d42c2cd46dac2bb1ceb85bf11ce42baeccb3aa6f4f18ca500cd77a9717dc62"
+      "url": "https://github.com/prampec/arduino-pcimanager/archive/2.1.0.zip",
+      "archiveFileName": "PciManager-2.1.0-github.zip",
+      "size": 23916,
+      "checksum": "SHA-256:8cd87a14a8a90c7e724b7a803087841be22cf5582a913283de42a4b6c748f0a9"
     },
     {
       "name": "RBD_HumanSensor",
@@ -13183,6 +15178,26 @@
       "archiveFileName": "RBD_HumanSensor-1.0.2-github.zip",
       "size": 9307,
       "checksum": "SHA-256:fee15119bcf7123dcd86768d1eb95132fb937ffbe80d254265444c03c5a8b530"
+    },
+    {
+      "name": "RBD_HumanSensor",
+      "version": "1.0.3",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Detect human presence, touch, and pickup events.",
+      "paragraph": "Measure change in capacitance to detect human presence, touch, and pickup events without delay or interrupts.",
+      "website": "https://github.com/alextaujenis/RBD_HumanSensor",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_HumanSensor/archive/1.0.3.zip",
+      "archiveFileName": "RBD_HumanSensor-1.0.3-github.zip",
+      "size": 9300,
+      "checksum": "SHA-256:3b8f3decb2072fc11f126d6b2c2c004defea05fd036e23a00cd8fde9db0c75b8"
     },
     {
       "name": "MQTT Connector",
@@ -13325,6 +15340,26 @@
       "checksum": "SHA-256:c11d228d4d819093ae91f43d492d9afe384a5dcad15644706c8a73f4a49ab1b7"
     },
     {
+      "name": "InputDebounce",
+      "version": "1.1.0",
+      "author": "Mario Ban \u003cmario.ban@bluewin.ch\u003e",
+      "maintainer": "Mario Ban \u003cmario.ban@bluewin.ch\u003e",
+      "sentence": "Simple polling input debounce Arduino library.",
+      "paragraph": "Used for push-button like switches. Delivers input value (state) after it has been stable (not flickering) for longer than the debounce period, and delivers continuous pressed-on time duration [ms].",
+      "website": "https://github.com/Mokolea/InputDebounce",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Mokolea/InputDebounce/archive/v1.1.0.zip",
+      "archiveFileName": "InputDebounce-1.1.0-github.zip",
+      "size": 15937,
+      "checksum": "SHA-256:b327e5fde7f0c862cd258f2dcb2d862c38b52c6cdf05d35464a8640dc6d188c8"
+    },
+    {
       "name": "RBD_Light",
       "version": "1.0.0",
       "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
@@ -13405,6 +15440,126 @@
       "checksum": "SHA-256:ebbcd41988742447210709d3de877f5a97302b4869df04091a70aaf383bb5920"
     },
     {
+      "name": "RBD_Light",
+      "version": "1.0.4",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many lights.",
+      "paragraph": "Control many lights and blink without delay using commands such as on(), off(), blink(), and fade().",
+      "website": "https://github.com/alextaujenis/RBD_Light",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Light/archive/1.0.4.zip",
+      "archiveFileName": "RBD_Light-1.0.4-github.zip",
+      "size": 9724,
+      "checksum": "SHA-256:f155b7588ec960a6925527b7dd00914b3a706efb5216dc5691419974f2c9bc17"
+    },
+    {
+      "name": "RBD_Light",
+      "version": "1.0.5",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many lights.",
+      "paragraph": "Control many lights and blink without delay using commands such as on(), off(), blink(), and fade().",
+      "website": "https://github.com/alextaujenis/RBD_Light",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Light/archive/1.0.5.zip",
+      "archiveFileName": "RBD_Light-1.0.5-github.zip",
+      "size": 9728,
+      "checksum": "SHA-256:4faa0f5a6b4980a29088e74424e9c3ffda56310414d07a4c1cb1e3ddac14d75f"
+    },
+    {
+      "name": "RBD_Light",
+      "version": "2.0.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many lights.",
+      "paragraph": "Control many lights / LEDs and blink without delay or interrupts using commands such as on(), off(), blink(), and fade(). Lights must be connected to PWM enabled pins to work with this library.",
+      "website": "https://github.com/alextaujenis/RBD_Light",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Light/archive/2.0.0.zip",
+      "archiveFileName": "RBD_Light-2.0.0-github.zip",
+      "size": 9751,
+      "checksum": "SHA-256:b8181c565e562810a60f27820cf9ee0161e7347cef28992e427894a34b590861"
+    },
+    {
+      "name": "RBD_Light",
+      "version": "2.0.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many lights.",
+      "paragraph": "Control many lights / LEDs and blink without delay or interrupts using commands such as on(), off(), blink(), and fade(). Lights must be connected to PWM enabled pins to work with this library.",
+      "website": "https://github.com/alextaujenis/RBD_Light",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Light/archive/2.0.1.zip",
+      "archiveFileName": "RBD_Light-2.0.1-github.zip",
+      "size": 9995,
+      "checksum": "SHA-256:594fb6c50ff5e26859955e1bab8e75443319f1a34535de6271856bf4c59b9552"
+    },
+    {
+      "name": "RBD_Light",
+      "version": "2.1.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many lights.",
+      "paragraph": "Control many lights / LEDs and blink without delay or interrupts using commands such as on(), off(), blink(), and fade(). Lights must be connected to PWM enabled pins to work with this library.",
+      "website": "https://github.com/alextaujenis/RBD_Light",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Light/archive/2.1.0.zip",
+      "archiveFileName": "RBD_Light-2.1.0-github.zip",
+      "size": 10161,
+      "checksum": "SHA-256:752b6fb6acb66068bc622c05d188cb645afd358eb84c5c1309979f4f52f137d7"
+    },
+    {
+      "name": "RBD_Light",
+      "version": "2.1.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many lights.",
+      "paragraph": "Control many lights / LEDs and blink without delay or interrupts using commands such as on(), off(), blink(), and fade(). Lights must be connected to PWM enabled pins to work with this library.",
+      "website": "https://github.com/alextaujenis/RBD_Light",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Light/archive/2.1.1.zip",
+      "archiveFileName": "RBD_Light-2.1.1-github.zip",
+      "size": 5248,
+      "checksum": "SHA-256:8666e062dd90c7709e3a6c3eec95937c1e223d6fe77e2214600e1fee1c933277"
+    },
+    {
       "name": "RBD_LightSensor",
       "version": "1.0.0",
       "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
@@ -13465,6 +15620,26 @@
       "checksum": "SHA-256:ebda3d69ef811d396a312d048e9dceb975f1bffdee914f336adbffd75d44bd4f"
     },
     {
+      "name": "RBD_LightSensor",
+      "version": "1.0.3",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Read and calibrate photoresistors.",
+      "paragraph": "Read and calibrate photoresistors.",
+      "website": "https://github.com/alextaujenis/RBD_LightSensor",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_LightSensor/archive/1.0.3.zip",
+      "archiveFileName": "RBD_LightSensor-1.0.3-github.zip",
+      "size": 6893,
+      "checksum": "SHA-256:f8533d1e97209ef62ce508acdd6fb857e9370d71e11995b5410edae33b562ad8"
+    },
+    {
       "name": "RBD_Timer",
       "version": "1.0.0",
       "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
@@ -13523,6 +15698,106 @@
       "archiveFileName": "RBD_Timer-1.0.2-github.zip",
       "size": 8159,
       "checksum": "SHA-256:58dee7e8548a9824344cd0cb0814428d10ac07fd85ed93f73593089c75cc0df4"
+    },
+    {
+      "name": "RBD_Timer",
+      "version": "1.0.3",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Manage many timed events.",
+      "paragraph": "The Arduino real-time loop stops advancing when you write delay() or use interrupts in your sketch. You can keep the real-time loop moving by using millis() to track time and create delay, but it's more complicated and soon becomes messy to manage. This lightweight library manages time the same way you would by setting a waypoint and calculating elapsed millis(). It is a simple replacement to manage your timed events with english instead of math.",
+      "website": "https://github.com/alextaujenis/RBD_Timer",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Timer/archive/1.0.3.zip",
+      "archiveFileName": "RBD_Timer-1.0.3-github.zip",
+      "size": 9670,
+      "checksum": "SHA-256:684d23eb7b22cbba6bf3e9b00f59ad7072aa118ffd20ab576c2c8f83b250bfe7"
+    },
+    {
+      "name": "RBD_Timer",
+      "version": "1.0.4",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Manage many timed events.",
+      "paragraph": "The Arduino real-time loop stops advancing when you write delay() or use interrupts in your sketch. You can keep the real-time loop moving by using millis() to track time and create delay, but it's more complicated and soon becomes messy to manage. This lightweight library manages time the same way you would by setting a waypoint and calculating elapsed millis(). It is a simple replacement to manage your timed events with english instead of math.",
+      "website": "https://github.com/alextaujenis/RBD_Timer",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Timer/archive/1.0.4.zip",
+      "archiveFileName": "RBD_Timer-1.0.4-github.zip",
+      "size": 9627,
+      "checksum": "SHA-256:7e836c704939760f2a4b97424fa8147824cd2f37915cca70202b808e329a4f47"
+    },
+    {
+      "name": "RBD_Timer",
+      "version": "1.0.5",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Manage many timed events.",
+      "paragraph": "The Arduino real-time loop stops advancing when you write delay() or use interrupts in your sketch. You can keep the real-time loop moving by using millis() to track time and create delay, but it's more complicated and soon becomes messy to manage. This lightweight library manages time the same way you would by setting a waypoint and calculating elapsed millis(). It is a simple replacement to manage your timed events with english instead of math.",
+      "website": "https://github.com/alextaujenis/RBD_Timer",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Timer/archive/1.0.5.zip",
+      "archiveFileName": "RBD_Timer-1.0.5-github.zip",
+      "size": 9895,
+      "checksum": "SHA-256:c7fbf249a2634a3d8e11a7debd06bd9c18b0f26fc41e5c87ec3217fc80a84403"
+    },
+    {
+      "name": "RBD_Timer",
+      "version": "1.1.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Manage many timed events.",
+      "paragraph": "The Arduino real-time loop stops advancing when you write delay() or use interrupts in your sketch. You can keep the real-time loop moving by using millis() to track time and create delay, but it's more complicated and soon becomes messy to manage. This lightweight library manages time the same way you would by setting a waypoint and calculating elapsed millis(). It is a simple replacement to manage your timed events with english instead of math.",
+      "website": "https://github.com/alextaujenis/RBD_Timer",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Timer/archive/1.1.0.zip",
+      "archiveFileName": "RBD_Timer-1.1.0-github.zip",
+      "size": 9748,
+      "checksum": "SHA-256:b5361b73fb7330b986b564e03da6c873c8968855e2ede73ca60ba43ed07d39ff"
+    },
+    {
+      "name": "RBD_Timer",
+      "version": "1.1.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Manage many timed events.",
+      "paragraph": "The Arduino real-time loop stops advancing when you write delay() or use interrupts in your sketch. You can keep the real-time loop moving by using millis() to track time and create delay, but it's more complicated and soon becomes messy to manage. This lightweight library manages time the same way you would by setting a waypoint and calculating elapsed millis(). It is a simple replacement to manage your timed events with english instead of math.",
+      "website": "https://github.com/alextaujenis/RBD_Timer",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Timer/archive/1.1.1.zip",
+      "archiveFileName": "RBD_Timer-1.1.1-github.zip",
+      "size": 10071,
+      "checksum": "SHA-256:feb66ebdbb950168aee7575afac62db838a96c9da149b3b9dfe0b34fc93579fd"
     },
     {
       "name": "RBD_Motor",
@@ -13603,6 +15878,106 @@
       "archiveFileName": "RBD_Motor-1.0.4-github.zip",
       "size": 8027,
       "checksum": "SHA-256:827c428eb0519272c9ee33a5d07acc0f5bef74f4aaa578a6ef3dd2cf9c018bdb"
+    },
+    {
+      "name": "RBD_Motor",
+      "version": "1.1.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many motors without delay.",
+      "paragraph": "Control many motors without delay using commands like on(), off(), forward(), reverse(), and ramp(). Fire custom events when the motor has reached the target speed with onTargetSpeed(), or when it has changed direction with the onForward() and onReverse() events. Motors can be wired to move in a single direction, or can be driven in both directions with the help of a motor-shield or H bridge and this library.",
+      "website": "https://github.com/alextaujenis/RBD_Motor",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Motor/archive/1.1.0.zip",
+      "archiveFileName": "RBD_Motor-1.1.0-github.zip",
+      "size": 10478,
+      "checksum": "SHA-256:ed740dd910ee174d6c437a13848e1198005130d0519ce5429a9d9b6c4a7626c1"
+    },
+    {
+      "name": "RBD_Motor",
+      "version": "1.1.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many motors without delay.",
+      "paragraph": "Control many motors without delay using commands like on(), off(), forward(), reverse(), and ramp(). Fire custom events when the motor has reached the target speed with onTargetSpeed(), or when it has changed direction with the onForward() and onReverse() events. Motors can be wired to move in a single direction, or can be driven in both directions with the help of a motor-shield or H bridge and this library.",
+      "website": "https://github.com/alextaujenis/RBD_Motor",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Motor/archive/1.1.1.zip",
+      "archiveFileName": "RBD_Motor-1.1.1-github.zip",
+      "size": 10482,
+      "checksum": "SHA-256:ea7b306c33c8845b0d614ea066bc034520103a71c3ace0123116f0d68fc63590"
+    },
+    {
+      "name": "RBD_Motor",
+      "version": "2.0.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many motors without delay.",
+      "paragraph": "Control many motors without delay using commands like on(), off(), forward(), reverse(), and ramp(). Fire custom events when the motor has reached the target speed with onTargetSpeed(), or when it has changed direction with the onForward() and onReverse() events. Motors can be wired to move in a single direction, or can be driven in both directions with the help of a motor-shield or H bridge and this library.",
+      "website": "https://github.com/alextaujenis/RBD_Motor",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Motor/archive/2.0.0.zip",
+      "archiveFileName": "RBD_Motor-2.0.0-github.zip",
+      "size": 10341,
+      "checksum": "SHA-256:79d7043ccd72aaf7c601ba1c9221f55b358a812895be0e26c51194461649cbf0"
+    },
+    {
+      "name": "RBD_Motor",
+      "version": "2.0.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many motors without delay.",
+      "paragraph": "Control many motors without delay using commands like on(), off(), forward(), reverse(), and ramp(). Fire custom events when the motor has reached the target speed with onTargetSpeed(), or when it has changed direction with the onForward() and onReverse() events. Motors can be wired to move in a single direction, or can be driven in both directions with the help of a motor-shield or H bridge and this library.",
+      "website": "https://github.com/alextaujenis/RBD_Motor",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Motor/archive/2.0.1.zip",
+      "archiveFileName": "RBD_Motor-2.0.1-github.zip",
+      "size": 10498,
+      "checksum": "SHA-256:f31b593ba1deb09222005b59cc5395fd94ab02e8fbe147ef2dd5acacb3e37b4e"
+    },
+    {
+      "name": "RBD_Motor",
+      "version": "2.1.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many motors without delay.",
+      "paragraph": "Control many motors without delay using commands like on(), off(), forward(), reverse(), and ramp(). Fire custom events when the motor has reached the target speed with onTargetSpeed(), or when it has changed direction with the onForward() and onReverse() events. Motors can be wired to move in a single direction, or can be driven in both directions with the help of a motor-shield or H bridge and this library.",
+      "website": "https://github.com/alextaujenis/RBD_Motor",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Motor/archive/2.1.0.zip",
+      "archiveFileName": "RBD_Motor-2.1.0-github.zip",
+      "size": 10748,
+      "checksum": "SHA-256:f17d303a1a161ab85bedde82ac2e41bf9c1f9016d4b9cf19cc5b2d11bb6ef5e9"
     },
     {
       "name": "RBD_Threshold",
@@ -13725,6 +16100,26 @@
       "checksum": "SHA-256:92da4ef282605d065385eea49dda6bb0bf3e03c7b344e197eecf701a17c096eb"
     },
     {
+      "name": "SoftTimer",
+      "version": "3.1.0",
+      "author": "Balazs Kelemen \u003cprampec+arduino@gmail.com\u003e",
+      "maintainer": "Balazs Kelemen \u003cprampec+arduino@gmail.com\u003e",
+      "sentence": "SoftTimer is a lightweight pseudo multitasking solution for Arduino.",
+      "paragraph": "SoftTimer enable a higher level Arduino programing, jet easy to use, and lightweight. You often face with the problem that you need to do multiply tasks in the same time. In SoftTimer manner programmer creates Tasks that runs periodically. This library comes with a collection of handy tools like blinker, pwm, debouncer.",
+      "website": "https://github.com/prampec/arduino-softtimer",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/prampec/arduino-softtimer/archive/3.1.0.zip",
+      "archiveFileName": "SoftTimer-3.1.0-github.zip",
+      "size": 53663,
+      "checksum": "SHA-256:ced7c2425cc039dffe2078b16582c1037480de2063f691b1b4455b0dce32f9c2"
+    },
+    {
       "name": "RBD_WaterSensor",
       "version": "1.0.0",
       "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
@@ -13805,44 +16200,24 @@
       "checksum": "SHA-256:5d65fabcbf4991376d7fd9ce1cc62e426887bd56cfeb0c050034d19655b32dab"
     },
     {
-      "name": "RedBot Line Follower Bar Arduino Library",
-      "version": "0.4.0",
-      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
-      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
-      "sentence": "Library to operate the 8 position line sensor bar for robots.",
-      "paragraph": "This library can: get raw data, get position, get number of points detected, and build a circular buffer to record the data as it passes.",
-      "website": "https://github.com/sparkfun/RedBot_Line_Follower_Bar_Arduino_Library",
+      "name": "RBD_WaterSensor",
+      "version": "2.0.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Measure and calibrate water level sensors.",
+      "paragraph": "Measure and calibrate capacitance sensors to detect change in water levels from the outside of a plastic container.",
+      "website": "https://github.com/alextaujenis/RBD_WaterSensor",
       "category": "Sensors",
       "architectures": [
-        "*"
+        "avr"
       ],
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/sparkfun/SparkFun_Line_Follower_Array_Arduino_Library/archive/V_0.4.0.zip",
-      "archiveFileName": "RedBot_Line_Follower_Bar_Arduino_Library-0.4.0-github.zip",
-      "size": 41801,
-      "checksum": "SHA-256:a2c4e712e16e6ab864a23c61675c59719a4366cc39f7282518f2b91c2fbf489c"
-    },
-    {
-      "name": "SparkFun Line Follower Array",
-      "version": "1.0.0",
-      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
-      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
-      "sentence": "Library to operate the 8 position line sensor array for robots.",
-      "paragraph": "This library can: get raw data, get position, get number of points detected, and build a circular buffer to record the data as it passes.",
-      "website": "https://github.com/sparkfun/SparkFun_Line_Follower_Array_Arduino_Library",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/sparkfun/SparkFun_Line_Follower_Array_Arduino_Library/archive/V_1.0.0.zip",
-      "archiveFileName": "SparkFun_Line_Follower_Array-1.0.0-github.zip",
-      "size": 239836,
-      "checksum": "SHA-256:0206ac3a590be9aa4e0cfd160230b28c1e47f8181efa1dcc1421987c71420ac5"
+      "url": "https://github.com/alextaujenis/RBD_WaterSensor/archive/2.0.0.zip",
+      "archiveFileName": "RBD_WaterSensor-2.0.0-github.zip",
+      "size": 8275,
+      "checksum": "SHA-256:f592457007b2ae28c170c71f22711c49a7a45759a58d1e2e5ffad8e1824aae00"
     },
     {
       "name": "TM1650",
@@ -13865,28 +16240,8 @@
       "checksum": "SHA-256:a4bee064de617ce73a8a79df12f78eef1ae1d60f7f38ac01267ee891bf6ae6cc"
     },
     {
-      "name": "SparkFun BME280",
-      "version": "1.0.0",
-      "author": "Marshall Taylor",
-      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
-      "sentence": "A library to drive the Bosch BME280 Altimeter and Pressure sensor",
-      "paragraph": "See code for comments.",
-      "website": "https://github.com/sparkfun/SparkFun_BME280_Arduino_Library",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "url": "https://github.com/sparkfun/SparkFun_BME280_Arduino_Library/archive/V_1.0.0.zip",
-      "archiveFileName": "SparkFun_BME280-1.0.0-github.zip",
-      "size": 54373,
-      "checksum": "SHA-256:3e71dffee7d714e140d0695fac655c85e496c13d5c55b1c2a44bf1e239299bd5"
-    },
-    {
       "name": "extEEPROM",
-      "version": "3.2.0",
+      "version": "3.1.0",
       "author": "Jack Christensen",
       "maintainer": "Paolo Paolucci",
       "sentence": "Arduino library to support external I2C EEPROMs.",
@@ -13899,10 +16254,922 @@
       "types": [
         "Contributed"
       ],
-      "url": "https://github.com/PaoloP74/extEEPROM/archive/v3.2.zip",
-      "archiveFileName": "extEEPROM-3.2.0-github.zip",
-      "size": 11863,
-      "checksum": "SHA-256:91b5862d0c367c7470cb12b83364951ee00cec1743ad790daff8352a98da2af4"
+      "url": "https://github.com/PaoloP74/extEEPROM/archive/v3.1.zip",
+      "archiveFileName": "extEEPROM-3.1.0-github.zip",
+      "size": 11872,
+      "checksum": "SHA-256:5b56f61fd842bbf2a829999bb065546ddcfd3f52a3f830defd1b921eebf08fc0"
+    },
+    {
+      "name": "Json Streaming Parser",
+      "version": "1.0.0",
+      "author": "Daniel Eichhorn",
+      "maintainer": "Daniel Eichhorn \u003csquix78@gmail.com\u003e",
+      "sentence": "A very memory efficient library to parse (large) JSON objects on small devices",
+      "paragraph": "A very memory efficient library to parse (large) JSON objects on small devices",
+      "website": "https://github.com/squix78/json-streaming-parser",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/squix78/json-streaming-parser/archive/1.0.zip",
+      "archiveFileName": "Json_Streaming_Parser-1.0.0-github.zip",
+      "size": 11487,
+      "checksum": "SHA-256:4181932e275f00437ec58a5acdda209a7a6628250f63aa535db0ddccfa72538e"
+    },
+    {
+      "name": "Json Streaming Parser",
+      "version": "1.0.2",
+      "author": "Daniel Eichhorn",
+      "maintainer": "Daniel Eichhorn \u003csquix78@gmail.com\u003e",
+      "sentence": "A very memory efficient library to parse (large) JSON objects on small devices",
+      "paragraph": "A very memory efficient library to parse (large) JSON objects on small devices",
+      "website": "https://github.com/squix78/json-streaming-parser",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/squix78/json-streaming-parser/archive/1.0.2.zip",
+      "archiveFileName": "Json_Streaming_Parser-1.0.2-github.zip",
+      "size": 11544,
+      "checksum": "SHA-256:21a508f866b62e1b4ac6d931e59ab43d0a91e1990f7f8cc08ccd465f6a539274"
+    },
+    {
+      "name": "SmartMatrix3",
+      "version": "3.0.0",
+      "author": "Louis Beaudoin \u003clouis@pixelmatix.com\u003e",
+      "maintainer": "Louis Beaudoin \u003clouis@pixelmatix.com\u003e",
+      "sentence": "Drive multiplexed RGB matrix panels from your Teensy 3.1",
+      "website": "http://docs.pixelmatix.com/SmartMatrix",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/pixelmatix/SmartMatrix/archive/3.0-b1.zip",
+      "archiveFileName": "SmartMatrix3-3.0.0-github.zip",
+      "size": 2022617,
+      "checksum": "SHA-256:18bb6ebd79b5835a569e03d40e3fb8f8afefb050b8777788020bb6e4e5cde975"
+    },
+    {
+      "name": "EEWrap",
+      "version": "1.0.0",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A convenient library allowing one to use the EEPROM just like RAM.",
+      "website": "https://github.com/Chris--A/EEWrap#eewrap-library-for-avr-and-arduino-boards",
+      "category": "Data Storage",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/EEWrap/archive/1.0.0.zip",
+      "archiveFileName": "EEWrap-1.0.0-github.zip",
+      "size": 6222,
+      "checksum": "SHA-256:d4412aef2ff569bd076b12e7cb7fd59947b72485cf222ec93aa75c110dcea186"
+    },
+    {
+      "name": "RBD_Button",
+      "version": "1.0.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Read and debounce buttons and switches.",
+      "paragraph": "Read and debounce buttons and switches without delay. React to button events with the onPressed() and onReleased() commands. Control debounce time with setDebounceTimeout(). This library sets each button up as input_pullup by default, allowing you to wire the button to any digital input and ground. Input_pullup can be disabled by passing an optional flag to the constructor() and wiring the button with your own resistor.",
+      "website": "https://github.com/alextaujenis/RBD_Button",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Button/archive/1.0.0.zip",
+      "archiveFileName": "RBD_Button-1.0.0-github.zip",
+      "size": 9119,
+      "checksum": "SHA-256:fe2cdfaa05a149ebe0219b172fde7d2debf0b443b8518d6e8c9a6d4723e6279c"
+    },
+    {
+      "name": "RBD_Button",
+      "version": "1.0.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Read and debounce buttons and switches.",
+      "paragraph": "Read and debounce buttons and switches without delay or interrupts. React to button events with the onPressed() and onReleased() commands. Control debounce time with setDebounceTimeout(). This library sets each button up as input_pullup by default, allowing you to wire the button to any digital input and ground.",
+      "website": "https://github.com/alextaujenis/RBD_Button",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Button/archive/1.0.1.zip",
+      "archiveFileName": "RBD_Button-1.0.1-github.zip",
+      "size": 8932,
+      "checksum": "SHA-256:d32d849e9aba703d904ac1da4319548d63836939c5e11dfc918b288ca2c0a43b"
+    },
+    {
+      "name": "RBD_Button",
+      "version": "2.0.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Read and debounce buttons and switches.",
+      "paragraph": "Read and debounce buttons and switches without delay or interrupts. React to button events with the onPressed() and onReleased() commands. Control debounce time with setDebounceTimeout(). This library sets each button up as input_pullup by default, allowing you to wire the button to any digital input and ground.",
+      "website": "https://github.com/alextaujenis/RBD_Button",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Button/archive/2.0.0.zip",
+      "archiveFileName": "RBD_Button-2.0.0-github.zip",
+      "size": 4799,
+      "checksum": "SHA-256:01840eb2c30421ea2cbc1c87f95ee9623661498478c33460eb0e29a386f26222"
+    },
+    {
+      "name": "PGMWrap",
+      "version": "1.0.0",
+      "author": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "maintainer": "Christopher Andrews \u003cchris@arduino.land\u003e",
+      "sentence": "A convenient library allowing structures and variables stored in PROGMEM to be read directly.",
+      "paragraph": "This allevieates the need to use helpers like pgm_read_byte() to access data.",
+      "website": "https://github.com/Chris--A/PGMWrap",
+      "category": "Data Storage",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Chris--A/PGMWrap/archive/1.0.0.zip",
+      "archiveFileName": "PGMWrap-1.0.0-github.zip",
+      "size": 3383,
+      "checksum": "SHA-256:1f6a331a2db5e02aafa4c312a61734dd051baf3dec59eb200e403a260410ccdf"
+    },
+    {
+      "name": "Modulo",
+      "version": "0.10.0",
+      "author": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "maintainer": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "sentence": "A library that provides support for Modulo hardware.",
+      "website": "http://modulo.co/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/modulolabs/modulo-lib/archive/v0.10.zip",
+      "archiveFileName": "Modulo-0.10.0-github.zip",
+      "size": 74742,
+      "checksum": "SHA-256:dc59b06eb9105e5318931eea5fe5738afb955f7632965e5cbdffab7bf7e15397"
+    },
+    {
+      "name": "Modulo",
+      "version": "0.5.0",
+      "author": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "maintainer": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "sentence": "A library that provides support for Modulo hardware.",
+      "website": "http://modulo.co/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/modulolabs/modulo-lib/archive/v0.5.zip",
+      "archiveFileName": "Modulo-0.5.0-github.zip",
+      "size": 85876,
+      "checksum": "SHA-256:7388051cbdcc5322a9e236bbf374de64d31ec84b146cbcf9d4d4b9271c6648ca"
+    },
+    {
+      "name": "Modulo",
+      "version": "0.6.0",
+      "author": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "maintainer": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "sentence": "A library that provides support for Modulo hardware.",
+      "website": "http://modulo.co/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/modulolabs/modulo-lib/archive/v0.6.zip",
+      "archiveFileName": "Modulo-0.6.0-github.zip",
+      "size": 91712,
+      "checksum": "SHA-256:9763826e292544188743417a3a1c5b676c4870566089818dc46c63f025f0983d"
+    },
+    {
+      "name": "Modulo",
+      "version": "0.7.0",
+      "author": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "maintainer": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "sentence": "A library that provides support for Modulo hardware.",
+      "website": "http://modulo.co/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/modulolabs/modulo-lib/archive/v0.7.zip",
+      "archiveFileName": "Modulo-0.7.0-github.zip",
+      "size": 75201,
+      "checksum": "SHA-256:bc1828be396524f7d85fd6bdf32e9dc0d5c5a580f910c042a6256ee1ad6504be"
+    },
+    {
+      "name": "Modulo",
+      "version": "0.9.0",
+      "author": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "maintainer": "Erin Tomson \u003cerin@modulo.co\u003e",
+      "sentence": "A library that provides support for Modulo hardware.",
+      "website": "http://modulo.co/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/modulolabs/modulo-lib/archive/v0.9.zip",
+      "archiveFileName": "Modulo-0.9.0-github.zip",
+      "size": 75201,
+      "checksum": "SHA-256:d7a5745b2b58f2a27579a3f18b16784628074eac896b584e14b58dfcabe31f83"
+    },
+    {
+      "name": "RBD_Servo",
+      "version": "1.0.0",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many servos without delay.",
+      "paragraph": "Control many servos without delay or interrupts while applying rotation adjustments with PWM/PPM. Quickly calibrate each servo and make real-time adjustments to the rotation with moveToDegrees(). Connect as many servos as the number of digital pins available on your Arduino. This library is very fast and has a small, lightweight code footprint.",
+      "website": "https://github.com/alextaujenis/RBD_Servo",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Servo/archive/1.0.0.zip",
+      "archiveFileName": "RBD_Servo-1.0.0-github.zip",
+      "size": 8677,
+      "checksum": "SHA-256:8684c215566dd024415338b27eef4ca5940b8b434a78a5373049149f3db1ddab"
+    },
+    {
+      "name": "RBD_Servo",
+      "version": "1.0.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "Control many servos without delay.",
+      "paragraph": "Control many servos without delay or interrupts while applying rotation adjustments with PWM/PPM. Quickly calibrate each servo and make real-time adjustments to the rotation with moveToDegrees(). Connect as many servos as the number of digital pins available on your Arduino. This library is very fast and has a small, lightweight code footprint.",
+      "website": "https://github.com/alextaujenis/RBD_Servo",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_Servo/archive/1.0.1.zip",
+      "archiveFileName": "RBD_Servo-1.0.1-github.zip",
+      "size": 8682,
+      "checksum": "SHA-256:149bf0adbc071c6c19b3e84e05d62999158187813142c13f84a0f553d21aba23"
+    },
+    {
+      "name": "HardwareSerial_RS485",
+      "version": "2.0.0",
+      "author": "Michael Jonker",
+      "maintainer": "Michael Jonker \u003cmichael.j.jonker@gmail.com\u003e",
+      "sentence": "Concurrent multi-drop (i.e. multi-master, multi-slave) RS485 communication library",
+      "paragraph": "This library supports an RS485 transceiver connected to the USART (Tx/Rx) pins of the Arduino in a half-duplex, concurrent multi-drop environment. It provides message addressing and filtering as well as collision detection and avoidance.",
+      "website": "https://github.com/MichaelJonker/Arduino_HardwareSerial_RS485/tree/master/libraries/HardwareSerial_RS485",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/MichaelJonker/HardwareSerialRS485/archive/2.0.0.zip",
+      "archiveFileName": "HardwareSerial_RS485-2.0.0-github.zip",
+      "size": 869242,
+      "checksum": "SHA-256:246c6f9d5989bc71248a4efc292d74e19574ecfeb92332cf9156b00161be68c8"
+    },
+    {
+      "name": "HardwareSerial_RS485",
+      "version": "2.0.1",
+      "author": "Michael Jonker",
+      "maintainer": "Michael Jonker \u003cmichael.j.jonker@gmail.com\u003e",
+      "sentence": "Concurrent multi-drop (i.e. multi-master, multi-slave) RS485 communication library",
+      "paragraph": "This library supports an RS485 transceiver connected to the USART (Tx/Rx) pins of the Arduino in a half-duplex, concurrent multi-drop environment. It provides message addressing and filtering as well as collision detection and avoidance.",
+      "website": "https://github.com/MichaelJonker/HardwareSerialRS485",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/MichaelJonker/HardwareSerialRS485/archive/2.0.1.zip",
+      "archiveFileName": "HardwareSerial_RS485-2.0.1-github.zip",
+      "size": 869229,
+      "checksum": "SHA-256:0a21c21359cea94829c141e8f80996c33b34f7f0574da882faede02691bfcefa"
+    },
+    {
+      "name": "HardwareSerial_RS485",
+      "version": "2.1.0",
+      "author": "Michael Jonker",
+      "maintainer": "Michael Jonker \u003cmichael.j.jonker@gmail.com\u003e",
+      "sentence": "Concurrent multi-drop (i.e. multi-master, multi-slave) RS485 communication library",
+      "paragraph": "This library supports an RS485 transceiver connected to the USART (Tx/Rx) pins of the Arduino in a half-duplex, concurrent multi-drop environment. It provides message addressing and filtering as well as collision detection and avoidance.",
+      "website": "https://github.com/MichaelJonker/HardwareSerialRS485",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/MichaelJonker/HardwareSerialRS485/archive/2.1.0.zip",
+      "archiveFileName": "HardwareSerial_RS485-2.1.0-github.zip",
+      "size": 125077,
+      "checksum": "SHA-256:bb84d57f0343eb4f2bce0e62c51291f8f67e3913cd43c2442ba564e9bd1a71fd"
+    },
+    {
+      "name": "HardwareSerial_RS485",
+      "version": "2.2.0",
+      "author": "Michael Jonker",
+      "maintainer": "Michael Jonker \u003cmichael.j.jonker@gmail.com\u003e",
+      "sentence": "Concurrent multi-drop (i.e. multi-master, multi-slave) RS485 communication library",
+      "paragraph": "This library supports an RS485 transceiver connected to the USART (Tx/Rx) pins of the Arduino in a half-duplex, concurrent multi-drop environment. It provides message addressing and filtering as well as collision detection and avoidance.",
+      "website": "https://github.com/MichaelJonker/HardwareSerialRS485/wiki",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/MichaelJonker/HardwareSerialRS485/archive/2.2.0.zip",
+      "archiveFileName": "HardwareSerial_RS485-2.2.0-github.zip",
+      "size": 127673,
+      "checksum": "SHA-256:27b779b9b01fc1ea30f74a761506f2f3c62ccf81dd7b22f4af0befd99c1f22fe"
+    },
+    {
+      "name": "IRremote",
+      "version": "1.0.0",
+      "author": "shirriff",
+      "maintainer": "shirriff",
+      "sentence": "Send and receive infrared signals with multiple protocols",
+      "paragraph": "Send and receive infrared signals with multiple protocols",
+      "website": "https://github.com/shirriff/Arduino-IRremote.git",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/z3t0/Arduino-IRremote/archive/2.0.1.zip",
+      "archiveFileName": "IRremote-1.0.0-github.zip",
+      "size": 62075,
+      "checksum": "SHA-256:b89acd4b56e5689a4b7a9064db15ac5771d17ce3f741d7f2702e53f85794986e"
+    },
+    {
+      "name": "IRremote",
+      "version": "2.0.1",
+      "author": "shirriff",
+      "maintainer": "shirriff",
+      "sentence": "Send and receive infrared signals with multiple protocols",
+      "paragraph": "Send and receive infrared signals with multiple protocols",
+      "website": "https://github.com/shirriff/Arduino-IRremote.git",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/z3t0/Arduino-IRremote/archive/stable.zip",
+      "archiveFileName": "IRremote-2.0.1-github.zip",
+      "size": 68302,
+      "checksum": "SHA-256:8f2a166e2005404efc506494a75ff616150ab62bd55e58597229262a50faf48e"
+    },
+    {
+      "name": "Etherkit Si5351",
+      "version": "1.0.0",
+      "author": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "maintainer": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "sentence": "A full-featured library for the Si5351 series of clock generator ICs from Silicon Labs",
+      "paragraph": "It will allow you to control all features of the Si5351, without depending on the proprietary ClockBuilder software from Silicon Labs.",
+      "website": "https://github.com/etherkit/Si5351Arduino",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/etherkit/Si5351Arduino/archive/1.0.0.zip",
+      "archiveFileName": "Etherkit_Si5351-1.0.0-github.zip",
+      "size": 36388,
+      "checksum": "SHA-256:8a221d93679a16b07c6c642a76a22af09c47e4107514a8973fdda951076f0c11"
+    },
+    {
+      "name": "I2CSoilMoistureSensor",
+      "version": "1.0.0",
+      "author": "Ingo Fischer \u003cingo@fischer-ka.de\u003e",
+      "maintainer": "Ingo Fischer \u003cingo@fischer-ka.de\u003e",
+      "sentence": "Provide access to all functions of the I2C Soil Moisture Sensor from Catnip Electronics.",
+      "website": "https://github.com/Apollon77/I2CSoilMoistureSensor",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/Apollon77/I2CSoilMoistureSensor/archive/1.0.0.zip",
+      "archiveFileName": "I2CSoilMoistureSensor-1.0.0-github.zip",
+      "size": 8107,
+      "checksum": "SHA-256:b3b13c1fda0eb951255bd58a364d0869b7ed7140260b39bd430ea0abe2c61798"
+    },
+    {
+      "name": "ESP8266 Oled Driver for SSD1306 display",
+      "version": "1.0.0",
+      "author": "Daniel Eichhorn",
+      "maintainer": "Daniel Eichhorn \u003csquix78@gmail.com\u003e",
+      "sentence": "A display driver for SSD1306 oled displays connected to an ESP8266",
+      "paragraph": "A display driver for SSD1306 oled displays connected to an ESP8266",
+      "website": "https://github.com/squix78/esp8266-oled-ssd1306",
+      "category": "Display",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/squix78/esp8266-oled-ssd1306/archive/1.0.0.zip",
+      "archiveFileName": "ESP8266_Oled_Driver_for_SSD1306_display-1.0.0-github.zip",
+      "size": 19020,
+      "checksum": "SHA-256:341960c3259b9045c5e2c5e521b267256c4f23babdddc6e294fbea49deab97b1"
+    },
+    {
+      "name": "ESP8266 Oled Driver for SSD1306 display",
+      "version": "1.0.1",
+      "author": "Daniel Eichhorn",
+      "maintainer": "Daniel Eichhorn \u003csquix78@gmail.com\u003e",
+      "sentence": "A display driver for SSD1306 oled displays connected to an ESP8266",
+      "paragraph": "A display driver for SSD1306 oled displays connected to an ESP8266",
+      "website": "https://github.com/squix78/esp8266-oled-ssd1306",
+      "category": "Display",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/squix78/esp8266-oled-ssd1306/archive/1.0.1.zip",
+      "archiveFileName": "ESP8266_Oled_Driver_for_SSD1306_display-1.0.1-github.zip",
+      "size": 110165,
+      "checksum": "SHA-256:56e855ee3ce9ab7743fa1cb3657546081269dad2329969743a8d50e1e54ea7fd"
+    },
+    {
+      "name": "ESP8266 Oled Driver for SSD1306 display",
+      "version": "1.0.2",
+      "author": "Daniel Eichhorn",
+      "maintainer": "Daniel Eichhorn \u003csquix78@gmail.com\u003e",
+      "sentence": "A display driver for SSD1306 oled displays connected to an ESP8266",
+      "paragraph": "A display driver for SSD1306 oled displays connected to an ESP8266",
+      "website": "https://github.com/squix78/esp8266-oled-ssd1306",
+      "category": "Display",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/squix78/esp8266-oled-ssd1306/archive/1.0.2.zip",
+      "archiveFileName": "ESP8266_Oled_Driver_for_SSD1306_display-1.0.2-github.zip",
+      "size": 110653,
+      "checksum": "SHA-256:d2819c4efd82ba0d45794ecb38f9e2d62905ee69c5e7f7a6560077c157f90389"
+    },
+    {
+      "name": "due_can",
+      "version": "2.0.0",
+      "author": "Collin Kidder \u003ckidderc@gmail.com\u003e, Thibaut Viard, Wilfredo Molina",
+      "maintainer": "Collin Kidder \u003ckidderc@gmail.com\u003e",
+      "sentence": "Allows for CAN bus communications with the Arduino Due",
+      "paragraph": "Implements interrupt driven communication and supports both object oriented and non-OOP callbacks",
+      "website": "https://github.com/collin80/due_can",
+      "category": "Communication",
+      "architectures": [
+        "sam"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/collin80/due_can/archive/2.0.0.zip",
+      "archiveFileName": "due_can-2.0.0-github.zip",
+      "size": 32268,
+      "checksum": "SHA-256:705a360f1e35b2bd2ceca834e9a463aa1e30c6b68c44f3c5debf2357fd011371"
+    },
+    {
+      "name": "due_can",
+      "version": "2.0.1",
+      "author": "Collin Kidder \u003ckidderc@gmail.com\u003e, Thibaut Viard, Wilfredo Molina",
+      "maintainer": "Collin Kidder \u003ckidderc@gmail.com\u003e",
+      "sentence": "Allows for CAN bus communications with the Arduino Due",
+      "paragraph": "Implements interrupt driven communication and supports both object oriented and non-OOP callbacks",
+      "website": "https://github.com/collin80/due_can",
+      "category": "Communication",
+      "architectures": [
+        "sam"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/collin80/due_can/archive/2.0.1.zip",
+      "archiveFileName": "due_can-2.0.1-github.zip",
+      "size": 32265,
+      "checksum": "SHA-256:87bfb4b10462be94197cb4f34a4e480bd2d0d0c17cf6577d04b3d39fb4f155a2"
+    },
+    {
+      "name": "RBD_SerialManager",
+      "version": "1.0.0-alpha.1",
+      "author": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "maintainer": "Alex Taujenis \u003calex.taujenis@gmail.com\u003e",
+      "sentence": "A simple interface for serial communication.",
+      "paragraph": "A simple interface for serial communication.",
+      "website": "https://github.com/alextaujenis/RBD_SerialManager",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/alextaujenis/RBD_SerialManager/archive/1.0.0-alpha.1.zip",
+      "archiveFileName": "RBD_SerialManager-1.0.0-alpha.1-github.zip",
+      "size": 10538,
+      "checksum": "SHA-256:112af8992bd318f3598f42ea86cafc9f3446eaa2e94bf5d986685564e3b29f58"
+    },
+    {
+      "name": "FreeRTOS",
+      "version": "8.2.3",
+      "author": "Richard Berry \u003cinfo@freertos.org\u003e",
+      "maintainer": "Phillip Stevens \u003cphillip.stevens@gmail.com\u003e",
+      "sentence": "Real Time Operating System implemented for AVR (Uno, Leonardo, Mega).",
+      "paragraph": "The primary design goals are: Easy to use, Small footprint, Robust. Uses Watchdog Timer for 30ms resolution. Slow blink = stack overflow. Fast blink = heap malloc() failure.",
+      "website": "https://github.com/feilipu/Arduino_FreeRTOS_Library",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/feilipu/Arduino_FreeRTOS_Library/archive/v8.2.3-0.1.zip",
+      "archiveFileName": "FreeRTOS-8.2.3-github.zip",
+      "size": 221546,
+      "checksum": "SHA-256:323e3be34b5c4a190e4c61f8e50b98d323a08e2bf03e5c2ce32166a4e05e5f8a"
+    },
+    {
+      "name": "RF24Ethernet",
+      "version": "1.6.0",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "Open TCP/IP wireless/radio IoT mesh networks for Arduino",
+      "paragraph": "Self-sustaining wireless sensor networks that seamlessly link together using standard protocols \u0026 networking, based on low-power nrf24l01+ radio modules. An experiment in networking, protocols and devices. See http://github.io/RF24Ethernet",
+      "website": "http://tmrh20.github.io/RF24Ethernet/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/TMRh20/RF24Ethernet/archive/1.6.zip",
+      "archiveFileName": "RF24Ethernet-1.6.0-github.zip",
+      "size": 192877,
+      "checksum": "SHA-256:6c6e4c3d3ed39f90234a87dd1710e3ba61a0472291dc54d54d95a4e46893ef52"
+    },
+    {
+      "name": "ConfigurableFirmata",
+      "version": "2.8.0",
+      "author": "Firmata Developers",
+      "maintainer": "https://github.com/firmata/ConfigurableFirmata",
+      "sentence": "This library implements the Firmata protocol as a set of plugins that can be used to create applications to remotely interface with an Arduino board.",
+      "paragraph": "ConfigurableFirmata is an implementation of the Firmata protocol that breaks features such as Digital Input, Digital Output, Analog Input, Analog Output, I2C, etc into individual classes making it easier to mix and match standard features with custom features.",
+      "website": "https://github.com/firmata/ConfigurableFirmata",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/firmata/ConfigurableFirmata/archive/2.8.0.zip",
+      "archiveFileName": "ConfigurableFirmata-2.8.0-github.zip",
+      "size": 85896,
+      "checksum": "SHA-256:a9359004dceb1f7570e4cb0063521776add860e0c32c5b07914028f44f9f7772"
+    },
+    {
+      "name": "RapifireMqttClient",
+      "version": "1.0.0",
+      "author": "Rapifire",
+      "maintainer": "Rapifire \u003csupport@rapifire.com\u003e",
+      "sentence": "Rapifire MQTT Library.",
+      "paragraph": "The library is a mqtt client of the rapifire.com platform.",
+      "website": "https://github.com/rapifireio/rapifire-arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/rapifireio/rapifire-arduino-mqtt/archive/v1.0.zip",
+      "archiveFileName": "RapifireMqttClient-1.0.0-github.zip",
+      "size": 6849,
+      "checksum": "SHA-256:4dd2bcbc64e32632181d77a208a50c1c08c2d98dc1502a2f40fd51f4460487c1"
+    },
+    {
+      "name": "RapifireMqttClient",
+      "version": "1.1.0",
+      "author": "Rapifire",
+      "maintainer": "Rapifire \u003csupport@rapifire.com\u003e",
+      "sentence": "Rapifire MQTT Library.",
+      "paragraph": "The library is a mqtt client of the rapifire.com platform.",
+      "website": "https://github.com/rapifireio/rapifire-arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/rapifireio/rapifire-arduino-mqtt/archive/v1.1.zip",
+      "archiveFileName": "RapifireMqttClient-1.1.0-github.zip",
+      "size": 7279,
+      "checksum": "SHA-256:25facbd599c9f472994ef03648768ff11f74eae96f9c51a48c4372109249cb9f"
+    },
+    {
+      "name": "asip",
+      "version": "0.1.0",
+      "author": "Michael Margolis \u003cm.margolis@mdx.ac.uk\u003e, Franco Raimondi\u003cf.raimondi@mdx.ac.uk\u003e",
+      "maintainer": "Michael Margolis \u003cm.margolis@mdx.ac.uk\u003e, Franco Raimondi\u003cf.raimondi@mdx.ac.uk\u003e",
+      "sentence": "A library to control a board using a stream (e.g., serial)",
+      "paragraph": "This library implements the core ASIP protocol for I/O pins and some additional simple services",
+      "website": "https://bitbucket.org/mdxmase/asip",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mdxmase/asip/archive/0.1.0.zip",
+      "archiveFileName": "asip-0.1.0-github.zip",
+      "size": 24369,
+      "checksum": "SHA-256:3941cfa20b3298f711749b3d38984de1903a808c6095ebb92e8cb0be190e1dd5"
+    },
+    {
+      "name": "asip-services",
+      "version": "0.1.0",
+      "author": "Michael Margolis \u003cm.margolis@mdx.ac.uk\u003e, Franco Raimondi\u003cf.raimondi@mdx.ac.uk\u003e",
+      "maintainer": "Michael Margolis \u003cm.margolis@mdx.ac.uk\u003e, Franco Raimondi\u003cf.raimondi@mdx.ac.uk\u003e",
+      "sentence": "A library to extend the core Asip library with additional services",
+      "paragraph": "This library includes additional services for Asip that do not require external libraries: servo motors, sonar distance sensors and tones.",
+      "website": "https://bitbucket.org/mdxmase/asip-services",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/mdxmase/asip-additional-services/archive/0.1.0.zip",
+      "archiveFileName": "asip_services-0.1.0-github.zip",
+      "size": 13375,
+      "checksum": "SHA-256:6e2cab10545c39103bb100c5b712400d49b1249ead1ddb138d6d336101f8d103"
+    },
+    {
+      "name": "ClosedCube OPT3001",
+      "version": "1.0.1",
+      "author": "ClosedCube",
+      "maintainer": "ClosedCube \u003cgithub@closedcube.com\u003e",
+      "sentence": "Arduino library for Texas Instruments OPT3001 Digital Ambient Light Sensor",
+      "paragraph": "Arduino library for Texas Instruments OPT3001 Digital Ambient Light Sensor",
+      "website": "https://github.com/closedcube/B060_OPT3001_PRO",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/closedcube/ClosedCube_OPT3001_Library/archive/1.0.1.zip",
+      "archiveFileName": "ClosedCube_OPT3001-1.0.1-github.zip",
+      "size": 7084,
+      "checksum": "SHA-256:bb46a6b493589047065c63d6e6d7f8b61aa936309d474ad5abe0330046f6d7b7"
+    },
+    {
+      "name": "Smartcar shield",
+      "version": "1.0.0",
+      "author": "Dimitris Platis",
+      "maintainer": "Dimitris Platis \u003cdimitris@plat.is\u003e",
+      "sentence": "Arduino library for controlling the Smartcar platform",
+      "paragraph": "Arduino library for controlling the Smartcar platform",
+      "website": "https://github.com/platisd/smartcar-shield",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/platisd/smartcar_shield/archive/1.0.0.zip",
+      "archiveFileName": "Smartcar_shield-1.0.0-github.zip",
+      "size": 107697,
+      "checksum": "SHA-256:35ca4bb4692d8c6c7ee01f51e60696c5e46bd71099dd989226022371b0d415cf"
+    },
+    {
+      "name": "Smartcar shield",
+      "version": "1.1.0",
+      "author": "Dimitris Platis",
+      "maintainer": "Dimitris Platis \u003cdimitris@plat.is\u003e",
+      "sentence": "Arduino library for controlling the Smartcar platform",
+      "paragraph": "Arduino library for controlling the Smartcar platform",
+      "website": "https://github.com/platisd/smartcar_shield",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/platisd/smartcar_shield/archive/1.1.0.zip",
+      "archiveFileName": "Smartcar_shield-1.1.0-github.zip",
+      "size": 108199,
+      "checksum": "SHA-256:0dd235d5e9b6e5236fd9b89e6390b4d05327e7741fe71ef23118f38a930bceab"
+    },
+    {
+      "name": "NTPClient",
+      "version": "1.0.0",
+      "author": "Fabrice Weinberg",
+      "maintainer": "Fabrice Weinberg \u003cfabrice@weinberg.me\u003e",
+      "sentence": "An NTPClient to connect to a time server",
+      "paragraph": "Get time from a NTP server and keep it in sync.",
+      "website": "https://github.com/FWeinb/NTPClient",
+      "category": "Timing",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/FWeinb/NTPClient/archive/1.0.0.zip",
+      "archiveFileName": "NTPClient-1.0.0-github.zip",
+      "size": 5950,
+      "checksum": "SHA-256:2750641fce26df5d3acdc3da616f45cace086785fa8d34ec09fdcfad8b7951c6"
+    },
+    {
+      "name": "NTPClient",
+      "version": "2.0.0",
+      "author": "Fabrice Weinberg",
+      "maintainer": "Fabrice Weinberg \u003cfabrice@weinberg.me\u003e",
+      "sentence": "An NTPClient to connect to a time server",
+      "paragraph": "Get time from a NTP server and keep it in sync.",
+      "website": "https://github.com/FWeinb/NTPClient",
+      "category": "Timing",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/FWeinb/NTPClient/archive/2.0.0.zip",
+      "archiveFileName": "NTPClient-2.0.0-github.zip",
+      "size": 5730,
+      "checksum": "SHA-256:3cb3e30a74363110a495dcd86e3cde44a36f6f5d743e4162b29aaeb535f0b42d"
+    },
+    {
+      "name": "RESTClient",
+      "version": "1.0.0",
+      "author": "Robert Cuthbertson",
+      "maintainer": "Robbie \u003crobbie@robbie-remote.com\u003e",
+      "sentence": "Enables sending REST messages using Arduino Ethernet. For all boards.",
+      "paragraph": "With this library you can use Arduino Ethernet (shield or board) to send your sensor data via HTTP query args as Internet Of Things (IOT) messages. The library provides 'REST' Client functionality. This library uses the Ethernet library to connect to local networks and/or the Internet with DHCP and DNS.",
+      "website": "https://www.github.com/robbie-remote/RESTClient",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/robbie-remote/RESTClient/archive/1.0.0.zip",
+      "archiveFileName": "RESTClient-1.0.0-github.zip",
+      "size": 6921,
+      "checksum": "SHA-256:2838310a2f6540931b19d867308a564a3ada4de3c194570c41f7d4d127afadc4"
+    },
+    {
+      "name": "WiFiEsp",
+      "version": "0.1.0",
+      "author": "bportaluri",
+      "maintainer": "Bruno Portaluri \u003cbportaluri@gmail.com\u003e",
+      "sentence": "Arduino WiFi library for ESP8266",
+      "paragraph": "Arduino WiFi library for ESP8266",
+      "website": "https://github.com/bportaluri/WiFiEsp",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bportaluri/WiFiEsp/archive/v0.1.zip",
+      "archiveFileName": "WiFiEsp-0.1.0-github.zip",
+      "size": 37791,
+      "checksum": "SHA-256:2fc01e05d3efef997cb3588994d95b41aed96877e66ed495a4d418e32c8f03c7"
+    },
+    {
+      "name": "WiFiEsp",
+      "version": "1.0.0",
+      "author": "bportaluri",
+      "maintainer": "Bruno Portaluri \u003cbportaluri@gmail.com\u003e",
+      "sentence": "Arduino WiFi library for ESP8266",
+      "paragraph": "Arduino WiFi library for ESP8266. Works only with SDK version 1.1.1 and above (AT version 0.25 and above).",
+      "website": "https://github.com/bportaluri/WiFiEsp",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/bportaluri/WiFiEsp/archive/v1.0.zip",
+      "archiveFileName": "WiFiEsp-1.0.0-github.zip",
+      "size": 42887,
+      "checksum": "SHA-256:74fe728727037f002171d492319108737e2b3c84b73e14390f0686848b6d9540"
+    },
+    {
+      "name": "HDC1000",
+      "version": "1.0.0",
+      "author": "Yuichi Tateno",
+      "maintainer": "Yuichi Tateno",
+      "sentence": "A temperature and humidity sensor library for HDC1000",
+      "paragraph": "A temperature and humidity sensor library for HDC1000",
+      "website": "https://github.com/hotchpotch/Arduino-HDC1000.git",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "url": "https://github.com/hotchpotch/Arduino-HDC1000/archive/1.0.0.zip",
+      "archiveFileName": "HDC1000-1.0.0-github.zip",
+      "size": 4709,
+      "checksum": "SHA-256:38c3c51be696544b7d0d33c1c91f2dd16972111494fc2106bd05c82dc3a0f9e3"
+    },
+    {
+      "name": "AudioFrequenctMeter",
+      "version": "1.0.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Get the foundamental pitch of an audio signal",
+      "paragraph": "Allows the Arduino Zero to sample a generic input audio signal and get the foundamental pitch",
+      "website": "http://www.arduino.cc/en/Reference/AudioFrequencyMeter",
+      "category": "Timing",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "url": "https://github.com/arduino-libraries/AudioFrequencyMeter/archive/1.0.0.zip",
+      "archiveFileName": "AudioFrequenctMeter-1.0.0-github.zip",
+      "size": 7970,
+      "checksum": "SHA-256:f26b7ea7cbc71d7c060603618ab9cbaa9c07e9470d9f875c7b2ac5a6e00efdd1"
     }
   ]
 }

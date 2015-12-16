@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/SPI by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:21:40 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/SPI by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:03:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -238,9 +240,9 @@ function toggle(obj) {
 </li></ul><p class='vspace'></p><p>When a device's Slave Select pin is low, it communicates with the master.  When it's high, it ignores the master.  This allows you to have multiple SPI devices sharing the same MISO, MOSI, and CLK lines.
 </p>
 <p class='vspace'></p><p>To write code for a new SPI device you need to note a few things:
-</p><ul><li>Is data shifted in Most Significant Bit (MSB)  or Least Significant Bit (LSB) first? This is controlled by the <strong>SPI.setBitOrder</strong>() function.
-</li><li>Is the data clock idle when high or low? Are samples on the rising or falling edge of clock pulses? These modes are controlled by the <strong>SPI.setDataMode()</strong> function.
-</li><li>What speed is the SPI running at? This is controlled by the <strong>SPI.setClockDivider()</strong> function.
+</p><ul><li>What is the maximum SPI speed your device can use? This is controlled by the first parameter in <span class='wikiword'>SPISettings</span>.  If you are using a chip rated at 15 <span class='wikiword'>MHz</span>, use 15000000.  Arduino will automatically use the best speed that is equal to or less than the number you use with <span class='wikiword'>SPISettings</span>.
+</li><li>Is data shifted in Most Significant Bit (MSB) or Least Significant Bit (LSB) first? This is controlled by second <span class='wikiword'>SPISettings</span> parameter, either MSBFIRST or LSBFIRST. Most SPI chips use MSB first data order.
+</li><li>Is the data clock idle when high or low? Are samples on the rising or falling edge of clock pulses? These modes are controlled by the third parameter in <span class='wikiword'>SPISettings</span>.
 </li></ul><p class='vspace'></p><p>The SPI standard is loose and each device implements it a little differently. This means you have to pay special attention to the device's datasheet when writing your  code. 
 </p>
 <p class='vspace'></p><p>Generally speaking, there are four modes of transmission. These modes control whether data is shifted in and out on the rising or falling edge of the data clock signal (called the clock <strong>phase</strong>), and whether the clock is idle when high or low (called the clock <strong>polarity</strong>). The four modes combine polarity and phase according to this table:
@@ -252,11 +254,14 @@ function toggle(obj) {
 <tr ><td  align='center'>SPI_MODE2</td><td  align='center'>1</td><td  align='center'>0</td></tr>
 <tr ><td  align='center'>SPI_MODE3</td><td  align='center'>1</td><td  align='center'>1</td></tr>
 </table>
-<p class='vspace'></p><p>The <code>SPI.setDataMode()</code> function lets you set the mode to control clock polarity and phase.
+<p class='vspace'></p><p>Once you have your SPI parameters, use SPI.beginTransaction() to begin using the SPI port.  The SPI port will be configured with your all of your settings.  The simplest and most efficient way to use <span class='wikiword'>SPISettings</span> is directly inside SPI.beginTransaction().
+For example:
 </p>
-<p class='vspace'></p><p>Every SPI device has a maximum allowed speed for SPI Bus. The SPI.setClockDivider() allows you to change the clock speed to make your device working properly (default is 4MHz).
+<p class='vspace'></p><p><code>SPI.beginTransaction(<span class='wikiword'>SPISettings</span>(14000000, MSBFIRST, SPI_MODE0));</code>
 </p>
-<p class='vspace'></p><p>Once you have your SPI parameters set correctly you just need to figure which registers in your device control which functions, and you're good to go. This will be explained in the data sheet for your device.
+<p class='vspace'></p><p>If other libraries use SPI from interrupts, they will be prevented from accessing SPI until you call <code>SPI.endTransaction()</code>.  The SPI settings are applied at the <strong>begin</strong> of the transaction and <code>SPI.endTransaction()</code> <strong>doesn't change</strong> SPI settings. <strong>Unless</strong> you, or some library, <strong>calls</strong> beginTransaction a second time, the setting are <strong>maintained</strong>.  You should attempt to minimize the time between before you call <code>SPI.endTransaction()</code>, for best compatibility if your program is used together with other libraries which use SPI.
+</p>
+<p class='vspace'></p><p>With most SPI devices, after <code>SPI.beginTransaction()</code>, you will write the slave select pin LOW, call <code>SPI.transfer()</code> any number of times to transfer data, then write the SS pin HIGH, and finally call <code>SPI.endTransaction()</code>.
 </p>
 <p class='vspace'></p><p>For more on SPI, see <a class='urllink' href='http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus#Mode_Numbers' rel='nofollow'>Wikipedia's page on SPI</a>.
 </p>
@@ -278,13 +283,13 @@ function toggle(obj) {
 </p>
 <p class='vspace'></p><p>It is, however, possible to use any pin as the Slave Select (SS) for the devices. For example, the Arduino Ethernet shield uses pin 4 to control the SPI connection to the on-board SD card, and pin 10 to control the connection to the Ethernet controller. 
 </p>
-<p class='vspace'></p><h4>Extended SPI functionality for the Due</h4>
-<p>The Arduino Due's SPI interface works differently than any other Arduino boards. The library can be used on the Due with the same methods available to other Arduino boards or using the <strong>extended methods</strong>. The extended methods exploits the the <span class='wikiword'>SAM3X</span> hardware and allows some interesting features like:
-</p><ul><li>automatic handling of the device slave selection.
-</li><li>automatic handling of different device configurations (clock speed, data mode, etc) so every device can have its own configuration automatically selected.
-</li></ul><p class='vspace'></p><p>Arduino Due has three exposed pins for the devices Slave Select (SS) lines (pins 4, 10, and 52).
-</p>
-<p class='vspace'></p><p><a class='wikilink' href='DueExtendedSPI.html'>Due Extended SPI usage</a>
+<p class='vspace'></p><h3>Examples</h3>
+<p>
+<ul class="secondary-list">
+              <li><a href="https://www.arduino.cc/en/Tutorial/BarometricPressureSensor">Barometric Pressure Sensor</a>: Read air pressure and temperature from a sensor using the SPI protocol.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/DigitalPotControl">Digital Pot Control</a>: Control a AD5206 digital potentiometer using the SPI protocol.</li>
+            </ul>
+
 </p>
 <p class='vspace'></p></td><td  width='35%' valign='top'>
 <p class='vspace'></p><h4>Functions</h4>
@@ -299,10 +304,6 @@ function toggle(obj) {
 </li><li><a class='wikilink' href='SPITransfer.html'>transfer</a>()
 </li><li><a class='wikilink' href='SPIusingInterrupt.html'>usingInterrupt</a>()
 <p class='vspace'></p></li><li><a class='wikilink' href='DueExtendedSPI.html'>Due Extended SPI usage</a>
-</li></ul><p class='vspace'></p><h4>Examples</h4>
-<ul><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/BarometricPressureSensor'>BarometricPressureSensor</a>: Read air pressure and temperature from a sensor using SPI
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/SPIDigitalPot'>SPIDigitalPot</a>: Control a digital potentiometer using SPI
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/SPITransaction'>SPITransaction</a>: Get started with SPI Transaction
 </li></ul><p class='vspace'></p><h4>See also</h4>
 <ul><li><a class='wikilink' href='ShiftOut.html'>shiftOut()</a>
 </li><li><a class='wikilink' href='ShiftIn.html'>shiftIn()</a>
@@ -571,13 +572,102 @@ function toggle(obj) {
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/SPI by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:21:44 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/SPI by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:03:35 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

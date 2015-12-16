@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/Stepper by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:21:49 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/Stepper by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:03:41 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -223,19 +225,30 @@ function toggle(obj) {
 <p><strong>Reference</strong> &nbsp;  <a class='wikilink' href='HomePage.html'>Language</a> | <a class='wikilink' href='Libraries.html'>Libraries</a> | <a class='wikilink' href='Comparison.html'>Comparison</a> | <a class='wikilink' href='Changes.html'>Changes</a>
 </p>
 <p class='vspace'></p><h2>Stepper Library</h2>
-<p>This library allows you to control unipolar or bipolar stepper motors.  To use it you will need a stepper motor, and the appropriate hardware to control it. For more on that, see <a class='urllink' href='http://www.tigoe.net/pcomp/code/circuits/motors/stepper-motors/' rel='nofollow'>Tom Igoe's notes on steppers</a>.
+<p class='vspace'></p><table  width='100%' border='0' cellpadding='5' cellspacing='0'><tr><td  width='67%' valign='top'>
+<p class='vspace'></p><p>This library allows you to control unipolar or bipolar stepper motors.  To use it you will need a stepper motor, and the appropriate hardware to control it. For more on that, see <a class='urllink' href='http://www.tigoe.net/pcomp/code/circuits/motors/stepper-motors/' rel='nofollow'>Tom Igoe's notes on steppers</a>.
 </p>
-<p class='vspace'></p><h4>Circuits</h4>
+<p class='vspace'></p><h3>Circuits</h3>
 <ul><li><a class='wikilink' href='StepperUnipolarCircuit.html'>Unipolar Steppers</a>
 </li><li><a class='wikilink' href='StepperBipolarCircuit.html'>Bipolar Steppers</a>
-</li></ul><p class='vspace'></p><h4>Functions</h4>
+</li></ul><p class='vspace'></p><h3>Examples</h3>
+<p>
+<ul class="secondary-list">
+              <li><a href="https://www.arduino.cc/en/Tutorial/MotorKnob">Motor Knob</a>: Control a highly accurate stepper motor using a potentiometer.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/StepperOneRevolution">Stepper One Revolution</a>: Turn the shaft one revolution clockwise and one counterclockwise.</li>
+			  <li><a href="https://www.arduino.cc/en/Tutorial/StepperOneStepAtATime">Stepper One Step At A Time</a>: Turn the shaft step by step to check the proper wiring of the motor.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/StepperSpeedControl">Stepper Speed Control</a>: Control the stepping speed with a potentiometer.</li>
+            </ul>
+
+</p>
+<p class='vspace'></p></td><td  width='33%' valign='top'>
+<p class='vspace'></p><h4>Functions</h4>
 <ul><li><a class='wikilink' href='StepperConstructor.html'>Stepper</a>(steps, pin1, pin2)
 </li><li><a class='wikilink' href='StepperConstructor.html'>Stepper</a>(steps, pin1, pin2, pin3, pin4)
 </li><li><a class='wikilink' href='StepperSetSpeed.html'>setSpeed</a>(rpm)
 </li><li><a class='wikilink' href='StepperStep.html'>step</a>(steps)
-</li></ul><p class='vspace'></p><h4>Example</h4>
-<ul><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/MotorKnob'>Motor Knob</a>
-</li></ul><p><a class='wikilink' href='HomePage.html'>Reference Home</a>
+</li></ul><p class='vspace'></p></td></tr></table>
+<p><a class='wikilink' href='HomePage.html'>Reference Home</a>
 </p>
 <p class='vspace'></p><p><em>Corrections, suggestions, and new documentation should be posted to the <a class='urllink' href='http://arduino.cc/forum/index.php/board,23.0.html' rel='nofollow'>Forum</a>.</em>
 </p>
@@ -499,13 +512,102 @@ function toggle(obj) {
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/Stepper by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:21:51 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/Stepper by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:03:44 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

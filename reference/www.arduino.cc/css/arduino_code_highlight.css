@@ -66,10 +66,10 @@ a.varlink { text-decoration:none; }
 	font-style: normal;
 	font-weight: normal;
 	font-stretch: normal;
-	font-size: 13px;
-	font-size: .72rem;
-	line-height: 17px;
-	line-height: .9rem;
+	font-size: 16px;
+  font-size: 1rem;
+	line-height: 20px;
+  line-height: 1.25rem;
 	}
 .arduino .imp {font-weight: bold; color: red;}
 .arduino .kw1 {color: #CC6600;}
@@ -107,7 +107,7 @@ a.varlink { text-decoration:none; }
 .sourceblocktext {
   padding: 0.5em;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #ECF1F1;
 }
 .sourceblocktext div {
 /*  font-family: monospace;
@@ -120,4 +120,9 @@ a.varlink { text-decoration:none; }
   font: italic medium serif;
   padding: 0.5em;
 }
-
+code {
+  background-color: #ECF1F1;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 2px 10px 5px 10px;
+}

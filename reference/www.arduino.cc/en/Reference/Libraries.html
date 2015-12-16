@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/Libraries by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:18:57 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/Libraries by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:00:38 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -223,11 +225,7 @@ function toggle(obj) {
 <p><strong>Reference</strong> &nbsp;  <a class='wikilink' href='HomePage.html'>Language</a> | <a class='selflink' href='Libraries.html'>Libraries</a> | <a class='wikilink' href='Comparison.html'>Comparison</a> | <a class='wikilink' href='Changes.html'>Changes</a>
 </p>
 <p class='vspace'></p><h2>Libraries</h2>
-<p>The Arduino environment can be extended through the use of libraries, just like most programming platforms. Libraries provide extra functionality for use in sketches, e.g. working with hardware or manipulating data.  A number of libraries come installed with the IDE, but you can also download or create your own.  See <a class='wikilink' href='http://www.arduino.cc/en/Guide/Libraries'>these instructions</a> for details on installing libraries.  There's also a <a class='wikilink' href='http://www.arduino.cc/en/Hacking/LibraryTutorial'>tutorial on writing your own libraries</a>. 
-</p>
-<p class='vspace'></p><p>See the <a class='wikilink' href='APIStyleGuide.html'>API Style Guide</a> for information on making a good Arduino-style API for your library.
-</p>
-<p class='vspace'></p><p>To use a library in a sketch, select it from <strong>Sketch &gt; Import Library</strong>.
+<p>The Arduino environment can be extended through the use of libraries, just like most programming platforms. Libraries provide extra functionality for use in sketches, e.g. working with hardware or manipulating data. To use a library in a sketch, select it from <strong>Sketch &gt; Import Library</strong>. <br />A number of libraries come installed with the IDE, but you can also download or create your own.  See <a class='wikilink' href='http://www.arduino.cc/en/Guide/Libraries'>these instructions</a> for details on installing libraries.  There's also a <a class='wikilink' href='http://www.arduino.cc/en/Hacking/LibraryTutorial'>tutorial on writing your own libraries</a>. See the <a class='wikilink' href='APIStyleGuide.html'>API Style Guide</a> for information on making a good Arduino-style API for your library.
 </p>
 <p class='vspace'></p><h3>Standard Libraries</h3>
 <ul><li><a class='wikilink' href='EEPROM.html'>EEPROM</a> - reading and writing to "permanent" storage
@@ -248,14 +246,20 @@ function toggle(obj) {
 <p class='vspace'></p><h3>Due Only Libraries</h3>
 <ul><li><a class='wikilink' href='Audio.html'>Audio</a> - Play audio files from a SD card.
 </li><li><a class='wikilink' href='Scheduler.html'>Scheduler</a> - Manage multiple non-blocking tasks.
-</li><li><a class='wikilink' href='USBHost.html'>USBHost</a> - Communicate with USB peripherals like mice and keyboards.
+</li></ul><p class='vspace'></p><h3>Due and Zero Libraries</h3>
+<ul><li><a class='wikilink' href='USBHost.html'>USBHost</a> - Communicate with USB peripherals like mice and keyboards.
+</li></ul><p class='vspace'></p><h3>Zero Only Libraries</h3>
+<ul><li><a class='wikilink' href='AudioZero.html'>AudioZero</a> - Play audio files from a SD card.
+</li><li><a class='wikilink' href='RTC.html'>RTC</a> - Real Time Clock to schedule events.
+</li></ul><p class='vspace'></p><h3>Wifi 101 Only Library</h3>
+<ul><li><a class='wikilink' href='WiFi101.html'>WiFi101</a> - library to be used only with Wifi shield 101
 </li></ul><p class='vspace'></p><h3>Esplora Only Library</h3>
 <ul><li><a class='wikilink' href='EsploraLibrary.html'>Esplora</a> - this library enable you to easily access to various sensors and actuators mounted on the Esplora board.
 </li></ul><p class='vspace'></p><h3>Arduino Robot Library</h3>
 <ul><li><a class='wikilink' href='RobotLibrary.html'>Robot</a> - this library enables easy access to the functions of the Arduino Robot
 </li></ul><p class='vspace'></p><h3>Arduino Yún Bridge Library</h3>
 <ul><li><a class='wikilink' href='YunBridgeLibrary.html'>Bridge Library</a> - Enables communication between the Linux processor and the Arduino on the Yún.
-</li></ul><p class='vspace'></p><h3>USB Libraries (Leonardo, Micro, Due, and Esplora)</h3>
+</li></ul><p class='vspace'></p><h3>USB Libraries (Leonardo, Micro, Due, Zero and Esplora)</h3>
 <ul><li><a class='wikilink' href='MouseKeyboard.html'>Keyboard</a> - Send keystrokes to an attached computer.
 </li><li><a class='wikilink' href='MouseKeyboard.html'>Mouse</a> - Control cursor movement on a connected computer. 
 </li></ul><p class='vspace'></p><h3>Contributed Libraries</h3>
@@ -272,12 +276,11 @@ function toggle(obj) {
 </li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/X10'>X10</a> - Sending X10 signals over AC power lines
 </li><li><a class='urllink' href='http://code.google.com/p/xbee-arduino/' rel='nofollow'>XBee</a> - for communicating with <span class='wikiword'>XBees</span> in API mode
 </li><li><a class='urllink' href='http://www.arduino.cc/playground/Code/SerialControl' rel='nofollow'>SerialControl</a> - Remote control other Arduinos over a serial connection
-</li></ul><p class='vspace'></p><p>Sensing:
+</li></ul><p><br /><br />Sensing:
 </p><ul><li><a class='urllink' href='http://www.arduino.cc/playground/Main/CapSense' rel='nofollow'>Capacitive Sensing</a> - turn two or more pins into capacitive sensors
 </li><li><a class='urllink' href='http://www.arduino.cc/playground/Code/Debounce' rel='nofollow'>Debounce</a> - for reading noisy digital inputs (e.g. from buttons)
-</li></ul><p class='vspace'></p><p>Displays and <span class='wikiword'>LEDs</span>:
-</p>
-<p class='vspace'></p><ul><li><a class='urllink' href='https://github.com/adafruit/Adafruit-GFX-Library' rel='nofollow'>GFX</a> - base class with standard graphics routines (by <a class='urllink' href='http://www.adafruit.com/' rel='nofollow'>Adafruit Industries</a>)
+</li></ul><p><br /><br />Displays and <span class='wikiword'>LEDs</span>:
+</p><ul><li><a class='urllink' href='https://github.com/adafruit/Adafruit-GFX-Library' rel='nofollow'>GFX</a> - base class with standard graphics routines (by <a class='urllink' href='http://www.adafruit.com/' rel='nofollow'>Adafruit Industries</a>)
 </li><li><a class='urllink' href='http://www.arduino.cc/playground/Code/GLCDks0108' rel='nofollow'>GLCD</a> - graphics routines for LCD based on the <span class='wikiword'>KS0108</span> or equivalent chipset.
 </li><li><a class='urllink' href='http://web.alfredstate.edu/weimandn/arduino/LiquidCrystal_library/LiquidCrystal_index.html' rel='nofollow'>Improved LCD library</a> fixes LCD initialization bugs in official Arduino LCD library
 </li><li><a class='urllink' href='http://www.arduino.cc/playground/Main/LedControl' rel='nofollow'>LedControl</a> - for controlling LED matrices or seven-segment displays with a <span class='wikiword'>MAX7221</span> or <span class='wikiword'>MAX7219</span>.
@@ -287,20 +290,19 @@ function toggle(obj) {
 </li><li><a class='urllink' href='https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library' rel='nofollow'>PCD8544</a> - for the LCD controller on Nokia 55100-like displays (by <a class='urllink' href='http://www.adafruit.com/' rel='nofollow'>Adafruit Industries</a>)
 </li><li><a class='urllink' href='http://wiring.org.co/reference/libraries/Sprite/index.html' rel='nofollow'>Sprite</a> - Basic image sprite manipulation library for use in animations with an LED matrix
 </li><li><a class='urllink' href='https://github.com/adafruit/Adafruit-ST7735-Library' rel='nofollow'>ST7735</a> - for the LCD controller on a 1.8", 128x160 TFT screen (by <a class='urllink' href='http://www.adafruit.com/' rel='nofollow'>Adafruit Industries</a>)
-</li></ul><p class='vspace'></p><p>Audio and Waveforms:
+</li></ul><p><br /><br />Audio and Waveforms:
 </p><ul><li><a class='urllink' href='http://wiki.openmusiclabs.com/wiki/ArduinoFFT' rel='nofollow'>FFT</a> - frequency analysis of audio or other analog signals
 </li><li><a class='urllink' href='http://code.google.com/p/arduino-tone/' rel='nofollow'>Tone</a> - generate audio frequency square waves in the background on any microcontroller pin
-</li></ul><p class='vspace'></p><p>Motors and PWM:
+</li></ul><p><br /><br />Motors and PWM:
 </p><ul><li><a class='urllink' href='http://www.arduino.cc/playground/Learning/TLC5940' rel='nofollow'>TLC5940</a> - 16 channel 12 bit PWM controller.
-</li></ul><p class='vspace'></p><p>Timing:
+</li></ul><p><br /><br />Timing:
 </p><ul><li><a class='urllink' href='http://www.arduino.cc/playground/Code/DateTime' rel='nofollow'>DateTime</a> - a library for keeping track of the current date and time in software.
 </li><li><a class='urllink' href='http://www.arduino.cc/playground/Code/Metro' rel='nofollow'>Metro</a> - help you time actions at regular intervals
 </li><li><a class='urllink' href='http://www.arduino.cc/playground/Main/MsTimer2' rel='nofollow'>MsTimer2</a> - uses the timer 2 interrupt to trigger an action every N milliseconds.
-</li></ul><p class='vspace'></p><p>Utilities:
+</li></ul><p><br /><br />Utilities:
 </p><ul><li><a class='urllink' href='http://sundial.org/arduino/index.php/pstring/' rel='nofollow'>PString</a> - a lightweight class for printing to buffers
 </li><li><a class='urllink' href='http://arduiniana.org/libraries/streaming/' rel='nofollow'>Streaming</a> -  a method to simplify print statements
-</li></ul><p class='vspace'></p><p>For a guide to writing your own libraries, see <a class='wikilink' href='http://www.arduino.cc/en/Hacking/LibraryTutorial'>this tutorial</a>.
-<a class='wikilink' href='HomePage.html'>Reference Home</a>
+</li></ul><p><br /><br /><a class='wikilink' href='HomePage.html'>Reference Home</a>
 </p>
 <p class='vspace'></p><p><em>Corrections, suggestions, and new documentation should be posted to the <a class='urllink' href='http://arduino.cc/forum/index.php/board,23.0.html' rel='nofollow'>Forum</a>.</em>
 </p>
@@ -564,13 +566,102 @@ function toggle(obj) {
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/Libraries by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:18:57 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/Libraries by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:00:53 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

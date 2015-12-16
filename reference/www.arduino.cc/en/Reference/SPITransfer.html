@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/SPITransfer by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:23:43 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/SPITransfer by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:07:56 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -224,38 +226,18 @@ function toggle(obj) {
 </p>
 <p class='vspace'></p><p><a class='wikilink' href='SPI.html'>SPI</a>
 </p>
-<p class='vspace'></p><h2>transfer()</h2>
+<p class='vspace'></p><h2>transfer(), transfer16()</h2>
 <h4>Description</h4>
-<p>Transfers one byte over the SPI bus, both sending and receiving.  
-</p>
-<p class='vspace'></p><p><em>Extended method for Arduino Due</em><br />If you specify one of the Arduino Due's Slave Select (SS) pin in the call to SPI.transfer(), the specified pin is activated (pulled low) before the transfer occurs and deactivated (pulled high) when the transfer is finished.
-</p>
-<p class='vspace'></p><p>You can use an additional SPI_CONTINUE or SPI_LAST parameter to manage the Slave Select line after the transfer. SPI_CONTINUE keeps the specified SS pin active (low) after the transfer to allow the send of additional bytes via the transfer() function in the <strong>same SPI transaction</strong>. The last byte to be transferred should be accompanied by the SPI_LAST parameter. By default, if you don't specify a third parameter, SPI_LAST is used. When a transfer is complete with SPI_LAST, the slave select pin returns inactive (high).
-</p>
-<p class='vspace'></p><p>More info on extended methods: <a class='wikilink' href='DueExtendedSPI.html'>Due Extended SPI usage</a>
+<p>SPI transfer is based on a simultaneous send and receive: the received data is returned in receivedVal (or receivedVal16). In case of buffer transfers the received data is stored in the buffer in-place (the old data is replaced with the data received).
 </p>
 <p class='vspace'></p><h4>Syntax</h4>
-<table  border='0' cellpadding='5' cellspacing='0' width='80%'><tr><td  width='400px' valign='top'> SPI.transfer(val)
-</td></tr><tr><td  width='400px' valign='top'> SPI.transfer(slaveSelectPin,  val)
-</td><td  valign='top'> (<em>Arduino Due only</em>)
-</td></tr><tr><td  width='400px' valign='top'> SPI.transfer(slaveSelectPin,  val, transferMode)
-</td><td  valign='top'> (<em>Arduino Due only</em>)
-</td></tr></table>
+<p>receivedVal = SPI.transfer(val)<br />receivedVal16 = SPI.transfer16(val16)<br />SPI.transfer(buffer, size)
+</p>
 <p class='vspace'></p><h4>Parameters</h4>
-<table  border='0' cellpadding='5' cellspacing='0' width='80%'><tr><td  width='150px' valign='top'> val: 
-</td><td  width='240px' valign='top'> 
-<p>the byte to send out over the bus
-</p></td></tr><tr><td  width='150px' valign='top'> slaveSelectPin: 
-</td><td  width='240px' valign='top'> slave device SS pin
-</td><td  valign='top'>(<em>Arduino Due only</em>)
-</td></tr><tr><td  width='150px' valign='top'> transferMode:
-</td><td  width='240px' valign='top'>
-<ul><li>SPI_CONTINUE: keeps the SS pin low, allowing a subsequent byte transfer.
-</li><li>SPI_LAST: <em>default if not specified</em> the SS pin returns to high after one byte has been transferred.
-</li></ul></td><td  valign='top'> (<em>Optional, Arduino Due only</em>)
-</td></tr></table>
+<p>val: the byte to send out over the bus<br />val16: the two bytes variable to send out over the bus<br />buffer: the array of data to be transferred 
+</p>
 <p class='vspace'></p><h4>Returns</h4>
-<p>the byte read from the bus.
+<p>the received data
 </p>
 <p class='vspace'></p><p><a class='wikilink' href='HomePage.html'>Reference Home</a>
 </p>
@@ -521,13 +503,102 @@ function toggle(obj) {
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/SPITransfer by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:23:43 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/SPITransfer by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:07:56 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

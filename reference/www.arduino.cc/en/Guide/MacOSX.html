@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Guide/MacOSX by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:20:20 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Guide/MacOSX by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:00:21 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="../Reference/HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -220,52 +222,70 @@ function toggle(obj) {
 		<div id="pagetext">
 				<!--PageText-->
 <div id='wikitext'>
-<h2>Getting Started w/ Arduino on Mac OS X</h2>
-<p><em>This document explains how to connect your Arduino board to the computer and upload your first sketch.</em>
+<p>
+
+<div class="subHeader row">
+
+<div class="breadcrumb columns large-10 medium-10">
+    <p>
+      <a class="wikilink" href="https://www.arduino.cc/en/Guide/HomePage">Getting Started </a>
+      > MacOSX
+    </p>
+  </div>
+
+
+  <div class="language-dropdown columns large-2 medium-2">
+    <a href="#" class="current">
+     English
+    </a>
+    <a href="#" class="selector"></a>
+    <ul>
+      <li class="selected">English </li>
+      <li><a href="https://www.arduino.cc/en/Guide/MacOSX?setlang=cn">中文 (Chinese)</a></li>
+    </ul>
+  </div>
+
+
+</div>
+
 </p>
-<p class='vspace'></p><div class='toc'><p><a name='toc' id='toc'></a><b>On this page...</b> (<a id="tocidtog" href="javascript:toggle('tocid');">hide</a>)</p><ul class='toc' id='tocid'><li><a href='#toc1'>1 | Get an Arduino board and USB cable</a></li><li><a href='#toc2'>2 | Download the Arduino environment</a></li><li><a href='#toc3'>3 | Install the Software</a></li><li><a href='#toc4'>4 | Connect the board</a></li><li><a href='#toc5'>5 | Launch the Arduino application</a></li><li><a href='#toc6'>6 | Open the blink example</a></li><li><a href='#toc7'>7 | Select your board</a></li><li><a href='#toc8'>8 | Select your serial port</a></li><li><a href='#toc9'>9 | Upload the program</a></li></ul></div>
-<p class='vspace'></p><h3><a name='toc1' id='toc1'></a>1 | Get an Arduino board and USB cable</h3>
-<p>In this tutorial, we assume you're using an <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardUno'>Arduino Uno</a>, <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardDuemilanove'>Arduino Duemilanove</a>, <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardNano'>Nano</a>, <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardMega2560'>Arduino Mega 2560</a> , or <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardDiecimila'>Diecimila</a>.  If you have another board, read the corresponding page in this getting started guide.
+<p class='vspace'></p><h2>Getting Started w/ Arduino on Mac OS X</h2>
+<p class='vspace'></p><p><em>This document explains how to connect your Arduino board to the computer and upload your first sketch.</em>
+</p>
+<p class='vspace'></p><div class='toc'><p><a name='toc' id='toc'></a><b>On this page...</b> (<a id="tocidtog" href="javascript:toggle('tocid');">hide</a>)</p><ul class='toc' id='tocid'><li><a href='#toc1'>1 | Get an Arduino board and USB cable</a></li><li><a href='#toc2'>2 | Download the Arduino environment</a></li><li><a href='#toc3'>3 | Install the Software</a></li><li><a href='#toc4'>4 | Connect the board</a></li><li><a href='#toc5'>5 | Launch the Arduino application</a></li><li><a href='#toc6'>6 | Open the blink example</a></li><li><a href='#toc7'>7 | Select your board</a></li><li><a href='#toc8'>8 | Select your Serial Port</a></li><li><a href='#toc9'>9 | Upload the program</a></li></ul></div>
+<h3><a name='toc1' id='toc1'></a>1 | Get an Arduino board and USB cable</h3>
+<p class='vspace'></p><p>In this tutorial, we assume you're using an <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardUno'>Arduino Uno</a> or <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoBoardMega2560'>Arduino Mega 2560</a>. If you have another board, read the corresponding page in this getting started guide.
 </p>
 <p class='vspace'></p><p>You also need a standard USB cable (A plug to B plug): the kind you would connect to a USB printer, for example.  (For the Arduino Nano, you'll need an A to Mini-B cable instead.)
-</p>
-<p class='vspace'></p><div><img src='../uploads/Main/ArduinoUno_R3_Front_450px.jpg' alt='' title='' /> <img src='../uploads/Guide/USBCable.jpg' alt='' title='' /></div>
+</p><div><img src='../uploads/Main/ArduinoUno_R3_Front_450px.jpg' alt='' title='' /> <img src='../uploads/Guide/USBCable.jpg' alt='' title='' /></div>
 <p class='vspace'></p><h3><a name='toc2' id='toc2'></a>2 | Download the Arduino environment</h3>
-<p>Get the latest version from the <a class='wikilink' href='http://www.arduino.cc/en/Main/Software'>download page</a>.
-</p>
-<p class='vspace'></p><p>When the download is finished, double click the .zip fle. This will expand the Arduino application. 
+<p>Get the latest version from the <a class='wikilink' href='http://www.arduino.cc/en/Main/Software'>download page</a>. When the download is finished, double click the .zip fle. This will expand the Arduino application. 
 </p>
 <p class='vspace'></p><h3><a name='toc3' id='toc3'></a>3 | Install the Software</h3>
 <p>Copy the Arduino application into the Applications folder (or elsewhere on your computer).  
-If you're using an Arduino Uno or Mega 2560, you don't have any drivers to install.  Skip ahead to the next step.
-</p>
-<p class='vspace'></p><p>If you're using an older board (Duemilanove, Diecimila, or any board with an FTDI driver chip. 
-</p>
-<p class='vspace'></p><p>You will need to install the drivers for the FTDI chip on the board. You need to download the latest version of the drivers from the <a class='urllink' href='http://www.ftdichip.com/Drivers/VCP.htm' rel='nofollow'>FTDI website</a>. One downloaded, double click the package, and follow the instructions in the installer.  You'll need to restart your computer after installing the drivers.
+If you're using an Arduino Uno or Mega 2560, you don't have any drivers to install. 
 </p>
 <p class='vspace'></p><h3><a name='toc4' id='toc4'></a>4 | Connect the board</h3>
-<p>The Arduino Uno, Mega, Duemilanove and Arduino Nano automatically draw power from either the USB connection to the computer or an external power supply.  If you're using an Arduino Diecimila, you'll need to make sure that the board is configured to draw power from the USB connection.  The power source is selected with a jumper, a small piece of plastic that fits onto two of the three pins between the USB and power jacks.  Check that it's on the two pins closest to the USB port.
+<p class='vspace'></p><p>The Arduino Uno, and Mega automatically draw power from either the USB connection to the computer or an external power supply. The power source is selected with a jumper, a small piece of plastic that fits onto two of the three pins between the USB and power jacks.  Check that it's on the two pins closest to the USB port.
 </p>
-<p class='vspace'></p><p>Connect the Arduino board to your computer using the USB cable.  The green power LED (labelled <strong>PWR</strong>) should go on.
-</p>
-<p class='vspace'></p><p>If you're using the Arduino Uno or Arduino Mega 2560, a dialog box will appear telling you that a new network interface has been detected.  Click  "Network Preferences...", and when it opens, simply click "Apply".  The Uno or Mega 2560 will show up as "Not Configured", but it's working properly.  Quit System Preferences.
+<p class='vspace'></p><p>Connect the Arduino board to your computer using the USB cable. The green power LED (labelled <strong>PWR</strong>) should go on.
 </p>
 <p class='vspace'></p><h3><a name='toc5' id='toc5'></a>5 | Launch the Arduino application</h3>
-<p>Double-click the Arduino application.  (Note: if the Arduino software loads in the wrong language, you can change it in the preferences dialog.  See <a class='wikilink' href='Environment.html#languages'>the environment page</a> for details.)
+<p>Double-click the Arduino application.  (Note: if the Arduino software loads in the wrong language, you can change it in the preferences dialog.  See <a class='wikilink' href='http://www.arduino.cc/en/Guide/Environment#languages'>the environment page</a> for details.
 </p>
 <p class='vspace'></p><h3><a name='toc6' id='toc6'></a>6 | Open the blink example</h3>
-<p>Open the LED blink example sketch: <strong>File  &gt; Examples &gt; 1.Basics &gt; Blink</strong>.
+<p class='vspace'></p><p>Open the LED blink example sketch: <strong>File  &gt; Examples &gt; 01.Basics &gt; Blink</strong>.
 </p>
 <p class='vspace'></p><div><img src='../uploads/Guide/Arduino1Blink.png' alt='' title='' /></div>
 <p class='vspace'></p><h3><a name='toc7' id='toc7'></a>7 | Select your board</h3>
-<p>You'll need to select the entry in the <strong>Tools &gt; Board</strong> menu that corresponds to your Arduino. 
+<p class='vspace'></p><p>You'll need to select the entry in the <strong>Tools &gt; Board</strong> menu that corresponds to your Arduino. 
 </p>
 <p class='vspace'></p><div><img src='../uploads/Guide/ToolsMenu.png' alt='' title='' /></div>
 <p><span style='font-size:83%'>Selecting an Arduino Uno</span>
 </p>
-<p class='vspace'></p><p>For Duemilanove Arduino boards with an <span class='wikiword'>ATmega328</span> (check the text on the chip on the board), select <strong>Arduino Duemilanove or Nano w/ <span class='wikiword'>ATmega328</span></strong>.  Previously, Arduino boards came with an <span class='wikiword'>ATmega168</span>; for those, select <strong>Arduino Diecimila, Duemilanove, or Nano w/ <span class='wikiword'>ATmega168</span></strong>.  (Details of the board menu entries are available <a class='urllink' href='Environment.html#boards' rel='nofollow'>on the environment page</a>.)
+<p class='vspace'></p><p>Details of the board menu entries are available <a class='urllink' href='Environment.html#boards' rel='nofollow'>on the environment page</a>.)
 </p>
-<p class='vspace'></p><h3><a name='toc8' id='toc8'></a>8 | Select your serial port</h3>
+<p class='vspace'></p><h3><a name='toc8' id='toc8'></a>8 | Select your Serial Port</h3>
 <p>Select the serial device of the Arduino board from the <strong>Tools &gt; Serial Port</strong> menu.  On the Mac, this should be something with <strong>/dev/tty.usbmodem</strong> (for the Uno or Mega 2560) or <strong>/dev/tty.usbserial</strong> (for older boards) in it.
 </p>
 <p class='vspace'></p><div><img src='../uploads/Guide/SelectingUno.png' alt='' title='' /></div>
@@ -275,17 +295,17 @@ If you're using an Arduino Uno or Mega 2560, you don't have any drivers to insta
 <p><span style='font-size:83%'>selecting an older FTDI-based board</span>
 </p>
 <p class='vspace'></p><h3><a name='toc9' id='toc9'></a>9 | Upload the program</h3>
-<p>Now, simply click the "Upload" button in the environment.  Wait a few seconds - you should see the RX and TX leds on the board flashing.  If the upload is successful, the message "Done uploading." will appear in the status bar.  (<em>Note:</em> If you have an Arduino Mini, NG, or other board, you'll need to physically present the reset button on the board immediately before pressing the upload button.)
+<p class='vspace'></p><p>Now, simply click the "Upload" button in the environment.  Wait a few seconds - you should see the RX and TX <span class='wikiword'>LEDs</span> on the board flashing. If the upload is successful, the message "Done uploading." will appear in the status bar.  (<em>Note:</em> If you have an Arduino Mini, NG, or other board, you'll need to physically press the reset button on the board immediately before clicking the upload button on the Arduino Software.)
 </p>
-<p class='vspace'></p><div><img src='../uploads/Guide/UploadButton1.png' alt='' title='' /></div>
-<p class='vspace'></p><p>A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange).  If it does, congratulations!  You've gotten Arduino up-and-running.
-</p>
-<p class='vspace'></p><p>If you have problems, please see the <a class='wikilink' href='Troubleshooting.html'>troubleshooting suggestions</a>.
+<p class='vspace'></p><div><img src='../uploads/Guide/UploadButton1.png' alt='' title='' /> </div>
+<p><br />A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange).  If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the <a class='wikilink' href='http://www.arduino.cc/en/Guide/Troubleshooting'>troubleshooting suggestions</a>.
 </p>
 <p class='vspace'></p><p>You might also want to look at:
 </p><ul><li>the <a class='wikilink' href='http://www.arduino.cc/en/Tutorial/HomePage'>examples</a> for using various sensors and actuators
 </li><li>the <a class='wikilink' href='../Reference/HomePage.html'>reference</a> for the Arduino language
-</li></ul><p>The text of the Arduino getting started guide is licensed under a
+</li></ul><p class='vspace'></p><p><br clear='all' /><br clear='all' />
+</p>
+<p class='vspace'></p><p>The text of the Arduino getting started guide is licensed under a
 <a class='urllink' href='http://creativecommons.org/licenses/by-sa/3.0/' rel='nofollow'>Creative Commons Attribution-ShareAlike 3.0 License</a>.  Code samples in the guide are released into the public domain.
 </p>
 </div>
@@ -545,13 +565,102 @@ If you're using an Arduino Uno or Mega 2560, you don't have any drivers to insta
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Guide/arduino.cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Guide/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Guide/MacOSX by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:20:28 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Guide/MacOSX by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:00:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

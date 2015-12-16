@@ -331,6 +331,53 @@
           ]
         },
         {
+          "name": "Arduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.6.9",
+          "category": "Arduino",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "http://downloads.arduino.cc/cores/avr-1.6.9.tar.bz2",
+          "archiveFileName": "avr-1.6.9.tar.bz2",
+          "checksum": "SHA-256:eb8bc661162bc689b3ed02c4d24f6ff964e91ace890b7d3db2e316c84ba235f0",
+          "size": "4890702",
+          "boards": [
+            {"name": "Arduino Yún"},
+            {"name": "Arduino/Genuino Uno"},
+            {"name": "Arduino Diecimila"},
+            {"name": "Arduino Nano"},
+            {"name": "Arduino/Genuino Mega"},
+            {"name": "Arduino MegaADK"},
+            {"name": "Arduino Leonardo"},
+            {"name": "Arduino/Genuino Micro"},
+            {"name": "Arduino Esplora"},
+            {"name": "Arduino Mini"},
+            {"name": "Arduino Ethernet"},
+            {"name": "Arduino Fio"},
+            {"name": "Arduino BT"},
+            {"name": "Arduino LilyPadUSB"},
+            {"name": "Arduino Lilypad"},
+            {"name": "Arduino Pro"},
+            {"name": "Arduino ATMegaNG"},
+            {"name": "Arduino Robot Control"},
+            {"name": "Arduino Robot Motor"},
+            {"name": "Arduino Gemma"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
           "name": "Arduino SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
           "version": "1.6.2",
@@ -406,6 +453,56 @@
           ]
         },
         {
+          "name": "Arduino SAM Boards (32-bits ARM Cortex-M3)",
+          "architecture": "sam",
+          "version": "1.6.5",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/sam-1.6.5.tar.bz2",
+          "archiveFileName": "sam-1.6.5.tar.bz2",
+          "checksum": "SHA-256:1bde19e3af3887dbc3afda46754e1136fb5a3bc535b8de9862ad7753d93902b7",
+          "size": "16529130",
+          "boards": [
+            {"name": "Arduino Due"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            }
+          ]
+        },
+        {
+          "name": "Arduino SAM Boards (32-bits ARM Cortex-M3)",
+          "architecture": "sam",
+          "version": "1.6.6",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/sam-1.6.6.tar.bz2",
+          "archiveFileName": "sam-1.6.6.tar.bz2",
+          "checksum": "SHA-256:7694b698bb24cd87d7d0b2b4caa09dc6039591868e735b0bf385299aea24c3e4",
+          "size": "16528101",
+          "boards": [
+            {"name": "Arduino Due"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            }
+          ]
+        },
+        {
           "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
           "version": "1.6.0",
@@ -466,6 +563,43 @@
               "packager": "arduino",
               "name": "bossac",
               "version": "1.6-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
+          "architecture": "samd",
+          "version": "1.6.2",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/samd-1.6.2.tar.bz2",
+          "archiveFileName": "samd-1.6.2.tar.bz2",
+          "checksum": "SHA-256:fad804d8fbd2f2b5f0e876708f953b9afd28513d794c6a973825582f1d6bacde",
+          "size": "179578",
+          "boards": [
+            {
+              "name": "Arduino/Genuino Zero"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
             },
             {
               "packager": "arduino",
@@ -818,6 +952,40 @@
               "archiveFileName": "bossac-1.6-arduino-i486-linux-gnu.tar.gz",
               "checksum": "SHA-256:5c320bf5cfdbf03e3f648642e6de325e459a061fcf96b2215cb955263f7467b2",
               "size": "30072"
+            }
+          ]
+        },
+        {
+          "name": "bossac",
+          "version": "1.6.1-arduino",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-mingw32.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-mingw32.tar.gz",
+              "checksum": "SHA-256:d59f43e2e83a337d04c4ae88b195a4ee175b8d87fff4c43144d23412a4a9513b",
+              "size": "222918"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+              "checksum": "SHA-256:2f80ef569a3fb19da60ab3489e49d8fe7d4699876acf30ff4938c632230a09aa",
+              "size": "64587"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:b78afc66c00ccfdd69a08bd3959c260a0c64ccce78a71d5a1135ae4437ff40db",
+              "size": "30869"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+              "checksum": "SHA-256:1e211347569d75193b337296a10dd25b0ce04419e3d7dc644355178b6b514f92",
+              "size": "30320"
             }
           ]
         },

@@ -24,15 +24,22 @@ strong{
 }
 
 
-h1,h2, h3, h4, .monospace, h1 strong,h2 strong, h3 strong, h4 strong {
+h1, h2, h3, h4, h1 strong, h2 strong, h3 strong, h4 strong {
+	font-family: "TyponineSans Regular 18";
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+
+.monospace {
 	font-family: "TyponineSans Monospace Regular 4", "TyponineSans Monospace Light 5";
 	font-style: normal;
 	font-weight: normal;
 	font-stretch: normal;
 }
 
-h3, h4 {
-	color: #e34c00;
+h4 {
+	color: #E67E22;
 }
 
 h1 a:target, h2 a:target, h3 a:target, h4 a:target, h5 a:target{	/*	to fix the internal anchors position with the sticky menu	*/
@@ -89,6 +96,9 @@ h2 a:hover, h3 a:hover, h4 a:hover{
 	left:-10px;
 }
 
+#wikitext .product-page ul.textindent li:before {
+	margin-right: 0;
+}
 
 #pagenav ul , #wikitext ul:not(.orbit-slides-container){
 	margin: 0;
@@ -102,7 +112,6 @@ h2 a:hover, h3 a:hover, h4 a:hover{
 }
 
 #wikitext ul li, .productLinks li, .productDescription ul > li{
-	font-size: .882352941rem;
 	margin: .235294118rem 0;
 	text-indent: -18px;
 }
@@ -112,14 +121,13 @@ h2 a:hover, h3 a:hover, h4 a:hover{
 	margin-top: 0;
 }
 
-
-
 #pagenav ul li:before, #wikitext ul:not(.orbit-slides-container) li:before, #pagenav ul li::before, #wikitext ul:not(.orbit-slides-container) li::before, .productLinks li:before,.productDescription ul > li:before{
 	content: "-";
 	font-weight: bold;
 	text-indent: -9999px;
 	position:relative; 
 	left:-10px;
+	margin-right: 10px;
 }
 
 html, body, #userHeader, div#wikitext, div#pagetext { height: 100%; }
@@ -192,20 +200,20 @@ body{
 #pageheader {
 	width: 100%;
 	text-align: left;
-	padding-top: 50px;
+	padding-top: 30px;
 	margin-bottom: 20px;
 }
 
 #pageheader .title {
 	float: left;
 	text-align: left;
-	margin-bottom: 40px;
+	margin-bottom: 26px;
 	margin-top: 0px;
 	letter-spacing: 0;
 	color: #fff;
 	font-weight: bold;
 	text-shadow: #aaa 0 0 5px;
-	height: 66px;
+	/*height: 66px;*/
 }
 
 .top-bar, .top-bar a{
@@ -246,8 +254,9 @@ body{
 	display: block;
 	text-indent: -9999em;
 	background: url(../img/GenuinoHeader.svg) no-repeat;
-	height: 80px;
+	height: 100px;
 	width: 250px;
+	margin-left: -4px;
 }
 
 
@@ -304,8 +313,7 @@ h4 a{
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	padding: 0 4px;
-	color: #fff;
-	
+	color: #fff;	
 }
 
 #pageheader .search input[type=text]{
@@ -411,6 +419,9 @@ h4 a{
 	margin-top: -3px;
 }
 
+span.menudescription {
+	font-size: 11px;
+}
 
 span.numMess{
 	text-align: center;
@@ -761,12 +772,12 @@ span.numMess{
 }
 
 .newsletter-form-checkbox:checked + label {
-	background-image: url("https://www.arduino.cc/new_home/assets/Checkbox_checked.svg");
+	background-image: url("../new_home/assets/Checkbox_checked.svg");
 	background-position: center top;
 }
 
 .newsletter-form-checkbox + label {
-	background-image: url("https://www.arduino.cc/new_home/assets/Checkbox_unchecked.svg");
+	background-image: url("../new_home/assets/Checkbox_unchecked.svg");
 	background-position: center bottom;
 	padding: 12px;
 	border-radius: 3px;

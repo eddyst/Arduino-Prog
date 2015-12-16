@@ -4,7 +4,7 @@
   src: url('../font/arduino-icons.eot?43721627#iefix') format('embedded-opentype'),
        url('../font/arduino-icons.woff?43721627') format('woff'),
        url('../font/arduino-icons.ttf?43721627') format('truetype'),
-       url('https://www.arduino.cc/font/arduino-icons.svg?43721627#arduino-icons') format('svg');
+       url('../font/arduino-icons4d5c.svg?43721627#arduino-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }

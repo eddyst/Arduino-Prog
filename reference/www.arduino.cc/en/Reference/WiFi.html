@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/WiFi by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:22:01 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/WiFi by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:03:58 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -223,7 +225,8 @@ function toggle(obj) {
 <p><strong>Reference</strong> &nbsp;  <a class='wikilink' href='HomePage.html'>Language</a> | <a class='wikilink' href='Libraries.html'>Libraries</a> | <a class='wikilink' href='Comparison.html'>Comparison</a> | <a class='wikilink' href='Changes.html'>Changes</a>
 </p>
 <p class='vspace'></p><h2><span class='wikiword'>WiFi</span> library</h2>
-<p><em>The firmware for the <span class='wikiword'>WiFi</span> shield has changed in Arduino IDE 1.0.5.  You are recommended to install this update per <a class='wikilink' href='http://www.arduino.cc/en/Hacking/WiFiShieldFirmwareUpgrading'>these instructions</a></em>
+<p class='vspace'></p><table  width='100%' border='0' cellpadding='5' cellspacing='0'><tr><td  width='67%' valign='top'>
+<p class='vspace'></p><p><em>The firmware for the <span class='wikiword'>WiFi</span> shield has changed in Arduino IDE 1.0.5.  You are recommended to install this update per <a class='wikilink' href='http://www.arduino.cc/en/Hacking/WiFiShieldFirmwareUpgrading'>these instructions</a></em>
 </p>
 <p class='vspace'></p><p>With the Arduino <span class='wikiword'>WiFi</span> Shield, this library allows an Arduino board to connect to the internet.  It can serve as either a server accepting incoming connections or a client making outgoing ones.  The library supports WEP and <span class='wikiword'>WPA2</span> Personal encryption, but not <span class='wikiword'>WPA2</span> Enterprise. Also note, if the SSID is not broadcast, the shield cannot connect. 
 </p>
@@ -233,6 +236,18 @@ function toggle(obj) {
 </p>
 <p class='vspace'></p><p>For additional information on the <span class='wikiword'>WiFi</span> shield, see the <a class='wikilink' href='http://www.arduino.cc/en/Guide/ArduinoWiFiShield'>Getting Started page</a> and the <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoWiFiShield'>WiFi shield hardware page</a>.
 </p>
+<p class='vspace'></p><h3>Examples</h3>
+<ul><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ConnectNoEncryption'>ConnectNoEncryption</a> : Demonstrates how to connect to an open network
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ConnectWithWEP'>ConnectWithWEP</a> : Demonstrates how to connect to a network that is encrypted with WEP
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ConnectWithWPA'>ConnectWithWPA</a> : Demonstrates how to connect to a network that is encrypted with <span class='wikiword'>WPA2</span> Personal
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ScanNetworks'>ScanNetworks</a> : Displays all <span class='wikiword'>WiFi</span> networks in range
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiChatServer'>WiFiChatServer</a> : Set up a simple chat server
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiWebClient'>WiFiWebClient</a> : Connect to a remote webserver
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiWebClientRepeating'>WiFiWebClientRepeating</a> : Make repeated HTTP calls to a webserver
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiWebServer'>WiFiWebServer</a> : Serve a webpage from the <span class='wikiword'>WiFi</span> shield
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiSendReceiveUDPString'>WiFiSendReceiveUDPString</a> : Send and receive a UDP string
+</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/UdpNTPClient'>UdpNTPClient</a> : Query a Network Time Protocol (NTP) server using UDP<br />
+</li></ul><p class='vspace'></p></td><td  width='33%' valign='top'>
 <p class='vspace'></p><h4><span class='wikiword'>WiFi</span> class</h4>
 <p>The <span class='wikiword'>WiFi</span> class initializes the ethernet library and network settings.
 </p>
@@ -294,19 +309,10 @@ function toggle(obj) {
 </li><li><a class='wikilink' href='WiFIUDPStop.html'>stop()</a>
 </li><li><a class='wikilink' href='WiFiUDPRemoteIP.html'>remoteIP()</a>
 </li><li><a class='wikilink' href='WiFiUDPRemotePort.html'>remotePort()</a>
-</li></ul><p><br />
-</p><h4>Examples</h4>
-<ul><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ConnectNoEncryption'>ConnectNoEncryption</a> : Demonstrates how to connect to an open network
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ConnectWithWEP'>ConnectWithWEP</a> : Demonstrates how to connect to a network that is encrypted with WEP
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ConnectWithWPA'>ConnectWithWPA</a> : Demonstrates how to connect to a network that is encrypted with <span class='wikiword'>WPA2</span> Personal
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/ScanNetworks'>ScanNetworks</a> : Displays all <span class='wikiword'>WiFi</span> networks in range
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiChatServer'>WiFiChatServer</a> : Set up a simple chat server
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiWebClient'>WiFiWebClient</a> : Connect to a remote webserver
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiWebClientRepeating'>WiFiWebClientRepeating</a> : Make repeated HTTP calls to a webserver
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiWebServer'>WiFiWebServer</a> : Serve a webpage from the <span class='wikiword'>WiFi</span> shield
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/WiFiSendReceiveUDPString'>WiFiSendReceiveUDPString</a> : Send and receive a UDP string
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/UdpNTPClient'>UdpNTPClient</a> : Query a Network Time Protocol (NTP) server using UDP<br /><br /><a class='wikilink' href='HomePage.html'>Reference Home</a>
-</li></ul><p class='vspace'></p><p><em>Corrections, suggestions, and new documentation should be posted to the <a class='urllink' href='http://arduino.cc/forum/index.php/board,23.0.html' rel='nofollow'>Forum</a>.</em>
+</li></ul></td></tr></table>
+<p><a class='wikilink' href='HomePage.html'>Reference Home</a>
+</p>
+<p class='vspace'></p><p><em>Corrections, suggestions, and new documentation should be posted to the <a class='urllink' href='http://arduino.cc/forum/index.php/board,23.0.html' rel='nofollow'>Forum</a>.</em>
 </p>
 <p class='vspace'></p><p>The text of the Arduino reference is licensed under a
 <a class='urllink' href='http://creativecommons.org/licenses/by-sa/3.0/' rel='nofollow'>Creative Commons Attribution-ShareAlike 3.0 License</a>.  Code samples in the reference are released into the public domain.
@@ -568,13 +574,102 @@ function toggle(obj) {
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/WiFi by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:22:21 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/WiFi by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:04:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

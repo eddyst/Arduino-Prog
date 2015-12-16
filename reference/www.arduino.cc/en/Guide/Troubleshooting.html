@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Guide/Troubleshooting by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:20:30 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Guide/Troubleshooting by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:00:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="../Reference/HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -228,7 +230,7 @@ function toggle(obj) {
 </p>
 <p class='vspace'></p><p><em>Arduino Software</em>
 </p>
-<p class='vspace'></p><ul><li>Make sure you have the right item selected in the <strong>Tools &gt; Board</strong> menu.  If you have an Arduino Uno, you'll need to choose it.  Also, newer Arduino Duemilanove boards come with an <span class='wikiword'>ATmega328</span>, while older ones have an <span class='wikiword'>ATmega168</span>.  To check, read the text on the microcontroller (the larger chip) on your Arduino board.  For more information on the board menu items, see the <a class='wikilink' href='Environment.html'>guide to the Arduino environment</a>.
+<p class='vspace'></p><ul><li>Make sure you have the right item selected in the <strong>Tools &gt; Board</strong> menu.  If you have an Arduino Uno, you'll need to choose it.  Also, newer Arduino Duemilanove boards come with an <span class='wikiword'>ATmega328</span>, while older ones have an <span class='wikiword'>ATmega168</span>.  To check, read the text on the microcontroller (the larger chip) on your Arduino board.  For more information on the board menu items, see the <a class='wikilink' href='http://www.arduino.cc/en/Guide/Environment'>guide to the Arduino environment</a>.
 <p class='vspace'></p></li><li>Then, check that the proper port is selected in the <strong>Tools &gt; Serial Port</strong> menu (if your port doesn't appear, try restarting the IDE with the board connected to the computer).  On the Mac, the serial port should be something like /dev/tty.usbmodem621 (for the Uno or Mega 2560) or /dev/tty.usbserial-A02f8e (for older, FTDI-based boards).  On Linux, it should be /dev/ttyACM0 or similar (for the Uno or Mega 2560) or /dev/ttyUSB0 or similar (for older boards).  On Windows, it will be a COM port but you'll need to check in the Device Manager (under Ports) to see which one.  If you don't seem to have a serial port for your Arduino board, see the following information about drivers.
 </li></ul><p class='vspace'></p><p><em>Drivers</em>
 </p>
@@ -451,7 +453,7 @@ avrdude: Yikes!  Invalid device signature.
 </pre>
 <p class='vspace'></p><p>it can mean one of two things.  Either you have the wrong board selected from the Tools &gt; Board menu or you're not using the right version of avrdude.  Arduino uses a slightly modified version of avrdude to upload sketches to the Arduino board.  The standard version queries for the board's device signature in a way not understood by the bootloader, resulting in this error.  Make sure you're using the version of avrdude that comes with Arduino (<a class='urllink' href='http://svn.berlios.de/wsvn/arduino/avrdude-5.4-arduino/#_avrdude-5.4-arduino_' rel='nofollow'>source code</a>).
 </p>
-<p class='vspace'></p><p><a class='urllink' href='HomePage.html' rel='nofollow'>Guide Home</a>
+<p class='vspace'></p><p><a class='urllink' href='http://www.arduino.cc/en/Guide/HomePage' rel='nofollow'>Guide Home</a>
 The text of the Arduino getting started guide is licensed under a
 <a class='urllink' href='http://creativecommons.org/licenses/by-sa/3.0/' rel='nofollow'>Creative Commons Attribution-ShareAlike 3.0 License</a>.  Code samples in the guide are released into the public domain.
 </p>
@@ -712,13 +714,102 @@ The text of the Arduino getting started guide is licensed under a
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Guide/arduino.cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Guide/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Guide/Troubleshooting by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:20:30 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Guide/Troubleshooting by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:00:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>

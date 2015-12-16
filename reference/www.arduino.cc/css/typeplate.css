@@ -335,11 +335,13 @@ pre code {
 
 pre {
 	white-space: pre;
+	padding: 5px 10px;
+	overflow-x: auto;
 }
 
 code {
 	white-space: pre;
-	font-family: monospace;
+	font-family: "TyponineSans Monospace Regular 4";
 }
 
 

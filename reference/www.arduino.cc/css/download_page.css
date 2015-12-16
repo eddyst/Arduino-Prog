@@ -456,6 +456,7 @@ button.share-button:hover {
     margin-top:20px !important;
     padding-left:0;
     margin-right: 0;
+    font-size: 14px;
 }
 
 #wikitext .people-page-content .people-nav, #wikitext .productspage .people-nav {
@@ -488,6 +489,7 @@ button.share-button:hover {
 
 #wikitext .people-page-content ul li:before, #wikitext .productspage ul li:before {
   content: "";
+  margin-right: 0;
 }
 
 .photo-description {

@@ -3,7 +3,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!-- Mirrored from www.arduino.cc/en/Reference/GSM by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:20:47 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/GSM by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:02:15 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,7 @@ function toggle(obj) {
         text.innerHTML = "show";
     }
 }
-</script>  <meta name='robots' content='index,follow' />
+</script><script src="http://www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("http://www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
 
 
 	<script src="http://arduino.cc/js/vendor/custom.modernizr.js"></script>
@@ -181,23 +181,25 @@ function toggle(obj) {
 					<li><a href="http://www.arduino.cc/en/Main/Software">Download</a></li>
 					<li class="has-dropdown"><a href="#">Products</a>
 						<ul class="dropdown">
-							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/Products">Arduino <span class="menudescription">(USA only)</span></a></li>
+							<li><a href="http://www.arduino.cc/en/Main/GenuinoProducts">Genuino <span class="menudescription">(outside USA)</span></a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoAtHeart/Products">AtHeart</a></li>
 							<li><a href="http://www.arduino.cc/en/ArduinoCertified/Products">Certified</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown active"><a href="#">Learning</a>
 						<ul class="dropdown">
-							<li><a href="../Guide/HomePage.html">Getting started</a></li>
-							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Examples</a></li>
+							<li><a href="http://www.arduino.cc/en/Guide/HomePage">Getting started</a></li>
+							<li><a href="http://www.arduino.cc/en/Tutorial/HomePage">Tutorials</a></li>
 							<li><a href="HomePage.html">Reference</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/CTCprogram">CTC Program</a></li>
 							<li><a href="http://playground.arduino.cc/">Playground</a></li>
 						</ul>
 					</li>
 					<li><a href="http://forum.arduino.cc/">Forum</a></li>
 					<li class="has-dropdown"><a href="#">Support</a>
 						<ul class="dropdown">
-							<li><a href="../Main/FAQ.html">FAQ</a></li>
+							<li><a href="http://www.arduino.cc/en/Main/FAQ">FAQ</a></li>
 							<li><a href="http://www.arduino.cc/en/ContactUs">Contact Us</a></li>
 						</ul>
 					</li>
@@ -245,23 +247,32 @@ function toggle(obj) {
 </li></ul><p class='vspace'></p><h3>Ethernet library compatibility</h3>
 <p>The library tries to be as compatible as possible with the current Ethernet library. Porting a program from an Arduino Ethernet or <span class='wikiword'>WiFi</span> library to an Arduino with the GSM Shield should be fairly easy. While it is not possible to simply run  Ethernet-compatible code on the GSM shield as-is, some minor, library specific, modifications will be necessary, like including the GSM and GPRS specific libraries and getting network configuration settings from your cellular network provider. 
 </p>
-<p class='vspace'></p><h4>Examples</h4>
+<p class='vspace'></p><h3>Examples</h3>
 <p>There are two groups of examples for the GSM shield.  There are examples to illustrate the possibilities of the shield, like how to send SMS messages and connect to the internet. There is also set of example tools that you can use to debug the functionality of the library and the hardware at lower level.
 </p>
-<p class='vspace'></p><ul><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMExamplesMakeVoiceCall'>Make Voice Call</a>: get your shield to make phone calls from the Serial Monitor
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMExamplesReceiveVoiceCall'>Receive Voice Call</a>: check the status of the modem while getting voice calls
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMExamplesSendSMS'>Send SMS</a>: use the Serial Monitor to type in SMS messages to different phone numbers
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMExamplesReceiveSMS'>Receive SMS</a>: read SMS messages and prompt them to the Serial Monitor
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMExamplesWebClient'>Web Client</a>: download the content of a website to your Arduino board through GPRS
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMExamplesWebServer'>Web Server</a>: create a wireless web server through GPRS
-</li></ul><p class='vspace'></p><p><em>Tools</em>
-</p><ul><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMToolsTestModem'>Test Modem</a>: read the IMEI of your modem
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMToolsTestGPRS'>Test GPRS</a>: test the proper functionality of the GPRS network using your SIM card
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMToolsGsmScanNetworks'>GSM Scan Networks</a>: check for the available networks
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMToolsPinManagement'>Pin Management</a>: manage the PIN number of your SIM card
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMToolsBandManagement'>Band Management</a>: manage the band the GSM shield connects to.
-</li><li><a class='wikilink' href='http://www.arduino.cc/en/Tutorial/GSMToolsTestWebServer'>Test Web Server</a>: Create a webserver with your GSM shield
-</li></ul><p class='vspace'></p><p>For additional information on the GSM shield, see the <a class='wikilink' href='http://www.arduino.cc/en/Guide/ArduinoGSMShield'>Getting Started page</a> and the <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoGSMShield'>GSM shield hardware page</a>. 
+<p class='vspace'></p><p>
+<ul class="secondary-list">
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMExamplesWebClient">Gsm Web Client</a>: Download the content of a website to your Arduino board through GPRS.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMExamplesWebServer">Gsm Web Server</a>: Create a wireless web server through GPRS.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMExamplesMakeVoiceCall">Make Voice Call</a>: Get your shield to make phone calls from the Serial Monitor.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMExamplesSendSMS">Send SMS</a>: Use the Serial Monitor to type in SMS messages to different phone numbers.</li>
+			  <li><a href="https://www.arduino.cc/en/Tutorial/GSMExamplesReceiveVoiceCall">Receive Voice Call</a>: Check the status of the modem while getting voice calls.</li>
+			  <li><a href="https://www.arduino.cc/en/Tutorial/GSMExamplesReceiveSMS">Receive SMS</a>: Read SMS messages and prompt them to the Serial Monitor.</li>
+</ul>
+	<div class="textsummary">
+              <div class="subtitle">TOOLS</div>
+            </div>
+			<ul class="secondary-list">
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMToolsBandManagement">Band Management</a>: Manage the band the GSM shield connects to.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMToolsGsmScanNetworks">GSM Scan Networks</a>: Check for the available networks.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMToolsPinManagement">Pin Management</a>: Manage the PIN number of your SIM card.</li>
+              <li><a href="https://www.arduino.cc/en/Tutorial/GSMToolsTestGPRS">Test GPRS</a>: Test the proper functionality of the GPRS network using your SIM card.</li>
+			  <li><a href="https://www.arduino.cc/en/Tutorial/GSMToolsTestModem">Test Modem</a>: Read the IMEI of your modem.</li>
+			  <li><a href="https://www.arduino.cc/en/Tutorial/GSMToolsTestWebServer">Test Web Server</a>: Create a webserver with your GSM shield.</li> 
+            </ul>
+
+</p>
+<p class='vspace'></p><p>For additional information on the GSM shield, see the <a class='wikilink' href='http://www.arduino.cc/en/Guide/ArduinoGSMShield'>Getting Started page</a> and the <a class='wikilink' href='http://www.arduino.cc/en/Main/ArduinoGSMShield'>GSM shield hardware page</a>. 
 <br /><br /><br />
 </p></td><td  width='33%' valign='top'>
 <p class='vspace'></p><h4>GSM class</h4>
@@ -624,13 +635,102 @@ function toggle(obj) {
 	  $(window).load(function(){
 	    $('a').each (function () {
 	      href = $(this).attr ('href');
-	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('http://www.arduino.cc/en/Arduino/Cc') == -1)
+	      if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('https://www.arduino.cc/en/Reference/arduino.cc') == -1)
 	        $(this).attr ('target', '_blank');
 	    });
+
+	    // js for language dropdown
+	    $('.language-dropdown .current').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $('.language-dropdown .selector').on('click', function(e){
+          e.stopPropagation();
+          $('.language-dropdown ul').toggle();
+        });
+
+        $(document).on('click', function(){
+          $('.language-dropdown ul:visible').hide();  
+        });
+
+        $('.language-dropdown li a').on('click', function(e){
+        	$('.language-dropdown .current').text($(this).text());
+        });
+
+        //js for product pages navbar
+        var menu = $(".product-page-nav");
+	    var menuItems = menu.find("a");
+	    var timeoutId = null;
+	    var limitTop = 600;
+
+	    var menuOffset = $('.product-page-nav li').first().offset();
+	    if(menuOffset) {
+	    	limitTop = menuOffset.top;
+	    }
+	    var limitBottom = $('.addthis_toolbox').offset().top;
+
+	    var activateSection = function($sectionToActivate) {
+	      var label=$sectionToActivate.attr('label');
+
+	      $(".product-page-nav").find('li').removeClass('active');
+	      $sectionToActivate.addClass('active');
+	    };
+
+	    menuItems.click(function(e){
+
+	     e.preventDefault();
+	      var href = $(this).attr("href"),
+	          offsetTop = href === "#" ? 0 : $(href).offset().top,
+	          adjust = 0;
+	      if($(this).parent('li').hasClass('active') === false) {
+
+	          adjust = 80;
+
+	          $('html, body').animate({
+	                scrollTop: offsetTop - adjust
+	            }, 1500, 'easeOutExpo');
+
+	      }
+	    });
+
+	    $(window).scroll(function () {
+
+	      var windscroll = $(window).scrollTop();
+
+	      if(windscroll < limitTop) {
+	        $('.menu').removeClass('sticky');
+	        $('.menu').removeClass('fixed');
+	      }  else {
+	        $('.menu').addClass('sticky');
+	      }
+
+	      var menuEdgeBottomOffset = $('.menu.columns').offset();
+	      var menuEdgeBottom = 0;
+	      if(menuEdgeBottomOffset) {
+	      	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+	      }
+	      if(menuEdgeBottom > limitBottom) {
+	        $('.menu').fadeOut();
+	      } else {
+	        $('.menu').fadeIn();
+	      }
+	      menuItems.each(function(i) {
+	        var href = $(this).attr("href");
+	        if ($(href).offset().top <= windscroll + 150) {
+	          if(timeoutId) {
+	            clearTimeout(timeoutId);
+	          }
+	          timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+	        }
+	      });
+
+	    });
+
 	  });
 	</script>
 </body>
 
-<!-- Mirrored from www.arduino.cc/en/Reference/GSM by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jun 2015 14:21:21 GMT -->
+<!-- Mirrored from www.arduino.cc/en/Reference/GSM by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 26 Oct 2015 14:02:59 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>
